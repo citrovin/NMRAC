@@ -9,7 +9,7 @@ set(groot, 'defaultAxesXGrid', 'on', 'defaultAxesYGrid', 'on');
 
 ct = clock;
 
-SAVE_PLOTS = 1;
+SAVE_PLOTS = 0;
 SHOW_FIG = 'On';
 
 BASE_DIR = './results/';
@@ -32,7 +32,7 @@ num_steps = length(t_vec);
 
 TOLLERANCE = eps;
 
-SAT_VAL = 1;
+SAT_VAL = 5;
 a = 2/SAT_VAL; % Sigmoid saturates at 2/a.
 fprintf("Saturation value: %d\n", SAT_VAL);
 
@@ -46,7 +46,7 @@ r_dot = zeros(1, num_steps);
 
 if input_signal == 1
     % Constant input signal
-    r(1,:) = 1;
+    r(1,:) = 0;
     
     r_dot(1,:) = 0;
 
@@ -77,7 +77,7 @@ end
 % time.
 
 Am = 10;
-Bm = 10;
+Bm = 1;
 
 theta_m = 4;
 
@@ -95,17 +95,18 @@ A = Am;
 B = Bm;
 
 theta = zeros(1, num_steps);
-theta(1,1) = 0;
+theta(1,1) = 1;
 
 % Learning rate
 if input_signal==1
     c = 0.05;
+    c = 0.1;
 elseif input_signal==2
     c = 0.15;
 elseif input_signal==3
     c = 0.005;
 end
-IC_P = IC_P_m;
+IC_P = -IC_P_m;
 x = zeros(1, num_steps);
 x(1,1) = IC_P;
 
@@ -257,16 +258,16 @@ title("Lyapunov function");
 
 
 subplot(2,1,2);
-% plot(t_vec(:,2:num_steps), dV,  ...
-%     t_vec(:,2:num_steps), dV_term1, ...
-%     t_vec(:,2:num_steps), dV_term2, ...
-%     t_vec(:,2:num_steps), dV_term3);
-% legend("dV", "dV_{Q}", "dV_{\gamma}",  "dV_{\alpha}");
+plot(t_vec(:,2:num_steps), dV,  ...
+    t_vec(:,2:num_steps), dV_term1, ...
+    t_vec(:,2:num_steps), dV_term2, ...
+    t_vec(:,2:num_steps), dV_term3);
+legend("dV", "dV_{Q}", "dV_{\gamma}",  "dV_{\alpha}");
 
-plot(t_vec(:,2:num_steps), dV);
-xlabel("Time [s]");
-ylabel("dV/dt");
-title("Time Derivative of Lyapunov Function");
+% plot(t_vec(:,2:num_steps), dV);
+% xlabel("Time [s]");
+% ylabel("dV/dt");
+% title("Time Derivative of Lyapunov Function");
 
 sgtitle("Lyapunov Function");
 

@@ -19,69 +19,41 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{2020MehediUnderactuatedRotaryInvertedPendulum}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=b2d1e66f24804efd6726e2a381a704cb}{%
-           family={Mehedi},
-           familyi={M\bibinitperiod},
-           given={Ibrahim\bibnamedelima M},
-           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=2a77e7b958f8c1096b9a7917f07f6704}{%
-           family={Ansari},
-           familyi={A\bibinitperiod},
-           given={Uzair},
-           giveni={U\bibinitperiod}}}%
-        {{hash=5f6542f144a71aeda26d26e880d8b13c}{%
-           family={Bajodah},
-           familyi={B\bibinitperiod},
-           given={Abdulrahman\bibnamedelima H},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=5e4ed517dfcaa4a2c591991cddd0cfa3}{%
-           family={AL-Saggaf},
-           familyi={A\bibinithyphendelim S\bibinitperiod},
-           given={Ubaid\bibnamedelima M},
-           giveni={U\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=7d16e8646ab1ae6decfa15cf38d45625}{%
-           family={Kada},
+    \entry{khalilNonlinearSystems1996}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=c687708249e29c8fa3d8d0c0ff1612f9}{%
+           family={Khalil},
            familyi={K\bibinitperiod},
-           given={Belkacem},
-           giveni={B\bibinitperiod}}}%
-        {{hash=38f56d8bd21a28b77d58a3defbda1cfc}{%
-           family={Rawa},
-           familyi={R\bibinitperiod},
-           given={Muhyaddin\bibnamedelima J},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+           given={Hassan\bibnamedelima K.},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
-      \strng{namehash}{0f8f1216de375fc276ddbc0d4fae0ced}
-      \strng{fullhash}{ee18a5028cd1fee55a5351116e28b205}
-      \strng{fullhashraw}{ee18a5028cd1fee55a5351116e28b205}
-      \strng{bibnamehash}{ee18a5028cd1fee55a5351116e28b205}
-      \strng{authorbibnamehash}{ee18a5028cd1fee55a5351116e28b205}
-      \strng{authornamehash}{0f8f1216de375fc276ddbc0d4fae0ced}
-      \strng{authorfullhash}{ee18a5028cd1fee55a5351116e28b205}
-      \strng{authorfullhashraw}{ee18a5028cd1fee55a5351116e28b205}
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{fullhash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{fullhashraw}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{bibnamehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{authorbibnamehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{authornamehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{authorfullhash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{authorfullhashraw}{c687708249e29c8fa3d8d0c0ff1612f9}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The article applies the robust generalized dynamic inversion control methodology to the problem of stabilizing upright equilibrium configuration of the under-actuated rotary inverted pendulum system while tracking rotary motion of the actuated arm. The proposed robust generalized dynamic inversion control law comprised equivalent and switching control parts. The equivalent control part works to enforce a virtual constraint dynamics of the controlled state variables by means of Moore–Penrose generalized inversion. The switching control part is of the sliding mode type, and it improves robustness against unmodeled system dynamics, parametric uncertainties, and external disturbances. The robust generalized dynamic inversion control design on the linearized model of the under-actuated rotary inverted pendulum is shown to guarantee semi-global asymptotically stable tracking performance. Numerous computer simulations and experiments are conducted on the Quanser rotary inverted pendulum system, revealing that the proposed algorithm has better convergence and tracking performance than conventional sliding mode and generalized dynamic inversion control strategies when both are applied separately.}
-      \field{annotation}{tex.eprint: https://doi.org/10.1177/1077546320916022}
-      \field{journaltitle}{Journal of Vibration and Control}
-      \field{number}{23-24}
-      \field{title}{Underactuated rotary inverted pendulum control using robust generalized dynamic inversion}
-      \field{volume}{26}
-      \field{year}{2020}
-      \field{pages}{2210\bibrangedash 2220}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1177/1077546320916022
+      \field{abstract}{This book is written is such a way that the level of mathematical sophistication builds up from chapter to chapter. It has been reorganized into four parts: basic analysis, analysis of feedback systems, advanced analysis, and nonlinear feedback control. Updated content includes subjects which have proven useful in nonlinear control design in recent years new in the 3rd edition are: expanded treatment of passivity and passivity-based control; integral control, high-gain feedback, recursive methods, optimal stabilizing control, control Lyapunov functions, and observers. For use as a self-study or reference guide by engineers and applied mathematicians.}
+      \field{isbn}{978-0-13-228024-2}
+      \field{note}{Google-Books-ID: qiBuQgAACAAJ}
+      \field{title}{Nonlinear {Systems}}
+      \field{year}{1996}
+      \verb{file}
+      \verb 1996_Khalil_NonlinearSystems.pdf:/Users/dalimwahby/Zotero/storage/RF5XVKA4/1996_Khalil_NonlinearSystems.pdf:application/pdf
       \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/1077546320916022
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/1077546320916022
-      \endverb
+      \keyw{Technology \& Engineering / Electrical,Mathematics / Mathematical Analysis,Science / Chaotic Behavior in Systems,Technology / Engineering / Electrical}
     \endentry
   \enddatalist
 \endrefsection
