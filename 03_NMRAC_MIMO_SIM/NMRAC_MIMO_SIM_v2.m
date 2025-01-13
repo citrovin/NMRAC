@@ -22,7 +22,7 @@ end
 %% Simulation parameters
 
 Ts = 0.001;
-Tsim = 5000;
+Tsim = 200;
 
 % Define the time vector
 t_vec = 0:Ts:Tsim;
@@ -140,7 +140,7 @@ fprintf("Saturation value: %d\n", SAT_VAL);
 % Choose the activation function of the model reference
 % 1     Sigmoid (Note: stability proof is non-trivial)
 % -1    Linear activation (Note: Use Lyapunov theory to find P)
-ACTIVATION_MODEL_REF = -1;
+ACTIVATION_MODEL_REF = 1;
 PLOT_ACTIVCATION = 0;
 
 if ACTIVATION_MODEL_REF==-1
@@ -443,7 +443,7 @@ function theta_dot = compute_parameter_update( ...
             + Bm*dsigmoid(theta_m*ex, am)*theta_m*ex_dot...
             - B*dsigmoid(theta*ex, a)*theta*ex_dot;
         
-        %theta_dot = Sigma*xsi*pinv(ex);
+        % theta_dot = Sigma*xsi*pinv(ex);
         theta_dot = (ex'\(Sigma*xsi)')';
     else
         theta_dot = zeros(2,2);
