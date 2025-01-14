@@ -19,6 +19,446 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{whitaker1959adaptive}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=af24b9086f0fdfabddbf52ebf4a184f7}{%
+           family={Whitaker},
+           familyi={W\bibinitperiod},
+           given={HP},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{af24b9086f0fdfabddbf52ebf4a184f7}
+      \strng{fullhash}{af24b9086f0fdfabddbf52ebf4a184f7}
+      \strng{fullhashraw}{af24b9086f0fdfabddbf52ebf4a184f7}
+      \strng{bibnamehash}{af24b9086f0fdfabddbf52ebf4a184f7}
+      \strng{authorbibnamehash}{af24b9086f0fdfabddbf52ebf4a184f7}
+      \strng{authornamehash}{af24b9086f0fdfabddbf52ebf4a184f7}
+      \strng{authorfullhash}{af24b9086f0fdfabddbf52ebf4a184f7}
+      \strng{authorfullhashraw}{af24b9086f0fdfabddbf52ebf4a184f7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inst. Aeronatical Sciences}
+      \field{title}{An adaptive system for control of the dynamics performances of aircraft and spacecraft}
+      \field{year}{1959}
+      \field{pages}{59\bibrangedash 100}
+      \range{pages}{42}
+    \endentry
+    \entry{bosshartComparisonTwoPID2021}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=d0a9e79a505423a1d8522677d1965b45}{%
+           family={Bosshart},
+           familyi={B\bibinitperiod},
+           given={Micha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f1d58398e8cf786f99be90f7d75df7bf}{%
+           family={Ducard},
+           familyi={D\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=813beba32788bd0987edb75c2032a2b8}{%
+           family={Onder},
+           familyi={O\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{18214fee2bbce3e4f7b3ae7108c844de}
+      \strng{fullhash}{c60729065e7737d898ac61536b7c6fb3}
+      \strng{fullhashraw}{c60729065e7737d898ac61536b7c6fb3}
+      \strng{bibnamehash}{c60729065e7737d898ac61536b7c6fb3}
+      \strng{authorbibnamehash}{c60729065e7737d898ac61536b7c6fb3}
+      \strng{authornamehash}{18214fee2bbce3e4f7b3ae7108c844de}
+      \strng{authorfullhash}{c60729065e7737d898ac61536b7c6fb3}
+      \strng{authorfullhashraw}{c60729065e7737d898ac61536b7c6fb3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Proportional-Integral-Derivative (PID) controllers are widely used in academia and industry thanks to their simplicity and performance. For nonlinear or unknown systems, they are however not very well suited. Augmenting a PID controller with a neural network adds the abilities to adapt to unknown and learn the dynamics of nonlinear systems. In this paper, two PID neural network controllers (PIDNNC) are simulated, compared and discussed in detail. Based on simulations, one approach is preferred due to its adaptability and I and D gains approaching zero when they are not needed.}
+      \field{booktitle}{2021 {International} {Conference} on {Control}, {Automation} and {Diagnosis} ({ICCAD})}
+      \field{month}{11}
+      \field{note}{ISSN: 2767-9896}
+      \field{title}{Comparison {Between} {Two} {PID} {Neural} {Network} {Controller} {Approaches} - {Simulation} and {Discussion}}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICCAD52417.2021.9638766
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:/Users/dalimwahby/Zotero/storage/XSL9CND6/9638766.html:text/html;IEEE Xplore Full Text PDF:/Users/dalimwahby/Zotero/storage/MBVHBXH6/Bosshart et al. - 2021 - Comparison Between Two PID Neural Network Controll.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/9638766
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/9638766
+      \endverb
+      \keyw{Automation,Neural networks,Adaptation models,Industries,Nonlinear systems,PD control}
+    \endentry
+    \entry{shackclothSynthesisModelReference1965}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=592f6c308c41d8fcab37c99a4151fffe}{%
+           family={Shackcloth},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9b027b3c9b8ad1badae83e61176ae985}{%
+           family={But\bibnamedelima Chart},
+           familyi={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{fullhash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{fullhashraw}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{bibnamehash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{authorbibnamehash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{authornamehash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{authorfullhash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{authorfullhashraw}{08c7c666bafb3e1870cd776a82eab0a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, model reference adaptive systems having linear processes and models of the same form and order are considered. The The model parameters have fixed values which represent an ideal or desired form of the process. Liapunov’s second method is applied to synthesize the adaptive loop guaranteeing the stability under certain conditions. The results are verified experimentally using an analogue computer. A further investigation of the stability problem uses two theorems due to Kats and Krasovskii.}
+      \field{issn}{1474-6670}
+      \field{journaltitle}{IFAC Proceedings Volumes}
+      \field{month}{9}
+      \field{number}{2}
+      \field{series}{2nd {IFAC} {Symposium} on the {Theory} of {Self}-{Adaptive} {Control} {Systems}, {Teddington}, {UK}, {September} 14-17, 1965}
+      \field{title}{Synthesis of {Model} {Reference} {Adaptive} {Systems} by {Liapunov}'s {Second} {Method}}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{2}
+      \field{year}{1965}
+      \field{urldateera}{ce}
+      \field{pages}{145\bibrangedash 152}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/S1474-6670(17)69028-1
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/dalimwahby/Zotero/storage/3WKHCRI7/S1474667017690281.html:text/html;Shackcloth and But Chart - 1965 - Synthesis of Model Reference Adaptive Systems by L.pdf:/Users/dalimwahby/Zotero/storage/Q363VGEK/Shackcloth and But Chart - 1965 - Synthesis of Model Reference Adaptive Systems by L.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1474667017690281
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1474667017690281
+      \endverb
+    \endentry
+    \entry{hornikUniversalApproximationUnknown1990a}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=bec8dd1340457a82c21b54971e4c9417}{%
+           family={Hornik},
+           familyi={H\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod}}}%
+        {{hash=17a26ba07299c37a45cc2475a9f3bc8d}{%
+           family={Stinchcombe},
+           familyi={S\bibinitperiod},
+           given={Maxwell},
+           giveni={M\bibinitperiod}}}%
+        {{hash=426e452a5ec8e692f7740ce0d3e3655c}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Halbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8d7f46f242b5a2ff80ecb656326c2de}
+      \strng{fullhash}{31166c18fa8ee825c1eb4693189f9e2a}
+      \strng{fullhashraw}{31166c18fa8ee825c1eb4693189f9e2a}
+      \strng{bibnamehash}{31166c18fa8ee825c1eb4693189f9e2a}
+      \strng{authorbibnamehash}{31166c18fa8ee825c1eb4693189f9e2a}
+      \strng{authornamehash}{a8d7f46f242b5a2ff80ecb656326c2de}
+      \strng{authorfullhash}{31166c18fa8ee825c1eb4693189f9e2a}
+      \strng{authorfullhashraw}{31166c18fa8ee825c1eb4693189f9e2a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We give conditions ensuring that multilayer feedforward networks with as few as a single hidden layer and an appropriately smooth hidden layer activation function are capable of arbitrarily accurate approximation to an arbitrary function and its derivatives. In fact, these networks can approximate functions that are not differentiable in the classical sense, but possess only a generalized derivative, as is the case for certain piecewise differentiable functions. The conditions imposed on the hidden layer activation function are relatively mild; the conditions imposed on the domain of the function to be approximated have practical implications. Our approximation results provide a previously missing theoretical justification for the use of multilayer feedforward networks in applications requiring simultaneous approximation of a function and its derivatives.}
+      \field{issn}{0893-6080}
+      \field{journaltitle}{Neural Networks}
+      \field{month}{1}
+      \field{number}{5}
+      \field{title}{Universal approximation of an unknown mapping and its derivatives using multilayer feedforward networks}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{1990}
+      \field{urldateera}{ce}
+      \field{pages}{551\bibrangedash 560}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/0893-6080(90)90005-6
+      \endverb
+      \verb{file}
+      \verb Hornik et al. - 1990 - Universal approximation of an unknown mapping and .pdf:/Users/dalimwahby/Zotero/storage/PNUXZRGB/Hornik et al. - 1990 - Universal approximation of an unknown mapping and .pdf:application/pdf;ScienceDirect Snapshot:/Users/dalimwahby/Zotero/storage/KHU9XPUZ/0893608090900056.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0893608090900056
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0893608090900056
+      \endverb
+      \keyw{Approximation,Derivatives,Feedforward networks,Sobolev space}
+    \endentry
+    \entry{jiangBriefReviewNeural2017}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=849504cff273f355e43844d4b68a23ec}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Yiming},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1f14a433675e94961d3665b616f6bc66}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chenguang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=32c584116dd2b1b0e95124e0ae9ab054}{%
+           family={Na},
+           familyi={N\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8610b91ad546e7a739475ef2d30cf1f0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Guang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2952ce6a3982afa9881f2a0c29835e75}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yanan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a984c0ccb02b7e26bb2f083d5744e399}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Junpei},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a7baef9d3cc3675eacba58eb47a5f3c9}
+      \strng{fullhash}{e9641990f02deda55cbbe0c651a8e6f1}
+      \strng{fullhashraw}{e9641990f02deda55cbbe0c651a8e6f1}
+      \strng{bibnamehash}{e9641990f02deda55cbbe0c651a8e6f1}
+      \strng{authorbibnamehash}{e9641990f02deda55cbbe0c651a8e6f1}
+      \strng{authornamehash}{a7baef9d3cc3675eacba58eb47a5f3c9}
+      \strng{authorfullhash}{e9641990f02deda55cbbe0c651a8e6f1}
+      \strng{authorfullhashraw}{e9641990f02deda55cbbe0c651a8e6f1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As an imitation of the biological nervous systems, neural networks (NNs), which have been characterized as powerful learning tools, are employed in a wide range of applications, such as control of complex nonlinear systems, optimization, system identification, and patterns recognition. This article aims to bring a brief review of the state-of-the-art NNs for the complex nonlinear systems by summarizing recent progress of NNs in both theory and practical applications. Specifically, this survey also reviews a number of NN based robot control algorithms, including NN based manipulator control, NN based human-robot interaction, and NN based cognitive control.}
+      \field{issn}{1076-2787}
+      \field{journaltitle}{Complexity}
+      \field{month}{10}
+      \field{note}{Publisher: Hindawi}
+      \field{title}{A {Brief} {Review} of {Neural} {Networks} {Based} {Learning} and {Control} and {Their} {Applications} for {Robots}}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{2017}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{e1895897}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1155/2017/1895897
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/dalimwahby/Zotero/storage/Z4RYIJZC/Jiang et al. - 2017 - A Brief Review of Neural Networks Based Learning a.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.hindawi.com/journals/complexity/2017/1895897/
+      \endverb
+      \verb{url}
+      \verb https://www.hindawi.com/journals/complexity/2017/1895897/
+      \endverb
+    \endentry
+    \entry{congPIDLikeNeuralNetwork2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=deaed8dd936d7f8758884dcad6b13797}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eae847448355a6af337a795b5a8dab36}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{fullhash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{fullhashraw}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{bibnamehash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{authorbibnamehash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{authornamehash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{authorfullhash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{authorfullhashraw}{b7fdceb3e08b663af61719a8661dda40}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A mix locally recurrent neural network was used to create a proportional-integral-derivative (PID)-like neural network nonlinear adaptive controller for uncertain multivariable single-input/multi-output system. It is composed of a neural network with no more than three neural nodes in hidden layer, and there are included an activation feedback and an output feedback, respectively, in a hidden layer. Such a special structure makes the exterior feature of the neural network controller able to become a P, PI, PD, or PID controller as needed. The closed-loop error between directly measured output and expected value of the system is chosen to be the input of the controller. Only a group of initial weights values, which can run the controlled closed-loop system stably, are required to be determined. The proposed controller can update weights of the neural network online according to errors caused by uncertain factors of system such as modeling error and external disturbance, based on stable learning rate. The resilient back-propagation algorithm with sign instead of the gradient is used to update the network weights. The basic ideas, techniques, and system stability proof were presented in detail. Finally, actual experiments both of single and double inverted pendulums were implemented, and the comparison of effectiveness between the proposed controller and the linear optimal regulator were given.}
+      \field{issn}{0278-0046}
+      \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{{PID}-{Like} {Neural} {Network} {Nonlinear} {Adaptive} {Control} for {Uncertain} {Multivariable} {Motion} {Control} {Systems}}
+      \field{urlday}{23}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{56}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{3872\bibrangedash 3879}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/TIE.2009.2018433
+      \endverb
+      \verb{file}
+      \verb Cong and Liang - 2009 - PID-Like Neural Network Nonlinear Adaptive Control.pdf:/Users/dalimwahby/Zotero/storage/ZJ4L7PX4/Cong and Liang - 2009 - PID-Like Neural Network Nonlinear Adaptive Control.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/4812095/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/4812095/
+      \endverb
+    \endentry
+    \entry{thanhNonlinearPIDControl2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=6389e966c97103ce13aec48a8c478646}{%
+           family={Thanh},
+           familyi={T\bibinitperiod},
+           given={TU\bibnamedelima Diep\bibnamedelima Cong},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=65b5361dc62952569219428179267ce0}{%
+           family={Ahn},
+           familyi={A\bibinitperiod},
+           given={Kyoung\bibnamedelima Kwan},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{fullhash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{fullhashraw}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{bibnamehash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{authorbibnamehash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{authornamehash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{authorfullhash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{authorfullhashraw}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The application of a robot to rehabilitation has become a matter of great concern because of the requirement of functional recovery therapy of arm or limb. A novel pneumatic artificial muscle (PAM) actuator which has achieved increased popularity to provide the inherent safety and mobility assistance to humans performing tasks and another advantages such as high strength and power/weight ratio, low cost, compactness, ease of maintenance, cleanliness, readily available and cheap power source and so on. However, the complex nonlinear dynamics of the PAM manipulator makes it a challenging and appealing system for modeling and control design. The problems with the time variance, compliance, high hysteresis and nonlinearity of pneumatic systems have made it difficult to realize precise position control. In order to realize satisfactory control performance, the effect of nonlinear factors contained in the PAM manipulator must be considered. The purpose of this study is to improve the control performance of 2 axes PAM manipulator using a nonlinear PID controller. Superb mixture of conventional PID controller and the neural network, which has powerful capability of learning, adaptation and tackling nonlinearity, brings us a novel nonlinear PID controller using neural network. This proposed controller is appropriate for a kind of plants with nonlinearity uncertainties and disturbances. The experiments were carried out in practical 2 axes PAM manipulator and the effectiveness of the proposed control algorithm was demonstrated through the experiments, which suggests its superior performance and disturbance rejection.}
+      \field{issn}{0957-4158}
+      \field{journaltitle}{Mechatronics}
+      \field{month}{11}
+      \field{number}{9}
+      \field{title}{Nonlinear {PID} control to improve the control performance of 2 axes pneumatic artificial muscle manipulator using neural network}
+      \field{urlday}{23}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{16}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{577\bibrangedash 587}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.mechatronics.2006.03.011
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/dalimwahby/Zotero/storage/5NKLSV9E/S0957415806000523.html:text/html;Thanh and Ahn - 2006 - Nonlinear PID control to improve the control perfo.pdf:/Users/dalimwahby/Zotero/storage/8E6CPE86/Thanh and Ahn - 2006 - Nonlinear PID control to improve the control perfo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957415806000523
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957415806000523
+      \endverb
+      \keyw{Neural network,Manipulator,Nonlinear PID control,Pneumatic artificial muscle}
+    \endentry
+    \entry{norrisNeuralNetworksControl2021}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=1bf8057de554a7eb8afaf6543c3d0c82}{%
+           family={Norris},
+           familyi={N\bibinitperiod},
+           given={Griffin},
+           giveni={G\bibinitperiod}}}%
+        {{hash=46053a7e28bc4c15c39eafecd7802676}{%
+           family={Ducard},
+           familyi={D\bibinitperiod},
+           given={Guillaume\bibnamedelimb J.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=813beba32788bd0987edb75c2032a2b8}{%
+           family={Onder},
+           familyi={O\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Mauritius, Mauritius}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{23596797825a2c0cddf9968151e7859d}
+      \strng{fullhash}{8e74de1c66409ed17dee79a642f98c76}
+      \strng{fullhashraw}{8e74de1c66409ed17dee79a642f98c76}
+      \strng{bibnamehash}{8e74de1c66409ed17dee79a642f98c76}
+      \strng{authorbibnamehash}{8e74de1c66409ed17dee79a642f98c76}
+      \strng{authornamehash}{23596797825a2c0cddf9968151e7859d}
+      \strng{authorfullhash}{8e74de1c66409ed17dee79a642f98c76}
+      \strng{authorfullhashraw}{8e74de1c66409ed17dee79a642f98c76}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{2021 {International} {Conference} on {Electrical}, {Computer}, {Communications} and {Mechatronics} {Engineering} ({ICECCME})}
+      \field{isbn}{978-1-66541-262-9}
+      \field{month}{10}
+      \field{shorttitle}{Neural {Networks} for {Control}}
+      \field{title}{Neural {Networks} for {Control}: {A} {Tutorial} and {Survey} of {Stability}-{Analysis} {Methods}, {Properties}, and {Discussions}}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICECCME52200.2021.9590912
+      \endverb
+      \verb{file}
+      \verb Norris et al. - 2021 - Neural Networks for Control A Tutorial and Survey.pdf:/Users/dalimwahby/Zotero/storage/S2WR5R3R/Norris et al. - 2021 - Neural Networks for Control A Tutorial and Survey.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9590912/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9590912/
+      \endverb
+    \endentry
     \entry{khalilNonlinearSystems1996}{book}{}{}
       \name{author}{1}{}{%
         {{hash=c687708249e29c8fa3d8d0c0ff1612f9}{%
@@ -41,8 +481,8 @@
       \strng{authornamehash}{c687708249e29c8fa3d8d0c0ff1612f9}
       \strng{authorfullhash}{c687708249e29c8fa3d8d0c0ff1612f9}
       \strng{authorfullhashraw}{c687708249e29c8fa3d8d0c0ff1612f9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This book is written is such a way that the level of mathematical sophistication builds up from chapter to chapter. It has been reorganized into four parts: basic analysis, analysis of feedback systems, advanced analysis, and nonlinear feedback control. Updated content includes subjects which have proven useful in nonlinear control design in recent years new in the 3rd edition are: expanded treatment of passivity and passivity-based control; integral control, high-gain feedback, recursive methods, optimal stabilizing control, control Lyapunov functions, and observers. For use as a self-study or reference guide by engineers and applied mathematicians.}
