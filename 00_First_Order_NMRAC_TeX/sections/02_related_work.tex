@@ -1,13 +1,19 @@
-\section{Literature Review and Contributions}
-\hl{...}
-\subsection{Related Work}
+\section{Literature Review}
+Model Reference Adaptive Control (MRAC) was first introduced in the early 1970s by Whitaker et al. \cite{whitakerDesignModelReference1958}. Originally, it was thought to deal with process uncertainties and disturbance dynamics, however, the proposed techniques were also used in different contexts, including but not limited to auto-tuning, automatic construction of gain schedules, and adaptive filtering \cite{astromTheoryApplicationsAdaptive1983, astromHistoryAdaptiveControl2014}.
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.8\linewidth]{images/MRAC_Blockdiagram.png}
-    \caption{MRAC for first-oder systems controlled by simple NNCs}
-    \label{fig:nonlinear-NNC-MRAC}
-\end{figure}
+The adaptation mechanism of the controller parameters follows two main approaches, namely 1) the MIT method or gradient descent-based method, and 2) the Lyapunov method \cite{astromAdaptiveControl2008}. The MIT method does not come with stability guarantees \cite{mareelsRevisitingMitRule1987}, whereas the Lyapunov method is based on an adaptation rule derived from Lyapunov's second method \cite{shackclothSynthesisModelReference1965}. It imposes stability since the adaptation rule is chosen in a way such that the decrease condition on the Lyapunov function is always satisfied, thus, implying convergence of the system.
 
-\subsection{Contributions}
 \hl{...}
+
+Generally, MRACs can be split into three categories, firstly direct and secondly indirect MRAC. The former aims to adapt controller parameters directly and the latter aims to update the model parameters. The third category is a hybrid approach called \textit{Combined MRAC}, first proposed by Duarte et al. in \cite{duarteCombinedDirectIndirect1989} for first-order systems. The approach is based on estimating two parts with two separate adaptation rules, namely 1) unmatched model uncertainty and 2) system parameters. Their approach showed in simulations to be more robust than both direct and indirect adaptive control if considered individually \cite{narendraRobustAdaptiveControl1988}, however, this has yet to be proven. Combined MRACs are generalizable for $n$-th order linear systems, as proposed by Lavretsky and Tao et al. \cite{lavretskyCombinedCompositeModel2009, taoAdaptiveControlSystems2013}.
+
+Simultaneously, Slotine et al. developed a similar approach, called \textit{Composite MRAC} \cite{slotineAdaptiveControlRobot1987a, slotineAdaptiveRobotControl1987, slotineAppliedNonlinearControl1991}, extending MRACs to a class of nonlinear systems, where the estimated parameters appear linearly in the known, nonlinear dynamics of the system. Applications of the approaches proposed by Narendra et al. and Slotine et al. have shown to be effective and include but are not limited to \cite{duarte-mermoudExperimentalEvaluationCombined2002,duarte-mermoudControlLongitudinalMovement2005}.
+
+In 2000, Patiño et al. proposed to leverage indirect MRACs to adaptively compensate for nonlinearities in the plant \cite{patinoNeuralNetworkbasedModel2000}. They propose to use Radial Basis Functions (RBF), whose parameters are adapted, to compensate for nonlinearities in the system. This approach can be considered as adaptive nonlinear dynamic inversion (ANDI). A similar ANDI approach was published in \cite{karnalasadanNeuralNetworkBased2004}.
+
+Later, Lavretsky coins the term CMRAC, which stands for \textit{Combined/Composite Model Reference Adaptive Control}. He suggests using RBFs to perform system identification and estimate the unmatched uncertainties model, with proven stability guarantees, which enables us to apply this method to a larger class of nonlinear systems \cite{lavretskyCombinedCompositeModel2009}. Furthermore, Lavretsky uses a Linear Quadratic Regulator (LQR) regulator as a reference model, ensuring optimality of the control law. However, due to the design of an LQR, the states and control input of the system cannot be constrained, meaning if the system has physical constraints they are not accounted for in the control strategy. Similar approaches were proposed in \cite{joshiDeepModelReference2019, trisantoApplicationNeuralNetworks2006, slamaModelReferenceAdaptive2018}.
+
+
+\section{Contributions}
+The novelty of this apporach lies in the ability of learning a stabilizing controller, despite of a nonlinear NN being present in the closed-loop system. 
+Additionally, the propsed algorithm is validated in simulation, using different input signals. These simulations show that with the proposed algorithm the parameters of the NN converge to their desired values.

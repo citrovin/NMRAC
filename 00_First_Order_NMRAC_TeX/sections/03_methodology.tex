@@ -3,7 +3,7 @@
 \subsection{Systems and Stability}
 In order to define stable learning algorithms, it is imperal to firstly define, first-order systems and stability, which is taken from \cite{khalilNonlinearSystems1996}.
 
-\begin{definition}[System]
+\begin{definition}[First-Order System]
     A continuous-time first-order system is defined by the following map
     \begin{equation}
         f:\mathbb{R}\times\mathbb{R}\rightarrow \mathbb{R}, (x(t),u(t)) \mapsto \dot x(t) = f(x(t),u(t)).
@@ -67,6 +67,15 @@ NNs usually make use of nonlinear activation functions, which enable them to app
     \sigma (x) = \frac{2(1-e^{-ax})}{a(1+e^{-ax})}
     \label{eq:sigmoid}
 \end{equation}
+
+\subsection{Model Reference Adaptive Control}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/MRAC_Blockdiagram.png}
+    \caption{MRAC for first-oder systems controlled by simple NNCs}
+    \label{fig:nonlinear-NNC-MRAC}
+\end{figure}
 
 \section{Nonlinear Model Reference Adaptive Control (NMRAC)}
 \label{sec:MRAC-Nonlinear-SISO}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  14 JAN 2025 14:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  15 JAN 2025 10:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -658,22 +658,10 @@ Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
 Package biblatex Info: Reference section=0 on input line 35.
 Package biblatex Info: Reference segment=0 on input line 35.
- (sections/00_abstract.tex) (sections/01_introduction.tex
+ (sections/00_abstract.tex) (sections/01_introduction.tex) (sections/02_related_work.tex
 
-) (sections/02_related_work.tex
-<images/MRAC_Blockdiagram.png, id=1, 414.786pt x 149.796pt>
-File: images/MRAC_Blockdiagram.png Graphic file (type png)
-<use images/MRAC_Blockdiagram.png>
-Package pdftex.def Info: images/MRAC_Blockdiagram.png  used on input line 7.
-(pdftex.def)             Requested size: 201.60077pt x 72.8064pt.
-) (sections/03_methodology.tex
-
-[1{C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
-
- <./images/MRAC_Blockdiagram.png>]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
- (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
@@ -681,24 +669,34 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
+[1{C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-[2]
+]) (sections/03_methodology.tex
+
+<images/MRAC_Blockdiagram.png, id=10, 414.786pt x 149.796pt>
+File: images/MRAC_Blockdiagram.png Graphic file (type png)
+<use images/MRAC_Blockdiagram.png>
+Package pdftex.def Info: images/MRAC_Blockdiagram.png  used on input line 75.
+(pdftex.def)             Requested size: 201.60077pt x 72.8064pt.
+
+
+[2 <./images/MRAC_Blockdiagram.png>]
 
 ) (sections/04_results.tex
 
 [3]
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png, id=28, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png, id=27, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png  used on input line 29.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png, id=29, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png, id=28, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png  used on input line 36.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png, id=30, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png, id=29, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png  used on input line 49.
@@ -708,24 +706,24 @@ Underfull \hbox (badness 1571) in paragraph at lines 50--50
 []\OT1/ptm/m/n/9 (a) |Lya-punov func-tion and its
  []
 
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png, id=31, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png, id=30, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png  used on input line 56.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
 
 
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png, id=32, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png, id=31, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png  used on input line 75.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png, id=33, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png, id=32, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png  used on input line 82.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png, id=34, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png, id=33, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png  used on input line 95.
@@ -735,14 +733,15 @@ Underfull \hbox (badness 1571) in paragraph at lines 96--96
 []\OT1/ptm/m/n/9 (a) |Lya-punov func-tion and its
  []
 
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png, id=35, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png, id=34, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png  used on input line 102.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
 
 
-[4 <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png (PNG copy)>]
+[4 <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png (PNG copy)>]
+
 <images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png, id=39, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png>
@@ -770,14 +769,17 @@ Package pdftex.def Info: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Al
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
 ) (sections/05_discussion.tex)
 
+[5 <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png (PNG copy)>]
 
-Underfull \hbox (badness 1478) in paragraph at lines 76--76
-\OT1/ptm/m/n/10 / / www . sciencedirect . com / science / article / pii /
+
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/ptm/m/n/10 https://onlinelibrary.wiley.com/doi/pdf/10.1002/acs.674,
  []
 
 
 
-[5 <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png (PNG copy)>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -791,11 +793,7 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[6
-
-] (main.aux)
+[7] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -805,17 +803,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15411 strings out of 473897
- 294124 string characters out of 5726461
- 1128096 words of memory out of 5000000
- 38090 multiletter control sequences out of 15000+600000
+ 15499 strings out of 473897
+ 299112 string characters out of 5726461
+ 1128185 words of memory out of 5000000
+ 38178 multiletter control sequences out of 15000+600000
  594733 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,14n,81p,1822b,1746s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,14n,81p,2231b,1746s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 594233 bytes).
+Output written on main.pdf (7 pages, 604195 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

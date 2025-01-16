@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1736860081.02518 "main.bcf" "main.bbl" "main" 1736860902.72713 0
-  "main.bcf" 1736860902 108781 9bcdc1542dce395c16a3dec53385cf40 "pdflatex"
+["biber main"] 1736932373.62993 "main.bcf" "main.bbl" "main" 1736932617.22811 0
+  "main.bcf" 1736932616 111016 e05cf47966886cfe20df93920f05e738 "pdflatex"
   "references.bib" 1736334099 142795 3407817191faf2f0850e899a26d25cf7 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1736860901.09554 "c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/main.tex" "main.pdf" "main" 1736860902.72816 0
+["pdflatex"] 1736932615.21214 "c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/main.tex" "main.pdf" "main" 1736932617.22927 0
   "C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1736526922 123019 4e6d54fe28a67ad1b512b0cc9d03c2e8 ""
   "C:/Users/wahby/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730144020 11948316 131a577be9c0b4b38db227b09c0fceab ""
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -134,14 +134,14 @@
   "images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png" 1734451017 34609 4117397301a41614cb1c42aa27ccdf5f ""
   "images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png" 1734451019 21390 a06fb8f576862b55cbfc9f34d9647aec ""
   "images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png" 1734451013 26165 b186afc785f87f0cd1dea8cfd7bd1bbd ""
-  "main.aux" 1736860902 6903 62398749a66e096d24b734aa2deb748e "pdflatex"
-  "main.bbl" 1736860083 28114 666e55ac432a7800b78747b8e0100a3f "biber main"
-  "main.run.xml" 1736860902 2402 7c866ed2192e71c57464ed4279aadefa "pdflatex"
+  "main.aux" 1736932616 11609 af8ff59c4fda69b6f9d4122ffb88281a "pdflatex"
+  "main.bbl" 1736932375 86903 01bd0b1a82abb45096957c746be3279c "biber main"
+  "main.run.xml" 1736932616 2402 7c866ed2192e71c57464ed4279aadefa "pdflatex"
   "main.tex" 1736858847 1963 db096c714044c55c56adf12e82c64133 ""
   "sections/00_abstract.tex" 1736843177 234 51d762f39edf740d4beedd4058b3fbf8 ""
-  "sections/01_introduction.tex" 1736860900 3915 137801ef1b741e3b644e6eb968431e11 ""
-  "sections/02_related_work.tex" 1736849440 352 9260a5aad82b1b959e3965c236af1969 ""
-  "sections/03_methodology.tex" 1736850130 11295 b73e6257bca7308d236c203dfd18620f ""
+  "sections/01_introduction.tex" 1736931794 2299 58e78bd1af4f16dfb89e90c48ee2d85e ""
+  "sections/02_related_work.tex" 1736932602 4369 71aae44c8b1aa6e4a7306a3f28abc974 ""
+  "sections/03_methodology.tex" 1736932612 11586 a767a8ad7f605a4d59cb6ad2814e53c7 ""
   "sections/04_results.tex" 1736852608 11450 37af3817962c1e211e7e78b02e73e6c1 ""
   "sections/05_discussion.tex" 1736502331 579 2c84782433398a49d495a697173db83d ""
   (generated)
