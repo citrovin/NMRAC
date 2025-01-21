@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1736932373.62993 "main.bcf" "main.bbl" "main" 1736932617.22811 0
-  "main.bcf" 1736932616 111016 e05cf47966886cfe20df93920f05e738 "pdflatex"
-  "references.bib" 1736334099 142795 3407817191faf2f0850e899a26d25cf7 ""
+["biber main"] 1737451637.01794 "main.bcf" "main.bbl" "main" 1737451709.41433 0
+  "main.bcf" 1737451709 110357 42703a04ea7db77654449456ed42ed3f "pdflatex"
+  "references.bib" 1737451632 145853 e4dd4a1a7d5d5cdc2a3fe50eaf1983da ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1736932615.21214 "c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/main.tex" "main.pdf" "main" 1736932617.22927 0
+["pdflatex"] 1737451707.7856 "c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/main.tex" "main.pdf" "main" 1737451709.41529 0
   "C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1736526922 123019 4e6d54fe28a67ad1b512b0cc9d03c2e8 ""
   "C:/Users/wahby/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730144020 11948316 131a577be9c0b4b38db227b09c0fceab ""
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -37,6 +37,7 @@
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1247596667 37912 07513ec114ac737ab54cea0152f4424b ""
+  "C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247596666 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247596667 36281 c355509802a035cadc5f15869451dcee ""
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -126,23 +127,19 @@
   "images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png" 1734450901 32519 c6b226e8f2a8b6d27d3eece09c2cad4a ""
   "images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png" 1734450903 22867 ffb91a225eabae8e2707c509c512b95a ""
   "images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png" 1734450897 35295 6d2d39888a2ff6072d60c48633586390 ""
-  "images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png" 1734450475 24269 bd33ed6117dc31a6578038cbbf706001 ""
-  "images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png" 1734450471 30851 c75c028b17025df9fd73ebe3141d024f ""
-  "images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png" 1734450473 21081 4a1a39229c465ffa30d2c152db7934d5 ""
-  "images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png" 1734450466 25083 3fb2936abf718c0f46e1986f988947ac ""
   "images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png" 1734451021 26862 2cacc4e2e5b2e69bb9089ac4ec131277 ""
   "images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png" 1734451017 34609 4117397301a41614cb1c42aa27ccdf5f ""
   "images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png" 1734451019 21390 a06fb8f576862b55cbfc9f34d9647aec ""
   "images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png" 1734451013 26165 b186afc785f87f0cd1dea8cfd7bd1bbd ""
-  "main.aux" 1736932616 11609 af8ff59c4fda69b6f9d4122ffb88281a "pdflatex"
-  "main.bbl" 1736932375 86903 01bd0b1a82abb45096957c746be3279c "biber main"
-  "main.run.xml" 1736932616 2402 7c866ed2192e71c57464ed4279aadefa "pdflatex"
+  "main.aux" 1737451709 9058 cac1348ca53255c9fcf269228d1c4fda "pdflatex"
+  "main.bbl" 1737451639 65195 a604c81fa0fb38475cc05e3da435f5c9 "biber main"
+  "main.run.xml" 1737451709 2402 7c866ed2192e71c57464ed4279aadefa "pdflatex"
   "main.tex" 1736858847 1963 db096c714044c55c56adf12e82c64133 ""
   "sections/00_abstract.tex" 1736843177 234 51d762f39edf740d4beedd4058b3fbf8 ""
-  "sections/01_introduction.tex" 1736931794 2299 58e78bd1af4f16dfb89e90c48ee2d85e ""
-  "sections/02_related_work.tex" 1736932602 4369 71aae44c8b1aa6e4a7306a3f28abc974 ""
-  "sections/03_methodology.tex" 1736932612 11586 a767a8ad7f605a4d59cb6ad2814e53c7 ""
-  "sections/04_results.tex" 1736852608 11450 37af3817962c1e211e7e78b02e73e6c1 ""
+  "sections/01_introduction.tex" 1737451632 2287 4ef903ad0c885eab3757dcd8f0065382 ""
+  "sections/02_related_work.tex" 1737451707 4397 019d90b1283278f4106ea9e1ed9f2a27 ""
+  "sections/03_methodology.tex" 1737450575 11579 a94ef1d9d26431ff59bd59b48ed274e2 ""
+  "sections/04_results.tex" 1737451503 11572 f0a5c9092f5d935e36671e667bcd3a9d ""
   "sections/05_discussion.tex" 1736502331 579 2c84782433398a49d495a697173db83d ""
   (generated)
   "main.aux"

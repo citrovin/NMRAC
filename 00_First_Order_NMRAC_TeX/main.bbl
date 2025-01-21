@@ -45,6 +45,35 @@
       \field{pages}{59\bibrangedash 100}
       \range{pages}{42}
     \endentry
+    \entry{wahby}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=332b9a5f70413daa8f124226857951fd}{%
+           family={Wahby},
+           familyi={W\bibinitperiod},
+           given={Dalim},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f1d58398e8cf786f99be90f7d75df7bf}{%
+           family={Ducard},
+           familyi={D\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{fullhash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{fullhashraw}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{bibnamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authorbibnamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authornamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authorfullhash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authorfullhashraw}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{PID controllers are among the most popular control strategies used in industry. However, one of their main limitations is often the diﬀiculty to tune them properly to achieve the best possible performance. Therefore, adaptive PID methods have been developed, such as PID neural networks (PIDNN). The gains are often tuned by minimizing the error between the desired output and the system’s output, using a gradient descent-based algorithm. We propose an enhanced PIDNN controller (EPIDNNC) that introduces a reference model, to teach the controller a desired response. This work is successfully applied to a nonlinear system, an inverted pendulum, whose dynamics and parameters are unknown to the controller. Our EPIDNNC method is superior to the standard PIDNNC, due to 1) better performance, with respect to overshoot, steady-state error, settling time, and oscillatory behavior, and 2) a new versatile update law, allowing changes in the reference model dynamics.}
+      \field{journaltitle}{2024 9th International Conference on Robotics and Automation Engineering}
+      \field{title}{Enhanced {PID} {Neural} {Network} {Control} ({EPIDNNC}) - {A} {Model} {Reference} {Approach}}
+    \endentry
     \entry{bosshartComparisonTwoPID2021}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{hash=d0a9e79a505423a1d8522677d1965b45}{%
@@ -505,6 +534,70 @@
       \verb http://arxiv.org/abs/2102.02273
       \endverb
       \keyw{Mathematics - Optimization and Control,Mathematics - Dynamical Systems}
+    \endentry
+    \entry{revay_convex_2021}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=c3591eb1ca5832eb073664df8e65b909}{%
+           family={Revay},
+           familyi={R\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8b941ee4960423dbc34748bb552be8be}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ruigang},
+           giveni={R\bibinitperiod}}}%
+        {{hash=05a95f205346bf516eafa0bbf32ae394}{%
+           family={Manchester},
+           familyi={M\bibinitperiod},
+           given={Ian\bibnamedelima R.},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA, USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{43d2bd6f9755750e41762cfc53f043bc}
+      \strng{fullhash}{29ebc0b9acfc6136fbcc381bdb388964}
+      \strng{fullhashraw}{29ebc0b9acfc6136fbcc381bdb388964}
+      \strng{bibnamehash}{29ebc0b9acfc6136fbcc381bdb388964}
+      \strng{authorbibnamehash}{29ebc0b9acfc6136fbcc381bdb388964}
+      \strng{authornamehash}{43d2bd6f9755750e41762cfc53f043bc}
+      \strng{authorfullhash}{29ebc0b9acfc6136fbcc381bdb388964}
+      \strng{authorfullhashraw}{29ebc0b9acfc6136fbcc381bdb388964}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recurrent neural networks (RNNs) are a class of nonlinear dynamical systems often used to model sequenceto-sequence maps. RNNs have excellent expressive power but lack the stability or robustness guarantees that are necessary for many applications. In this paper, we formulate convex sets of RNNs with stability and robustness guarantees. The guarantees are derived using incremental quadratic constraints and can ensure global exponential stability of all solutions, and bounds on incremental 2 gain (the Lipschitz constant of the learned sequence-to-sequence mapping). Using an implicit model structure, we construct a parametrization of RNNs that is jointly convex in the model parameters and stability certiﬁcate. We prove that this model structure includes all previouslyproposed convex sets of stable RNNs as special cases, and also includes all stable linear dynamical systems. Numerical experiments illustrate the utility of the proposed model class in the context of non-linear system identiﬁcation.}
+      \field{booktitle}{2021 {American} {Control} {Conference} ({ACC})}
+      \field{isbn}{978-1-6654-4197-1}
+      \field{month}{5}
+      \field{title}{A {Convex} {Parameterization} of {Robust} {Recurrent} {Neural} {Networks}}
+      \field{urlday}{27}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{2824\bibrangedash 2829}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.23919/ACC50511.2021.9482874
+      \endverb
+      \verb{file}
+      \verb Revay et al. - 2021 - A Convex Parameterization of Robust Recurrent Neur.pdf:C\:\\Users\\wahby\\Zotero\\storage\\TT54W3FU\\Revay et al. - 2021 - A Convex Parameterization of Robust Recurrent Neur.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9482874/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9482874/
+      \endverb
     \endentry
     \entry{lavretskyCombinedCompositeModel2009}{article}{}{}
       \name{author}{1}{}{%
@@ -1037,510 +1130,6 @@
       \verb Tao et al. - 2013 - Adaptive Control of Systems with Actuator Failures.pdf:/Users/dalimwahby/Zotero/storage/KJKUVLHW/Tao et al. - 2013 - Adaptive Control of Systems with Actuator Failures.pdf:application/pdf
       \endverb
     \endentry
-    \entry{slotineAdaptiveControlRobot1987a}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=1dc6c2ca8255505108e7ed377ab4c534}{%
-           family={Slotine},
-           familyi={S\bibinitperiod},
-           given={Jean-Jacques\bibnamedelima E.},
-           giveni={J\bibinithyphendelim J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=7e4ef80236009807f39d66dc38dacf95}{%
-           family={{Weiping Li}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{318534791539095020aae8a2dcca217c}
-      \strng{fullhash}{318534791539095020aae8a2dcca217c}
-      \strng{fullhashraw}{318534791539095020aae8a2dcca217c}
-      \strng{bibnamehash}{318534791539095020aae8a2dcca217c}
-      \strng{authorbibnamehash}{318534791539095020aae8a2dcca217c}
-      \strng{authornamehash}{318534791539095020aae8a2dcca217c}
-      \strng{authorfullhash}{318534791539095020aae8a2dcca217c}
-      \strng{authorfullhashraw}{318534791539095020aae8a2dcca217c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A new adaptive robot control algorithm is derived, which consists of a PD feedback part and a full dynamics feedforward compensation part, with the unknown manipulator and payload parameters being estimated online. The algorithm is computationally simple, because of an effective exploitation of the structure of manipulator dynamics. In particular, it requires neither feedback of joint accelerations nor inversion of the estimated inertia matrix. The algorithm can also be applied directly in Cartesian space.}
-      \field{issn}{0278-3649, 1741-3176}
-      \field{journaltitle}{The International Journal of Robotics Research}
-      \field{month}{9}
-      \field{number}{3}
-      \field{title}{On the {Adaptive} {Control} of {Robot} {Manipulators}}
-      \field{urlday}{29}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{6}
-      \field{year}{1987}
-      \field{urldateera}{ce}
-      \field{pages}{49\bibrangedash 59}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1177/027836498700600303
-      \endverb
-      \verb{file}
-      \verb Slotine and Weiping Li - 1987 - On the Adaptive Control of Robot Manipulators.pdf:/Users/dalimwahby/Zotero/storage/S99M6MAE/Slotine and Weiping Li - 1987 - On the Adaptive Control of Robot Manipulators.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://journals.sagepub.com/doi/10.1177/027836498700600303
-      \endverb
-      \verb{url}
-      \verb http://journals.sagepub.com/doi/10.1177/027836498700600303
-      \endverb
-    \endentry
-    \entry{slotineAdaptiveRobotControl1987}{inproceedings}{}{}
-      \name{author}{2}{}{%
-        {{hash=5bd144a2a5c54e7e471b465523055448}{%
-           family={Slotine},
-           familyi={S\bibinitperiod},
-           given={Jean-jacques},
-           giveni={J\bibinithyphendelim j\bibinitperiod}}}%
-        {{hash=56a2cc9043bd27ea8b4615a383f2b778}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Weiping},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Los Angeles, California, USA}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{981ee795d68c632da675fc84c6b4094f}
-      \strng{fullhash}{981ee795d68c632da675fc84c6b4094f}
-      \strng{fullhashraw}{981ee795d68c632da675fc84c6b4094f}
-      \strng{bibnamehash}{981ee795d68c632da675fc84c6b4094f}
-      \strng{authorbibnamehash}{981ee795d68c632da675fc84c6b4094f}
-      \strng{authornamehash}{981ee795d68c632da675fc84c6b4094f}
-      \strng{authorfullhash}{981ee795d68c632da675fc84c6b4094f}
-      \strng{authorfullhashraw}{981ee795d68c632da675fc84c6b4094f}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{booktitle}{26th {IEEE} {Conference} on {Decision} and {Control}}
-      \field{month}{12}
-      \field{shorttitle}{Adaptive robot control}
-      \field{title}{Adaptive robot control: {A} new perspective}
-      \field{urlday}{29}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{year}{1987}
-      \field{urldateera}{ce}
-      \field{pages}{192\bibrangedash 198}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/CDC.1987.272740
-      \endverb
-      \verb{file}
-      \verb Slotine and Li - 1987 - Adaptive robot control A new perspective.pdf:/Users/dalimwahby/Zotero/storage/VVWNTV8L/Slotine and Li - 1987 - Adaptive robot control A new perspective.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://ieeexplore.ieee.org/document/4049250/
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/4049250/
-      \endverb
-    \endentry
-    \entry{slotineAppliedNonlinearControl1991}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=ca625b2dc2c9110cbe11f1a4f82f8d56}{%
-           family={Slotine},
-           familyi={S\bibinitperiod},
-           given={J.-J.\bibnamedelimi E.},
-           giveni={J\bibinithyphendelim J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=56a2cc9043bd27ea8b4615a383f2b778}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Weiping},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Englewood Cliffs, N.J}%
-      }
-      \list{publisher}{1}{%
-        {Prentice Hall}%
-      }
-      \strng{namehash}{466346ef27d54efebe359a40730a87d6}
-      \strng{fullhash}{466346ef27d54efebe359a40730a87d6}
-      \strng{fullhashraw}{466346ef27d54efebe359a40730a87d6}
-      \strng{bibnamehash}{466346ef27d54efebe359a40730a87d6}
-      \strng{authorbibnamehash}{466346ef27d54efebe359a40730a87d6}
-      \strng{authornamehash}{466346ef27d54efebe359a40730a87d6}
-      \strng{authorfullhash}{466346ef27d54efebe359a40730a87d6}
-      \strng{authorfullhashraw}{466346ef27d54efebe359a40730a87d6}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-0-13-040890-7}
-      \field{title}{Applied nonlinear control}
-      \field{year}{1991}
-      \verb{file}
-      \verb Slotine and Li - 1991 - Applied nonlinear control.pdf:/Users/dalimwahby/Zotero/storage/K2AZ4RBE/Slotine and Li - 1991 - Applied nonlinear control.pdf:application/pdf
-      \endverb
-      \keyw{Nonlinear control theory}
-    \endentry
-    \entry{duarte-mermoudExperimentalEvaluationCombined2002}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=76e3c28c2d760f4036816e4447deba20}{%
-           family={Duarte-Mermoud},
-           familyi={D\bibinithyphendelim M\bibinitperiod},
-           given={Manuel\bibnamedelima A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=595a7a965b173f8164e8ff7a4ce09c44}{%
-           family={Rojo},
-           familyi={R\bibinitperiod},
-           given={Franklin\bibnamedelima A.},
-           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=53caa7b40dc713373785fe69bdf67af8}{%
-           family={Pérez},
-           familyi={P\bibinitperiod},
-           given={Ricardo},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{ba411d05cdc97d2d7ebb6f9b61591a7a}
-      \strng{fullhash}{09f0189093dc1f753cebe96854a05765}
-      \strng{fullhashraw}{09f0189093dc1f753cebe96854a05765}
-      \strng{bibnamehash}{09f0189093dc1f753cebe96854a05765}
-      \strng{authorbibnamehash}{09f0189093dc1f753cebe96854a05765}
-      \strng{authornamehash}{ba411d05cdc97d2d7ebb6f9b61591a7a}
-      \strng{authorfullhash}{09f0189093dc1f753cebe96854a05765}
-      \strng{authorfullhashraw}{09f0189093dc1f753cebe96854a05765}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{An experimental evaluation of the combined model reference adaptive control (CMRAC) is presented in this paper. This adaptive control scheme was used to control a relatively complex process like the pH of a solution in a tank reactor at laboratory level. For comparison purposes, some very well-known control strategies were also implemented, which include PID control and standard model reference adaptive control (MRAC). Tracking and regulation capabilities of the control strategies studied were analysed and compared. Experimental results indicate that CMRAC behaves as well as the standard MRAC and a very well-tuned PID for a specific and known operating point. Advantages of the adaptive controllers are shown when the operating point changes. Copyright © 2002 John Wiley \& Sons, Ltd.}
-      \field{issn}{1099-1115}
-      \field{journaltitle}{International Journal of Adaptive Control and Signal Processing}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/acs.674}
-      \field{number}{2}
-      \field{title}{Experimental evaluation of combined model reference adaptive controller in a {pH} regulation process}
-      \field{urlday}{29}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{16}
-      \field{year}{2002}
-      \field{urldateera}{ce}
-      \field{pages}{85\bibrangedash 106}
-      \range{pages}{22}
-      \verb{doi}
-      \verb 10.1002/acs.674
-      \endverb
-      \verb{file}
-      \verb Snapshot:/Users/dalimwahby/Zotero/storage/DAXFQSTC/acs.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/acs.674
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/acs.674
-      \endverb
-      \keyw{combined model reference adaptive control,model reference adaptive control,pH control,PID control,process control}
-    \endentry
-    \entry{duarte-mermoudControlLongitudinalMovement2005}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=6b20154dc0288fdaaec7f32dce3fd0c7}{%
-           family={Duarte‐Mermoud},
-           familyi={D\bibinithyphendelim M\bibinitperiod},
-           given={Manuel\bibnamedelima A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=151e503c704b991fbe93503a16e016b5}{%
-           family={Rioseco},
-           familyi={R\bibinitperiod},
-           given={Jaime\bibnamedelima S.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=785aa6a9d7403fa5d3d730c92a30268b}{%
-           family={González},
-           familyi={G\bibinitperiod},
-           given={Rodrigo\bibnamedelima I.},
-           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-      }
-      \strng{namehash}{c6ede79435393490696b8f8fa2176ed0}
-      \strng{fullhash}{c82b7e6e4133179df7be933dd3079923}
-      \strng{fullhashraw}{c82b7e6e4133179df7be933dd3079923}
-      \strng{bibnamehash}{c82b7e6e4133179df7be933dd3079923}
-      \strng{authorbibnamehash}{c82b7e6e4133179df7be933dd3079923}
-      \strng{authornamehash}{c6ede79435393490696b8f8fa2176ed0}
-      \strng{authorfullhash}{c82b7e6e4133179df7be933dd3079923}
-      \strng{authorfullhashraw}{c82b7e6e4133179df7be933dd3079923}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Purpose To apply and simulate under different conditions, the combined model reference adaptive control (CMRAC) technique to control the pitch angle in a subsonic plane. Comparisons with the classical PID controller and the adaptive direct MRAC are also performed. Design/methodology/approach The methodology used in this work is the CMRAC. This is a relatively new adaptive control technique which combines the information coming from the identification procedure as well as that from the direct control scheme, and use it in the adaptive laws. The identification parameters and the controller parameters are simultaneously adjusted using the identification error, the control error and the so‐called close‐loop identification error. This combination has shown to improve the transient behavior of the adaptive systems. Findings This control scheme has been tested by simulation on a model of a CESSNA 182 plane, to control the pitch angle (longitudinal movement). The results have been compared with other control approaches such as the classical PID and the adaptive direct MRAC. Although the PID control satisfies all the control specifications as much as the CMRAC, it is not able to adapt when changes in the operating conditions occur, as in the case of the CMRAC. The direct MRAC does no perform well in this study. Research limitations/implications The implementation at practical level remains to be studied and analyzed, to verify the theoretical and simulation results presented here. Practical implications The main advantage of the proposed method is that it behaves well even under different operating conditions, which is one of the most important characteristics for an implementation at practical level. Originality/value It is the first time in the control literature that the CMRAC is applied to control the pitch angle of a plane in a longitudinal movement. The results are quite promising remaining the practical implementation to verify the performance of the proposed scheme under real conditions.}
-      \field{issn}{0002-2667}
-      \field{journaltitle}{Aircraft Engineering and Aerospace Technology}
-      \field{month}{1}
-      \field{note}{Publisher: Emerald Group Publishing Limited}
-      \field{number}{3}
-      \field{title}{Control of longitudinal movement of a plane using combined model reference adaptive control}
-      \field{urlday}{29}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{77}
-      \field{year}{2005}
-      \field{urldateera}{ce}
-      \field{pages}{199\bibrangedash 213}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1108/00022660510597223
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1108/00022660510597223
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1108/00022660510597223
-      \endverb
-    \endentry
-    \entry{patinoNeuralNetworkbasedModel2000}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=ac13726b886e59b7603896c0aeec255b}{%
-           family={Patino},
-           familyi={P\bibinitperiod},
-           given={H.D.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=b6f1bae43698ee554fe46ebae4fa8241}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{308ae60768048e7d2f6d779ff4f74a68}
-      \strng{fullhash}{308ae60768048e7d2f6d779ff4f74a68}
-      \strng{fullhashraw}{308ae60768048e7d2f6d779ff4f74a68}
-      \strng{bibnamehash}{308ae60768048e7d2f6d779ff4f74a68}
-      \strng{authorbibnamehash}{308ae60768048e7d2f6d779ff4f74a68}
-      \strng{authornamehash}{308ae60768048e7d2f6d779ff4f74a68}
-      \strng{authorfullhash}{308ae60768048e7d2f6d779ff4f74a68}
-      \strng{authorfullhashraw}{308ae60768048e7d2f6d779ff4f74a68}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In this paper, an approach to model reference adaptive control based on neural networks is proposed and analyzed for a class of first-order continuous-time nonlinear dynamical systems. The controller structure can employ either a radial basis function network or a feedforward neural network to compensate adaptively the nonlinearities in the plant. A stable controller-parameter adjustment mechanism, which is determined using the Lyapunov theory, is constructed using a -modification-type updating law. The evaluation of control error in terms of the neural network learning error is performed. That is, the control error converges asymptotically to a neighborhood of zero, whose size is evaluated and depends on the approximation error of the neural network. In the design and analysis of neural network-based control systems, it is important to take into account the neural network learning error and its influence on the control error of the plant. Simulation results showing the feasibility and performance of the proposed approach are given.}
-      \field{issn}{10834419}
-      \field{journaltitle}{IEEE Transactions on Systems, Man and Cybernetics, Part B (Cybernetics)}
-      \field{month}{2}
-      \field{number}{1}
-      \field{title}{Neural network-based model reference adaptive control system}
-      \field{urlday}{24}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{30}
-      \field{year}{2000}
-      \field{urldateera}{ce}
-      \field{pages}{198\bibrangedash 204}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/3477.826961
-      \endverb
-      \verb{file}
-      \verb Patino and Liu - 2000 - Neural network-based model reference adaptive cont.pdf:/Users/dalimwahby/Zotero/storage/58TE4Y56/Patino and Liu - 2000 - Neural network-based model reference adaptive cont.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://ieeexplore.ieee.org/document/826961/
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/826961/
-      \endverb
-    \endentry
-    \entry{karnalasadanNeuralNetworkBased2004}{inproceedings}{}{}
-      \name{author}{2}{}{%
-        {{hash=fd53ae24fa23b933c907c1eaf887f411}{%
-           family={Karnalasadan},
-           familyi={K\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=62c62fc3d4af81b34c91ebc8b4a36206}{%
-           family={Ghandakly},
-           familyi={G\bibinitperiod},
-           given={A.A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Boston, MA, USA}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{309c767d2e00aed486ffb7d2b6153c8b}
-      \strng{fullhash}{309c767d2e00aed486ffb7d2b6153c8b}
-      \strng{fullhashraw}{309c767d2e00aed486ffb7d2b6153c8b}
-      \strng{bibnamehash}{309c767d2e00aed486ffb7d2b6153c8b}
-      \strng{authorbibnamehash}{309c767d2e00aed486ffb7d2b6153c8b}
-      \strng{authornamehash}{309c767d2e00aed486ffb7d2b6153c8b}
-      \strng{authorfullhash}{309c767d2e00aed486ffb7d2b6153c8b}
-      \strng{authorfullhashraw}{309c767d2e00aed486ffb7d2b6153c8b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2004 {IEEE} {International} {Conference} {onComputational} {Intelligence} for {Measurement} {Systems} and {Applications}, 2004. {CIMSA}.}
-      \field{isbn}{978-0-7803-8341-8}
-      \field{title}{A neural network based intelligent model reference adaptive controller}
-      \field{urlday}{21}
-      \field{urlmonth}{6}
-      \field{urlyear}{2024}
-      \field{year}{2004}
-      \field{urldateera}{ce}
-      \field{pages}{174\bibrangedash 179}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/CIMSA.2004.1397257
-      \endverb
-      \verb{file}
-      \verb Karnalasadan and Ghandakly - 2004 - A neural network based intelligent model reference.pdf:/Users/dalimwahby/Zotero/storage/ULP3JX2R/Karnalasadan and Ghandakly - 2004 - A neural network based intelligent model reference.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://ieeexplore.ieee.org/document/1397257/
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1397257/
-      \endverb
-    \endentry
-    \entry{joshiDeepModelReference2019}{misc}{}{}
-      \name{author}{2}{}{%
-        {{hash=44fb87556a7c313f37c23a64081eb0cc}{%
-           family={Joshi},
-           familyi={J\bibinitperiod},
-           given={Girish},
-           giveni={G\bibinitperiod}}}%
-        {{hash=d672bf459ffe6df8adea254206800acc}{%
-           family={Chowdhary},
-           familyi={C\bibinitperiod},
-           given={Girish},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{2e273e479d66059f6b7d4fee026fda6a}
-      \strng{fullhash}{2e273e479d66059f6b7d4fee026fda6a}
-      \strng{fullhashraw}{2e273e479d66059f6b7d4fee026fda6a}
-      \strng{bibnamehash}{2e273e479d66059f6b7d4fee026fda6a}
-      \strng{authorbibnamehash}{2e273e479d66059f6b7d4fee026fda6a}
-      \strng{authornamehash}{2e273e479d66059f6b7d4fee026fda6a}
-      \strng{authorfullhash}{2e273e479d66059f6b7d4fee026fda6a}
-      \strng{authorfullhashraw}{2e273e479d66059f6b7d4fee026fda6a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We present a new neuroadaptive architecture: Deep Neural Network based Model Reference Adaptive Control (DMRAC). Our architecture utilizes the power of deep neural network representations for modeling signiﬁcant nonlinearities while marrying it with the boundedness guarantees that characterize MRAC based controllers. We demonstrate through simulations and analysis that DMRAC can subsume previously studied learning based MRAC methods, such as concurrent learning and GP-MRAC. This makes DMRAC a highly powerful architecture for high-performance control of nonlinear systems with long-term learning properties.}
-      \field{annotation}{Comment: Accepted in IEEE CDC-2019}
-      \field{month}{9}
-      \field{note}{arXiv:1909.08602 [cs, eess]}
-      \field{title}{Deep {Model} {Reference} {Adaptive} {Control}}
-      \field{urlday}{19}
-      \field{urlmonth}{6}
-      \field{urlyear}{2024}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Joshi and Chowdhary - 2019 - Deep Model Reference Adaptive Control.pdf:/Users/dalimwahby/Zotero/storage/XFM9A2LN/Joshi and Chowdhary - 2019 - Deep Model Reference Adaptive Control.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1909.08602
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1909.08602
-      \endverb
-      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control}
-    \endentry
-    \entry{trisantoApplicationNeuralNetworks2006}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=f81715101731f61e1d761819bd5d7fbf}{%
-           family={Trisanto},
-           familyi={T\bibinitperiod},
-           given={Agus},
-           giveni={A\bibinitperiod}}}%
-        {{hash=fd920f9dbc0d54c2c44d2532967cc804}{%
-           family={Yasser},
-           familyi={Y\bibinitperiod},
-           given={Muhammad},
-           giveni={M\bibinitperiod}}}%
-        {{hash=0024cbdd6e5ed783b5b467bef0b03c30}{%
-           family={Haggag},
-           familyi={H\bibinitperiod},
-           given={Ayman},
-           giveni={A\bibinitperiod}}}%
-        {{hash=2c432c01361b70eadbba3f85e13e20df}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Jianming},
-           giveni={J\bibinitperiod}}}%
-        {{hash=9949acf96604e75825b787250d3fadf4}{%
-           family={Yahagi},
-           familyi={Y\bibinitperiod},
-           given={Takashi},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{607c2ccf7a7f8d6b522be471a5cafda0}
-      \strng{fullhash}{ef72c03f2a6cffea4825ca08f893b076}
-      \strng{fullhashraw}{ef72c03f2a6cffea4825ca08f893b076}
-      \strng{bibnamehash}{ef72c03f2a6cffea4825ca08f893b076}
-      \strng{authorbibnamehash}{ef72c03f2a6cffea4825ca08f893b076}
-      \strng{authornamehash}{607c2ccf7a7f8d6b522be471a5cafda0}
-      \strng{authorfullhash}{ef72c03f2a6cffea4825ca08f893b076}
-      \strng{authorfullhashraw}{ef72c03f2a6cffea4825ca08f893b076}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper investigates the application of neural networks (NNs) to conventional model reference adaptive control (MRAC) for controlling the real plant of the nonlinear magnetic levitation system. In the conventional MRAC scheme, the controller is designed to realize the plant output convergence to the reference model output based on the assumption that the plant can be linearized. This scheme is eﬀective for controlling a linear plant with unknown parameters in the ideal case. However, it may not be assured to succeed in controlling a nonlinear plant with unknown structures in the real case. We incorporate a neural network in the MRAC to overcome this problem. The control input is given by the sum of the output of the adaptive controller and the output of the NN. The NN is used to compensate for the nonlinearity of the plant that is not taken into consideration in the conventional MRAC. We developed an eﬃcient method for calculating the sensitivity of the plant that is utilized in the NN to perform the backpropagation algorithm very eﬃciently. The plant of the magnetic levitation system has inherent strong nonlinearities due to the natural properties of the magnetic ﬁelds and uncertainties. Therefore, to conﬁrm the eﬀectiveness of our proposed controller, we implemented our proposed controller in real time on an experimental test bed of a magnetic levitation system. Finally, experimental results veriﬁed that the proposed control strategy has the advantages of tracking desired output perfectly and reducing the error.}
-      \field{issn}{1344-7653, 1347-538X}
-      \field{journaltitle}{JSME International Journal Series C}
-      \field{number}{4}
-      \field{title}{Application of {Neural} {Networks} to {MRAC} for the {Nonlinear} {Magnetic} {Levitation} {System}}
-      \field{urlday}{19}
-      \field{urlmonth}{6}
-      \field{urlyear}{2024}
-      \field{volume}{49}
-      \field{year}{2006}
-      \field{urldateera}{ce}
-      \field{pages}{1073\bibrangedash 1083}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1299/jsmec.49.1073
-      \endverb
-      \verb{file}
-      \verb Trisanto et al. - 2006 - Application of Neural Networks to MRAC for the Non.pdf:/Users/dalimwahby/Zotero/storage/2Z2W5WDF/Trisanto et al. - 2006 - Application of Neural Networks to MRAC for the Non.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.jstage.jst.go.jp/article/jsmec/49/4/49_4_1073/_article
-      \endverb
-      \verb{url}
-      \verb http://www.jstage.jst.go.jp/article/jsmec/49/4/49_4_1073/_article
-      \endverb
-    \endentry
     \entry{khalilNonlinearSystems1996}{book}{}{}
       \name{author}{1}{}{%
         {{hash=c687708249e29c8fa3d8d0c0ff1612f9}{%
@@ -1563,8 +1152,8 @@
       \strng{authornamehash}{c687708249e29c8fa3d8d0c0ff1612f9}
       \strng{authorfullhash}{c687708249e29c8fa3d8d0c0ff1612f9}
       \strng{authorfullhashraw}{c687708249e29c8fa3d8d0c0ff1612f9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This book is written is such a way that the level of mathematical sophistication builds up from chapter to chapter. It has been reorganized into four parts: basic analysis, analysis of feedback systems, advanced analysis, and nonlinear feedback control. Updated content includes subjects which have proven useful in nonlinear control design in recent years new in the 3rd edition are: expanded treatment of passivity and passivity-based control; integral control, high-gain feedback, recursive methods, optimal stabilizing control, control Lyapunov functions, and observers. For use as a self-study or reference guide by engineers and applied mathematicians.}

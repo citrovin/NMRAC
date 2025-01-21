@@ -2377,14 +2377,17 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">whitaker1959adaptive</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">bosshartComparisonTwoPID2021</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">wahby</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">bosshartComparisonTwoPID2021</bcf:citekey>
     <bcf:citekey order="3" intorder="1">shackclothSynthesisModelReference1965</bcf:citekey>
     <bcf:citekey order="4" intorder="1">hornikUniversalApproximationUnknown1990a</bcf:citekey>
     <bcf:citekey order="5" intorder="1">jiangBriefReviewNeural2017</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">congPIDLikeNeuralNetwork2009</bcf:citekey>
-    <bcf:citekey order="6" intorder="2">thanhNonlinearPIDControl2006</bcf:citekey>
-    <bcf:citekey order="6" intorder="3">norrisNeuralNetworksControl2021</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">wahby</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">congPIDLikeNeuralNetwork2009</bcf:citekey>
+    <bcf:citekey order="6" intorder="3">thanhNonlinearPIDControl2006</bcf:citekey>
+    <bcf:citekey order="6" intorder="4">norrisNeuralNetworksControl2021</bcf:citekey>
     <bcf:citekey order="7" intorder="1">kordaStabilityPerformanceVerification2022</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">revay_convex_2021</bcf:citekey>
     <bcf:citekey order="8" intorder="1">lavretskyCombinedCompositeModel2009</bcf:citekey>
     <bcf:citekey order="8" intorder="2">slamaModelReferenceAdaptive2018</bcf:citekey>
     <bcf:citekey order="8" intorder="3">astromAdaptiveControl2008</bcf:citekey>
@@ -2398,19 +2401,10 @@
     <bcf:citekey order="15" intorder="1">narendraRobustAdaptiveControl1988</bcf:citekey>
     <bcf:citekey order="16" intorder="1">lavretskyCombinedCompositeModel2009</bcf:citekey>
     <bcf:citekey order="16" intorder="2">taoAdaptiveControlSystems2013</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">slotineAdaptiveControlRobot1987a</bcf:citekey>
-    <bcf:citekey order="17" intorder="2">slotineAdaptiveRobotControl1987</bcf:citekey>
-    <bcf:citekey order="17" intorder="3">slotineAppliedNonlinearControl1991</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">duarte-mermoudExperimentalEvaluationCombined2002</bcf:citekey>
-    <bcf:citekey order="18" intorder="2">duarte-mermoudControlLongitudinalMovement2005</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">patinoNeuralNetworkbasedModel2000</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">karnalasadanNeuralNetworkBased2004</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">lavretskyCombinedCompositeModel2009</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">joshiDeepModelReference2019</bcf:citekey>
-    <bcf:citekey order="22" intorder="2">trisantoApplicationNeuralNetworks2006</bcf:citekey>
-    <bcf:citekey order="22" intorder="3">slamaModelReferenceAdaptive2018</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">khalilNonlinearSystems1996</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">thanhNonlinearPIDControl2006</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">lavretskyCombinedCompositeModel2009</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">khalilNonlinearSystems1996</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">wahby</bcf:citekey>
+    <bcf:citekey order="19" intorder="2">thanhNonlinearPIDControl2006</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
