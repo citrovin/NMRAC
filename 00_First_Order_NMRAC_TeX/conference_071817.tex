@@ -1,0 +1,75 @@
+\documentclass[conference]{IEEEtran}
+% \IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+
+
+\usepackage{soul}
+
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+% \usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\usepackage[backend=biber,style=ieee]{biblatex}
+\addbibresource{references.bib}
+
+% Define new environments
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\begin{document}
+
+
+\title{Nonlinear Model Reference Adaptive Control (NMRAC) for First Order Systems}
+% max 15 words
+
+
+
+\author{\IEEEauthorblockN{Dalim Wahby}
+\IEEEauthorblockA{ \textit{Université Côte d'Azur}\\
+\textit{I3S/CNRS}\\
+Sophia Antipolis, France \\
+wahby@i3s.unice.fr}
+\and
+\IEEEauthorblockN{Alvaro Detailleur}
+\IEEEauthorblockA{\textit{IDSC} \\
+\textit{ETH Zürich}\\
+Zürich, Switzerland \\
+adetailleur@student.ethz.ch}
+\and
+\IEEEauthorblockN{Guillaume Ducard}
+\IEEEauthorblockA{ \textit{Université Côte d'Azur}\\
+\textit{I3S/CNRS}\\
+Sophia Antipolis, France \\
+ducard@i3s.unice.fr}
+}
+\maketitle
+
+\input{sections/00_abstract}
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_methodology}
+\input{sections/04_results}
+\input{sections/05_discussion.tex}
+
+
+
+% \section*{Acknowledgment}
+% \hl{...}
+\printbibliography
+
+\end{document}

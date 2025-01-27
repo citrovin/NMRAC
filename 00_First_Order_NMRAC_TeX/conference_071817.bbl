@@ -109,11 +109,7 @@
       \field{month}{11}
       \field{note}{ISSN: 2767-9896}
       \field{title}{Comparison {Between} {Two} {PID} {Neural} {Network} {Controller} {Approaches} - {Simulation} and {Discussion}}
-      \field{urlday}{28}
-      \field{urlmonth}{2}
-      \field{urlyear}{2024}
       \field{year}{2021}
-      \field{urldateera}{ce}
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
       \verb{doi}
@@ -162,12 +158,8 @@
       \field{number}{2}
       \field{series}{2nd {IFAC} {Symposium} on the {Theory} of {Self}-{Adaptive} {Control} {Systems}, {Teddington}, {UK}, {September} 14-17, 1965}
       \field{title}{Synthesis of {Model} {Reference} {Adaptive} {Systems} by {Liapunov}'s {Second} {Method}}
-      \field{urlday}{24}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{2}
       \field{year}{1965}
-      \field{urldateera}{ce}
       \field{pages}{145\bibrangedash 152}
       \range{pages}{8}
       \verb{doi}
@@ -219,12 +211,8 @@
       \field{month}{1}
       \field{number}{5}
       \field{title}{Universal approximation of an unknown mapping and its derivatives using multilayer feedforward networks}
-      \field{urlday}{16}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{volume}{3}
       \field{year}{1990}
-      \field{urldateera}{ce}
       \field{pages}{551\bibrangedash 560}
       \range{pages}{10}
       \verb{doi}
@@ -295,12 +283,8 @@
       \field{month}{10}
       \field{note}{Publisher: Hindawi}
       \field{title}{A {Brief} {Review} of {Neural} {Networks} {Based} {Learning} and {Control} and {Their} {Applications} for {Robots}}
-      \field{urlday}{12}
-      \field{urlmonth}{2}
-      \field{urlyear}{2024}
       \field{volume}{2017}
       \field{year}{2017}
-      \field{urldateera}{ce}
       \field{pages}{e1895897}
       \range{pages}{-1}
       \verb{doi}
@@ -350,12 +334,8 @@
       \field{month}{10}
       \field{number}{10}
       \field{title}{{PID}-{Like} {Neural} {Network} {Nonlinear} {Adaptive} {Control} for {Uncertain} {Multivariable} {Motion} {Control} {Systems}}
-      \field{urlday}{23}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{volume}{56}
       \field{year}{2009}
-      \field{urldateera}{ce}
       \field{pages}{3872\bibrangedash 3879}
       \range{pages}{8}
       \verb{doi}
@@ -402,12 +382,8 @@
       \field{month}{11}
       \field{number}{9}
       \field{title}{Nonlinear {PID} control to improve the control performance of 2 axes pneumatic artificial muscle manipulator using neural network}
-      \field{urlday}{23}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{volume}{16}
       \field{year}{2006}
-      \field{urldateera}{ce}
       \field{pages}{577\bibrangedash 587}
       \range{pages}{11}
       \verb{doi}
@@ -468,11 +444,7 @@
       \field{month}{10}
       \field{shorttitle}{Neural {Networks} for {Control}}
       \field{title}{Neural {Networks} for {Control}: {A} {Tutorial} and {Survey} of {Stability}-{Analysis} {Methods}, {Properties}, and {Discussions}}
-      \field{urlday}{6}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2021}
-      \field{urldateera}{ce}
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
       \verb{doi}
@@ -516,11 +488,7 @@
       \field{note}{arXiv:2102.02273 [math]}
       \field{shorttitle}{Stability and performance verification of dynamical systems controlled by neural networks}
       \field{title}{Stability and performance verification of dynamical systems controlled by neural networks: algorithms and complexity}
-      \field{urlday}{21}
-      \field{urlmonth}{2}
-      \field{urlyear}{2024}
       \field{year}{2022}
-      \field{urldateera}{ce}
       \verb{doi}
       \verb 10.48550/arXiv.2102.02273
       \endverb
@@ -579,11 +547,7 @@
       \field{isbn}{978-1-6654-4197-1}
       \field{month}{5}
       \field{title}{A {Convex} {Parameterization} of {Robust} {Recurrent} {Neural} {Networks}}
-      \field{urlday}{27}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
       \field{year}{2021}
-      \field{urldateera}{ce}
       \field{pages}{2824\bibrangedash 2829}
       \range{pages}{6}
       \verb{doi}
@@ -628,12 +592,8 @@
       \field{month}{11}
       \field{number}{11}
       \field{title}{Combined/{Composite} {Model} {Reference} {Adaptive} {Control}}
-      \field{urlday}{24}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{54}
       \field{year}{2009}
-      \field{urldateera}{ce}
       \field{pages}{2692\bibrangedash 2697}
       \range{pages}{6}
       \verb{doi}
@@ -693,11 +653,7 @@
       \field{isbn}{978-1-5386-4449-2}
       \field{month}{3}
       \field{title}{Model reference adaptive control for {MIMO} nonlinear systems using {RBF} neural networks}
-      \field{urlday}{19}
-      \field{urlmonth}{6}
-      \field{urlyear}{2024}
       \field{year}{2018}
-      \field{urldateera}{ce}
       \field{pages}{346\bibrangedash 351}
       \range{pages}{6}
       \verb{doi}
@@ -814,12 +770,8 @@
       \field{month}{9}
       \field{number}{5}
       \field{title}{Theory and applications of adaptive control—{A} survey}
-      \field{urlday}{19}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{19}
       \field{year}{1983}
-      \field{urldateera}{ce}
       \field{pages}{471\bibrangedash 486}
       \range{pages}{16}
       \verb{doi}
@@ -885,11 +837,7 @@
       \field{booktitle}{Encyclopedia of {Systems} and {Control}}
       \field{isbn}{978-1-4471-5102-9}
       \field{title}{History of {Adaptive} {Control}}
-      \field{urlday}{19}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{2014}
-      \field{urldateera}{ce}
       \field{pages}{1\bibrangedash 9}
       \range{pages}{9}
       \verb{doi}
@@ -952,12 +900,8 @@
       \field{number}{2}
       \field{series}{2nd {IFAC} {Workshop} on {Adaptive} {Systems} in {Control} and {Signal} {Processing} 1986, {Lund}, {Sweden}, 30 {June}-2 {July} 1986}
       \field{title}{Revisiting the {Mit} {Rule} for {Adaptive} {Control}}
-      \field{urlday}{19}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{20}
       \field{year}{1987}
-      \field{urldateera}{ce}
       \field{pages}{161\bibrangedash 166}
       \range{pages}{6}
       \verb{doi}
@@ -1006,12 +950,8 @@
       \field{month}{10}
       \field{number}{10}
       \field{title}{Combined direct and indirect approach to adaptive control}
-      \field{urlday}{29}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{volume}{34}
       \field{year}{1989}
-      \field{urldateera}{ce}
       \field{pages}{1071\bibrangedash 1075}
       \range{pages}{5}
       \verb{doi}
@@ -1064,11 +1004,7 @@
       \field{booktitle}{1988 {American} {Control} {Conference}}
       \field{month}{6}
       \field{title}{Robust {Adaptive} {Control} {Using} {Combined} {Direct} and {Indirect} {Methods}}
-      \field{urlday}{29}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
       \field{year}{1988}
-      \field{urldateera}{ce}
       \field{pages}{2429\bibrangedash 2434}
       \range{pages}{6}
       \verb{doi}

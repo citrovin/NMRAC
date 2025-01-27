@@ -22,9 +22,8 @@ if SAVE_PLOTS==1
 end
 
 %% Simulation parameters
-
-Ts = 0.01;
-Tsim = 10;
+Ts = 0.001;
+Tsim = 3.5;
 
 % Define the time vector
 t_vec = 0:Ts:Tsim;
@@ -71,17 +70,14 @@ end
 
 %% Reference Model
 % Dynamics of the closed loop system
-% xm_dot = -Am*xm + Bm*theta_m*xm
-% xm_dot = (-Am+Bm*theta_m)*xm
-% Hence, we know that xm = 0 constitutes an equilibrium point in continuous
-% time.
+% xm_dot = Am*xm + Bm*theta_m*xm
 
-Am = 10;
-Bm = 1;
+Am = -4;
+Bm = -0.5;
 
 theta_m = 4;
 
-IC_P_m = -1;
+IC_P_m = -10;
 xm = zeros(1, num_steps);
 xm(1,1) = IC_P_m;
 
@@ -90,23 +86,24 @@ em = zeros(1, num_steps);
 
 
 %% System
-% Dymanics: x_dot = -Am*x + B*u
+% Dymanics: x_dot = Am*x + B*u
 A = Am;
 B = Bm;
 
 theta = zeros(1, num_steps);
-theta(1,1) = 1;
+% theta(1,1) = 1;
 
 % Learning rate
 if input_signal==1
-    c = 0.05;
-    c = 0.1;
+    % c = 0.05;
+    c = 0.2;
+    % c = 1;
 elseif input_signal==2
     c = 0.15;
 elseif input_signal==3
     c = 0.005;
 end
-IC_P = -IC_P_m;
+IC_P = IC_P_m;
 x = zeros(1, num_steps);
 x(1,1) = IC_P;
 
@@ -140,8 +137,8 @@ for t = 1:(num_steps-1)
     
 
     u = sigmoid(theta(:,t)*ex(:,t), a);
-    x_dot = -A*x(:,t) + B*u;
-
+    x_dot = A*x(:,t) + B*u;
+    
     % x(:,t+1) = (Ts/2) * (x_dot + x_dot_prev) + x(:,t); % Tustin update
     x(:,t+1) = x(:,t) + Ts*x_dot;
     
@@ -151,8 +148,9 @@ for t = 1:(num_steps-1)
     em(:,t) = r(:,t) - xm(:,t);
     
     um = sigmoid(theta_m*em(:,t), a);
-    xm_dot = -Am*xm(:,t) + Bm*um;
-    
+    % xm_dot = Am*xm(:,t) + Bm*um;
+
+    xm_dot = Am*xm(:,t) + Bm*um;
     % xm(:,t+1) = (Ts/2) * (xm_dot + xm_dot_prev) + xm(:,t); % Tustin update
     xm(:,t+1) = xm(:,t) + Ts*xm_dot;
 
@@ -165,8 +163,13 @@ for t = 1:(num_steps-1)
     e_dot = xm_dot - x_dot;
     
     % Update params
-    theta_dot = update_params(e(:,t), ex(:,t), ex_dot, x_dot, theta(:,t), theta_m, ...
-                              A, Am, B, Bm, c, a, am, TOLLERANCE);
+    theta_dot = compute_parameter_update( ...
+                B, theta(:,t), ex(:,t), a, ...
+                Am, A, x_dot, ...
+                Bm, theta_m, am, r_dot(:,t), ...
+                c, 1, e(:,t) ...
+        );
+
     theta(t+1) = theta(t) + Ts*theta_dot;
     % theta(:,t+1) = theta(:,t) + (Ts/2) * (theta_dot + theta_dot_prev); % Tustin update
     theta_dot_prev = theta_dot;
@@ -311,15 +314,28 @@ end
 
 %% Function
 
-function theta_dot = update_params(e, ex, ex_dot, x_dot, theta, theta_m, ...
-    A, Am, B, Bm, c, a, am, TOLLERANCE)
-    if abs(ex)<TOLLERANCE
-        theta_dot = 0;
+function theta_dot = compute_parameter_update( ...
+    B, theta, ex, a, ...
+    Am, A, x_dot, ...
+    Bm, theta_m, am, r_dot, ...
+    Lambda, P, e)
+    % This function computes the weight update for the proposed MIMO NMRAC
+    % of the Master thesis of Dalim Wahby
+    
+    if norm(ex)>eps
+        ex_dot = r_dot - x_dot;
+    
+        Sigma = pinv(B*dsigmoid(theta*ex, a));
+    
+        xsi = (1/Lambda)*P*e ...
+            + (Am-A)*x_dot ...
+            + Bm*dsigmoid(theta_m*ex, am)*theta_m*ex_dot...
+            - B*dsigmoid(theta*ex, a)*theta*ex_dot;
+        
+        % theta_dot = Sigma*xsi*pinv(ex);
+        theta_dot = (ex'\(Sigma*xsi)')';
     else
-        theta_dot = 1/(ex*B*dsigmoid(theta*ex, a)) * ( ...
-            (1/c) * e + (A-Am)*x_dot ...
-            + Bm*dsigmoid(theta_m*ex, am)*theta_m*ex_dot) ...
-            - (theta/ex) * ex_dot;
+        theta_dot = zeros(size(theta));
     end
 end
 
@@ -330,13 +346,6 @@ function u = sigmoid(x, a)
 end
 
 function du = dsigmoid(x, a)
-    % This function returns the derivative of the sigmoid function with
-    % respect to x, evaluated at x.
-    du = diag(4.*exp(-a.*x)./(1+exp(-a.*x)).^2);
-end
-
-
-function du = dsigmoid_ref(x, a)
     % This function returns the derivative of the sigmoid function with
     % respect to x, evaluated at x.
     du = 4.*exp(-a.*x)./(1+exp(-a.*x)).^2;
@@ -357,7 +366,7 @@ function [dV, dV_term1, dV_term2, dV_term3, dV2] = compute_lyapunov_derivative_v
     alpha, Lambda, alpha_dot, ...
     e_dot)
     
-    dV_term1 = -2.*e'*P*Am*e;
+    dV_term1 = 2.*e'*P*Am*e;
     gamma = Bm*(sigmoid(theta_m*em, am) - sigmoid(theta_m*ex, am));
     dV_term2 = 2.*e'*P*gamma;
     dV_term3 = 2.*alpha'*(P*e+inv(Lambda)*alpha_dot);

@@ -2399,8 +2399,7 @@
     <bcf:citekey order="13" intorder="1">shackclothSynthesisModelReference1965</bcf:citekey>
     <bcf:citekey order="14" intorder="1">duarteCombinedDirectIndirect1989</bcf:citekey>
     <bcf:citekey order="15" intorder="1">narendraRobustAdaptiveControl1988</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">lavretskyCombinedCompositeModel2009</bcf:citekey>
-    <bcf:citekey order="16" intorder="2">taoAdaptiveControlSystems2013</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">taoAdaptiveControlSystems2013</bcf:citekey>
     <bcf:citekey order="17" intorder="1">lavretskyCombinedCompositeModel2009</bcf:citekey>
     <bcf:citekey order="18" intorder="1">khalilNonlinearSystems1996</bcf:citekey>
     <bcf:citekey order="19" intorder="1">wahby</bcf:citekey>

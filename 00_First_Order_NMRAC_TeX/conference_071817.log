@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  21 JAN 2025 10:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  27 JAN 2025 15:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/main.tex
-(c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/main.tex
+**"c:/Users/wahby/OneDrive - Université Côte d'Azur/Documents/PhD/Conferences/ICAAD_2025/First_Order_NMRAC_TeX/conference_071817.tex"
+(c:/Users/wahby/OneDrive - Université Côte d'Azur/Documents/PhD/Conferences/ICAAD_2025/First_Order_NMRAC_TeX/conference_071817.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
 (IEEEtran.cls
@@ -103,9 +103,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen164
 \c@IEEEbiography=\count274
 \@IEEEtranrubishbin=\box53
-)
-** ATTENTION: Overriding command lockouts (line 2).
-(C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+) (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
 Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
  (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty
 Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
@@ -563,81 +561,43 @@ Package: amsthm 2020/05/29 v2.20.6
 \dth@everypar=\toks35
 )
 \c@definition=\count431
- (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2024/10/20 v24.12 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
-\babel@savecnt=\count432
-\U@D=\dimen193
-\l@unhyphenated=\language80
- (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read3
-\bbl@dirlevel=\count433
+\@quotelevel=\count432
+\@quotereset=\count433
+ (conference_071817.aux)
+\openout1 = `conference_071817.aux'.
 
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 108.
-)) (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
-)
-
-Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
-(biblatex)                Loading 'csquotes' recommended.
-
-\@quotelevel=\count434
-\@quotereset=\count435
-(main.aux)
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 -- Lines per column: 56 (exact).
 (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count436
-\scratchdimen=\dimen194
+\scratchcounter=\count434
+\scratchdimen=\dimen193
 \scratchbox=\box57
-\nofMPsegments=\count437
-\nofMParguments=\count438
+\nofMPsegments=\count435
+\nofMParguments=\count436
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count439
-\MPscratchDim=\dimen195
-\MPnumerator=\count440
-\makeMPintoPDFobject=\count441
+\MPscratchCnt=\count437
+\MPscratchDim=\dimen194
+\MPnumerator=\count438
+\makeMPintoPDFobject=\count439
 \everyMPtoPDFconversion=\toks37
 ) (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -651,38 +611,34 @@ File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `main.bcf'.
+\openout3 = `conference_071817.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
-Package biblatex Info: Reference section=0 on input line 35.
-Package biblatex Info: Reference segment=0 on input line 35.
- (sections/00_abstract.tex) (sections/01_introduction.tex) (sections/02_related_work.tex
+Package biblatex Info: ... file 'conference_071817.bbl' found.
+ (conference_071817.bbl)
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
+ (sections/00_abstract.tex) (sections/01_introduction.tex
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
-(C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+) (sections/02_related_work.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+ (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
  (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 5607) in paragraph at lines 12--13
-[]\OT1/ptm/m/n/10 Additionally, Lavret-sky pro-poses \OT1/ptm/m/it/10 Com-bined/Composite
- []
-
-) (sections/03_methodology.tex
 
 [1{C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-]
+]) (sections/03_methodology.tex
 
-<images/MRAC_Blockdiagram.png, id=10, 414.786pt x 149.796pt>
+<images/MRAC_Blockdiagram.png, id=9, 414.786pt x 149.796pt>
 File: images/MRAC_Blockdiagram.png Graphic file (type png)
 <use images/MRAC_Blockdiagram.png>
-Package pdftex.def Info: images/MRAC_Blockdiagram.png  used on input line 75.
+Package pdftex.def Info: images/MRAC_Blockdiagram.png  used on input line 77.
 (pdftex.def)             Requested size: 201.60077pt x 72.8064pt.
 
 
@@ -691,17 +647,17 @@ Package pdftex.def Info: images/MRAC_Blockdiagram.png  used on input line 75.
 ) (sections/04_results.tex
 
 [3]
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png, id=29, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png, id=30, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png  used on input line 33.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png, id=30, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png, id=31, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png  used on input line 40.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png, id=31, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png, id=32, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png  used on input line 53.
@@ -711,24 +667,24 @@ Underfull \hbox (badness 1571) in paragraph at lines 54--54
 []\OT1/ptm/m/n/9 (a) |Lya-punov func-tion and its
  []
 
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png, id=32, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png, id=33, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png  used on input line 60.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
 
 
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png, id=33, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png, id=34, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png  used on input line 79.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png, id=34, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png, id=35, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png  used on input line 86.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png, id=35, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png, id=36, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png  used on input line 99.
@@ -738,21 +694,48 @@ Underfull \hbox (badness 1571) in paragraph at lines 100--100
 []\OT1/ptm/m/n/9 (a) |Lya-punov func-tion and its
  []
 
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png, id=36, 421.575pt x 316.0608pt>
+<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png, id=37, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png>
 Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png  used on input line 106.
 (pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-) (sections/05_discussion.tex)
-Underfull \vbox (badness 5331) has occurred while \output is active []
+
+Underfull \vbox (badness 1097) has occurred while \output is active []
 
 
 
 [4 <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png (PNG copy)>]
+<images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png, id=41, 421.575pt x 316.0608pt>
+File: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png Graphic file (type png)
+<use images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png>
+Package pdftex.def Info: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png  used on input line 126.
+(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
+<images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png, id=42, 421.575pt x 316.0608pt>
+File: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png Graphic file (type png)
+<use images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png>
+Package pdftex.def Info: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png  used on input line 133.
+(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
+<images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png, id=43, 421.575pt x 316.0608pt>
+File: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png Graphic file (type png)
+<use images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png>
+Package pdftex.def Info: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png  used on input line 146.
+(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
+
+Underfull \hbox (badness 1571) in paragraph at lines 147--147
+[]\OT1/ptm/m/n/9 (a) |Lya-punov func-tion and its
+ []
+
+<images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png, id=44, 421.575pt x 316.0608pt>
+File: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png Graphic file (type png)
+<use images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png>
+Package pdftex.def Info: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png  used on input line 153.
+(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
+) (sections/05_discussion.tex)
 
 
 
-[5]
+[5 <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png (PNG copy)>]
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -766,31 +749,27 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[6
-
-] (main.aux)
+[6] (conference_071817.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
+Package logreq Info: Writing requests to 'conference_071817.run.xml'.
+\openout1 = `conference_071817.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15431 strings out of 473897
- 294955 string characters out of 5726461
- 1129184 words of memory out of 5000000
- 38110 multiletter control sequences out of 15000+600000
+ 14370 strings out of 473897
+ 276826 string characters out of 5726461
+ 1098851 words of memory out of 5000000
+ 37076 multiletter control sequences out of 15000+600000
  594733 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,14n,81p,2187b,1746s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 504486 bytes).
+ 66i,14n,81p,2249b,1271s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on conference_071817.pdf (6 pages, 618048 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 117 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
