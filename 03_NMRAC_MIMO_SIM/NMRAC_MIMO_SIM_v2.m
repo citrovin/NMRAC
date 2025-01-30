@@ -62,17 +62,12 @@ end
 % Internal dynamics (pure double integrator)
 Am = zeros(n,n);
 Am(1,2) = 1;
-Am(2,2) = 0;
-
-% Am(1,1) = -2;
-% Am(1,2) = -1;
-% Am(2,1) = 1;
-% Am(2,2) = 0;
+Am(2,2) = -0.25;
 
 % Input dynamics
 Bm = zeros(n,m);
-Bm(2,1) = 1;
-Bm(2,2) = -1;
+Bm(2,1) = 10;
+Bm(2,2) = -10;
 
 % Initial conditions Model Ref
 IC_M = [-pi ; 0];
@@ -99,11 +94,14 @@ theta_m = L;
 % Internal dynamics
 A = zeros(n,n);
 A(1,2) = 1;
-A(2,2) = 0;
-% max_uncertainty = 0.05;
-% rng(42);
-% Delta_A = max_uncertainty * (rand(n) - 0.5);
-% A = A + Delta_A;
+A(2,2) = -0.25; % with friction
+% This is closer to the real model of the Double Flying Arm
+
+% Add model uncertainty
+max_uncertainty = 0.01;
+rng(42);
+Delta_A = max_uncertainty * (rand(n) - 0.5);
+A = A + Delta_A;
 
 % Input dynamics
 B = Bm;
@@ -116,7 +114,7 @@ theta(:,:,1) = theta_init;
 
 % Learning Rate
 % Lambda = 25.*[1 0; 0 1]; % constant reference Signal
-Lambda = 0.2.*[1 0; 0 1]; % sinusodial reference signal
+Lambda = 30.*[1 0; 0 1]; % sinusodial reference signal
 % Lambda = [1 0; 0 1];
 
 % Initial conditions System

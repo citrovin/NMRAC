@@ -1,3 +1,24 @@
-\section{Conclusion}
+\section{Discussion}
 \label{sec:conclusion}
-The simulation results of the scalar system strongly indicate that the proposed update law successfully enables the system to learn the desired parameters across different reference signals. The speed of convergence can be influenced by adjusting the learning rate $c$, with smaller values leading to faster convergence and larger values leading to slower convergence. Another observation that does not become evident in the presented simulations, is that the proposed update is sensitive to numerical instabilities. However, this instability can be reduced by lowering the sampling time, thus enhancing the precision of integral and derivative approximations, improving overall simulation accuracy. Future work will focus on tackling these numerical instabilities and developing update laws for more complex systems.
+% The simulation results of the scalar system strongly indicate that the proposed update law successfully enables the system to learn the desired parameters across different reference signals. The speed of convergence can be influenced by adjusting the learning rate $c$, with smaller values leading to faster convergence and larger values leading to slower convergence. Another observation that does not become evident in the presented simulations, is that the proposed update is sensitive to numerical instabilities. However, this instability can be reduced by lowering the sampling time, thus enhancing the precision of integral and derivative approximations, and improving overall simulation accuracy.
+
+The simulation results strongly indicate that the proposed update law enables the system to learn the desired parameters across different reference signals. The speed of convergence is influenced by the learning rate c, where smaller values accelerate convergence while larger values slow it down. However, a key limitation of the method is its sensitivity to numerical instabilities, which may not be immediately apparent from the presented simulations. These instabilities can be mitigated by reducing the sampling time, thereby improving the precision of integral and derivative approximations and enhancing overall simulation accuracy.
+
+%% 1.
+
+% The proposed method successfully demonstrates the capability of learning a stabilizing controller despite the presence of a nonlinear neural network in the closed-loop system. Simulation results validate the effectiveness of the update law in enabling the system to learn the desired parameters for various reference signals. The learning rate plays a crucial role in determining the speed of convergence, with smaller values accelerating the learning process. While numerical instabilities may arise, they can be mitigated by reducing the sampling time, thereby improving the accuracy of integral and derivative approximations.
+
+%% 2.
+\section{Conclusion}
+% This paper introduces a novel algorithm for learning NNCs, with guaranteed stability properties. The proposed update law is based on the theory of linear MRACs. Unlike existing methods, the proposed algorithm is designed to include nonlinearities within the controller. The simulation results indicate the potential of the propsed algorithm, despite of numerical instability limitations. 
+This paper presents a novel algorithm for learning neural network controllers (NNCs) with guaranteed stability properties. The proposed update law builds upon the theory of linear Model Reference Adaptive Control (MRAC) and uniquely extends it to handle nonlinearities within the controller. Simulation results demonstrate the effectiveness of the algorithm in enabling parameter learning across different reference signals. While numerical instabilities pose a limitation, appropriate tuning of the sampling time can mitigate their impact. These findings highlight the potential of the proposed approach for adaptive control applications involving nonlinear systems.
+
+% Simulation results show the ability of the proposed algorithm to make the parameters of the NN converge to their desired values across different reference \hl{signals}. One of the key strengths of the method is its adaptability, as the learning rate can be tuned to influence the speed of convergence. Additionally, despite potential numerical instabilities, these can be mitigated by adjusting the sampling time to enhance simulation accuracy. 
+
+% However, sensitivity to numerical precision remains a limitation that requires further investigation, particularly in extending the approach to more complex, high-dimensional systems.
+
+
+\section{Future Work}
+% Future work could explore refining the update law to improve robustness against numerical instabilities and extending the methodology to experimental validation on physical systems. These advancements would further establish the practical applicability of the proposed approach in real-world control problems.
+
+Future work should focus on refining the update law to enhance robustness against numerical instabilities, potentially through deriving direct discrete update laws. Additionally, extending the methodology to experimental validation on physical systems would provide deeper insights into its real-world applicability and further validate its effectiveness in practical control scenarios.

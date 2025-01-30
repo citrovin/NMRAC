@@ -1,0 +1,54 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{wahby}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=332b9a5f70413daa8f124226857951fd}{%
+           family={Wahby},
+           familyi={W\bibinitperiod},
+           given={Dalim},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f1d58398e8cf786f99be90f7d75df7bf}{%
+           family={Ducard},
+           familyi={D\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{fullhash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{fullhashraw}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{bibnamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authorbibnamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authornamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authorfullhash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authorfullhashraw}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{PID controllers are among the most popular control strategies used in industry. However, one of their main limitations is often the diﬀiculty to tune them properly to achieve the best possible performance. Therefore, adaptive PID methods have been developed, such as PID neural networks (PIDNN). The gains are often tuned by minimizing the error between the desired output and the system’s output, using a gradient descent-based algorithm. We propose an enhanced PIDNN controller (EPIDNNC) that introduces a reference model, to teach the controller a desired response. This work is successfully applied to a nonlinear system, an inverted pendulum, whose dynamics and parameters are unknown to the controller. Our EPIDNNC method is superior to the standard PIDNNC, due to 1) better performance, with respect to overshoot, steady-state error, settling time, and oscillatory behavior, and 2) a new versatile update law, allowing changes in the reference model dynamics.}
+      \field{journaltitle}{2024 9th International Conference on Robotics and Automation Engineering}
+      \field{title}{Enhanced {PID} {Neural} {Network} {Control} ({EPIDNNC}) - {A} {Model} {Reference} {Approach}}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

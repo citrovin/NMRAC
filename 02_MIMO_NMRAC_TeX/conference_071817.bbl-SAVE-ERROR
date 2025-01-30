@@ -45,7 +45,7 @@
       \field{pages}{59\bibrangedash 100}
       \range{pages}{42}
     \endentry
-    \entry{wahby_enhanced_2024}{inproceedings}{}{}
+    \entry{wahby}{article}{}{}
       \name{author}{2}{}{%
         {{hash=332b9a5f70413daa8f124226857951fd}{%
            family={Wahby},
@@ -70,26 +70,9 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{PID controllers are among the most popular control strategies used in industry. However, one of their main limitations is often the difficulty to tune them properly to achieve the best possible performance. Therefore, adaptive PID methods have been developed, such as PID neural networks (PIDNN). The gains are often tuned by minimizing the error between the desired output and the system’s output, using a gradient descent-based algorithm. We propose an enhanced PIDNN controller (EPIDNNC) that introduces a reference model, to teach the controller a desired response. This work is successfully applied to a nonlinear system, an inverted pendulum, whose dynamics and parameters are unknown to the controller. Our EPIDNNC method is superior to the standard PIDNNC, due to 1) better performance, with respect to overshoot, steady-state error, settling time, and oscillatory behavior, and 2) a new versatile update law, allowing changes in the reference model dynamics.}
-      \field{booktitle}{2024 9th {International} {Conference} on {Robotics} and {Automation} {Engineering} ({ICRAE})}
-      \field{month}{11}
+      \field{abstract}{PID controllers are among the most popular control strategies used in industry. However, one of their main limitations is often the diﬀiculty to tune them properly to achieve the best possible performance. Therefore, adaptive PID methods have been developed, such as PID neural networks (PIDNN). The gains are often tuned by minimizing the error between the desired output and the system’s output, using a gradient descent-based algorithm. We propose an enhanced PIDNN controller (EPIDNNC) that introduces a reference model, to teach the controller a desired response. This work is successfully applied to a nonlinear system, an inverted pendulum, whose dynamics and parameters are unknown to the controller. Our EPIDNNC method is superior to the standard PIDNNC, due to 1) better performance, with respect to overshoot, steady-state error, settling time, and oscillatory behavior, and 2) a new versatile update law, allowing changes in the reference model dynamics.}
+      \field{journaltitle}{2024 9th International Conference on Robotics and Automation Engineering}
       \field{title}{Enhanced {PID} {Neural} {Network} {Control} ({EPIDNNC}) - {A} {Model} {Reference} {Approach}}
-      \field{year}{2024}
-      \field{pages}{205\bibrangedash 210}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ICRAE64368.2024.10851525
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\wahby\\Zotero\\storage\\Y4YJU3TD\\Wahby and Ducard - 2024 - Enhanced PID Neural Network Control (EPIDNNC) - A Model Reference Approach.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/10851525
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/10851525
-      \endverb
-      \keyw{Adaptation models,Adaptive systems,Control,Cost function,Gradient Descent,Heuristic algorithms,Industries,Inverted Pendulum,Neural networks,Neural Networks,Nonlinear dynamical systems,PID,Robotics and automation,Standards,Steady-state}
     \endentry
     \entry{bosshartComparisonTwoPID2021}{inproceedings}{}{}
       \name{author}{3}{}{%
@@ -279,6 +262,9 @@
            given={Junpei},
            giveni={J\bibinitperiod}}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \strng{namehash}{a7baef9d3cc3675eacba58eb47a5f3c9}
       \strng{fullhash}{e9641990f02deda55cbbe0c651a8e6f1}
       \strng{fullhashraw}{e9641990f02deda55cbbe0c651a8e6f1}
@@ -314,6 +300,106 @@
       \verb https://www.hindawi.com/journals/complexity/2017/1895897/
       \endverb
     \endentry
+    \entry{congPIDLikeNeuralNetwork2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=deaed8dd936d7f8758884dcad6b13797}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eae847448355a6af337a795b5a8dab36}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{fullhash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{fullhashraw}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{bibnamehash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{authorbibnamehash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{authornamehash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{authorfullhash}{b7fdceb3e08b663af61719a8661dda40}
+      \strng{authorfullhashraw}{b7fdceb3e08b663af61719a8661dda40}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A mix locally recurrent neural network was used to create a proportional-integral-derivative (PID)-like neural network nonlinear adaptive controller for uncertain multivariable single-input/multi-output system. It is composed of a neural network with no more than three neural nodes in hidden layer, and there are included an activation feedback and an output feedback, respectively, in a hidden layer. Such a special structure makes the exterior feature of the neural network controller able to become a P, PI, PD, or PID controller as needed. The closed-loop error between directly measured output and expected value of the system is chosen to be the input of the controller. Only a group of initial weights values, which can run the controlled closed-loop system stably, are required to be determined. The proposed controller can update weights of the neural network online according to errors caused by uncertain factors of system such as modeling error and external disturbance, based on stable learning rate. The resilient back-propagation algorithm with sign instead of the gradient is used to update the network weights. The basic ideas, techniques, and system stability proof were presented in detail. Finally, actual experiments both of single and double inverted pendulums were implemented, and the comparison of effectiveness between the proposed controller and the linear optimal regulator were given.}
+      \field{issn}{0278-0046}
+      \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{{PID}-{Like} {Neural} {Network} {Nonlinear} {Adaptive} {Control} for {Uncertain} {Multivariable} {Motion} {Control} {Systems}}
+      \field{volume}{56}
+      \field{year}{2009}
+      \field{pages}{3872\bibrangedash 3879}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/TIE.2009.2018433
+      \endverb
+      \verb{file}
+      \verb Cong and Liang - 2009 - PID-Like Neural Network Nonlinear Adaptive Control.pdf:/Users/dalimwahby/Zotero/storage/ZJ4L7PX4/Cong and Liang - 2009 - PID-Like Neural Network Nonlinear Adaptive Control.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/4812095/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/4812095/
+      \endverb
+    \endentry
+    \entry{thanhNonlinearPIDControl2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=6389e966c97103ce13aec48a8c478646}{%
+           family={Thanh},
+           familyi={T\bibinitperiod},
+           given={TU\bibnamedelima Diep\bibnamedelima Cong},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=65b5361dc62952569219428179267ce0}{%
+           family={Ahn},
+           familyi={A\bibinitperiod},
+           given={Kyoung\bibnamedelima Kwan},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{fullhash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{fullhashraw}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{bibnamehash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{authorbibnamehash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{authornamehash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{authorfullhash}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \strng{authorfullhashraw}{3d3ce054dae86b6878bd9bf312d62cc4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The application of a robot to rehabilitation has become a matter of great concern because of the requirement of functional recovery therapy of arm or limb. A novel pneumatic artificial muscle (PAM) actuator which has achieved increased popularity to provide the inherent safety and mobility assistance to humans performing tasks and another advantages such as high strength and power/weight ratio, low cost, compactness, ease of maintenance, cleanliness, readily available and cheap power source and so on. However, the complex nonlinear dynamics of the PAM manipulator makes it a challenging and appealing system for modeling and control design. The problems with the time variance, compliance, high hysteresis and nonlinearity of pneumatic systems have made it difficult to realize precise position control. In order to realize satisfactory control performance, the effect of nonlinear factors contained in the PAM manipulator must be considered. The purpose of this study is to improve the control performance of 2 axes PAM manipulator using a nonlinear PID controller. Superb mixture of conventional PID controller and the neural network, which has powerful capability of learning, adaptation and tackling nonlinearity, brings us a novel nonlinear PID controller using neural network. This proposed controller is appropriate for a kind of plants with nonlinearity uncertainties and disturbances. The experiments were carried out in practical 2 axes PAM manipulator and the effectiveness of the proposed control algorithm was demonstrated through the experiments, which suggests its superior performance and disturbance rejection.}
+      \field{issn}{0957-4158}
+      \field{journaltitle}{Mechatronics}
+      \field{month}{11}
+      \field{number}{9}
+      \field{title}{Nonlinear {PID} control to improve the control performance of 2 axes pneumatic artificial muscle manipulator using neural network}
+      \field{volume}{16}
+      \field{year}{2006}
+      \field{pages}{577\bibrangedash 587}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.mechatronics.2006.03.011
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/dalimwahby/Zotero/storage/5NKLSV9E/S0957415806000523.html:text/html;Thanh and Ahn - 2006 - Nonlinear PID control to improve the control perfo.pdf:/Users/dalimwahby/Zotero/storage/8E6CPE86/Thanh and Ahn - 2006 - Nonlinear PID control to improve the control perfo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957415806000523
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957415806000523
+      \endverb
+      \keyw{Neural network,Manipulator,Nonlinear PID control,Pneumatic artificial muscle}
+    \endentry
     \entry{norrisNeuralNetworksControl2021}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{hash=1bf8057de554a7eb8afaf6543c3d0c82}{%
@@ -331,6 +417,9 @@
            familyi={O\bibinitperiod},
            given={Christopher},
            giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \list{location}{1}{%
         {Mauritius, Mauritius}%
@@ -371,13 +460,16 @@
       \verb https://ieeexplore.ieee.org/document/9590912/
       \endverb
     \endentry
-    \entry{kordaStabilityPerformanceVerification2022}{article}{}{}
+    \entry{kordaStabilityPerformanceVerification2022}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=8588c3b35617719e052bb38102e53011}{%
            family={Korda},
            familyi={K\bibinitperiod},
            given={Milan},
            giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
       }
       \strng{namehash}{8588c3b35617719e052bb38102e53011}
       \strng{fullhash}{8588c3b35617719e052bb38102e53011}
@@ -391,29 +483,25 @@
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This letter makes several contributions on stability and performance verification of nonlinear dynamical systems controlled by neural networks. First, we show that the stability and performance of a polynomial dynamical system controlled by a neural network with semialgebraically representable activation functions (e.g., ReLU) can be certified by convex semidefinite programming. The result is based on the fact that the semialgebraic representation of the activation functions and polynomial dynamics allows one to search for a Lyapunov function using polynomial sum-of-squares methods. Second, we remark that even in the case of a linear system controlled by a neural network with ReLU activation functions, the problem of verifying asymptotic stability is undecidable. Finally, under additional assumptions, we establish a converse result on the existence of a polynomial Lyapunov function for this class of systems. Numerical results with code available online on examples of state-space dimension up to 50 and neural networks with several hundred neurons and up to 30 layers demonstrate the method.}
-      \field{issn}{2475-1456}
-      \field{journaltitle}{IEEE Control Systems Letters}
-      \field{note}{Conference Name: IEEE Control Systems Letters}
-      \field{shorttitle}{Stability and {Performance} {Verification} of {Dynamical} {Systems} {Controlled} by {Neural} {Networks}}
-      \field{title}{Stability and {Performance} {Verification} of {Dynamical} {Systems} {Controlled} by {Neural} {Networks}: {Algorithms} and {Complexity}}
-      \field{volume}{6}
+      \field{abstract}{This work makes several contributions on stability and performance verification of nonlinear dynamical systems controlled by neural networks. First, we show that the stability and performance of a polynomial dynamical system controlled by a neural network with semialgebraically representable activation functions (e.g., ReLU) can be certified by convex semidefinite programming. The result is based on the fact that the semialgebraic representation of the activation functions and polynomial dynamics allows one to search for a Lyapunov function using polynomial sum-of-squares methods. Second, we remark that even in the case of a linear system controlled by a neural network with ReLU activation functions, the problem of verifying asymptotic stability is undecidable. Finally, under additional assumptions, we establish a converse result on the existence of a polynomial Lyapunov function for this class of systems. Numerical results with code available online on examples of state-space dimension up to 50 and neural networks with several hundred neurons and up to 30 layers demonstrate the method.}
+      \field{month}{9}
+      \field{note}{arXiv:2102.02273 [math]}
+      \field{shorttitle}{Stability and performance verification of dynamical systems controlled by neural networks}
+      \field{title}{Stability and performance verification of dynamical systems controlled by neural networks: algorithms and complexity}
       \field{year}{2022}
-      \field{pages}{3265\bibrangedash 3270}
-      \range{pages}{6}
       \verb{doi}
-      \verb 10.1109/LCSYS.2022.3181806
+      \verb 10.48550/arXiv.2102.02273
       \endverb
       \verb{file}
-      \verb Full Text PDF:C\:\\Users\\wahby\\Zotero\\storage\\XBV7CY7C\\Korda - 2022 - Stability and Performance Verification of Dynamical Systems Controlled by Neural Networks Algorithm.pdf:application/pdf
+      \verb arXiv Fulltext PDF:/Users/dalimwahby/Zotero/storage/JLG65VIN/Korda - 2022 - Stability and performance verification of dynamica.pdf:application/pdf;arXiv.org Snapshot:/Users/dalimwahby/Zotero/storage/LUD5G2KE/2102.html:text/html
       \endverb
       \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/abstract/document/9792308
+      \verb http://arxiv.org/abs/2102.02273
       \endverb
       \verb{url}
-      \verb https://ieeexplore.ieee.org/abstract/document/9792308
+      \verb http://arxiv.org/abs/2102.02273
       \endverb
-      \keyw{Asymptotic stability,Biological neural networks,certification,Control systems,Convex functions,Lyapunov methods,Neural networks,Numerical stability,semidefinite programming,stability,Stability criteria}
+      \keyw{Mathematics - Optimization and Control,Mathematics - Dynamical Systems}
     \endentry
     \entry{revay_convex_2021}{inproceedings}{}{}
       \name{author}{3}{}{%
@@ -432,6 +520,9 @@
            familyi={M\bibinitperiod},
            given={Ian\bibnamedelima R.},
            giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \list{location}{1}{%
         {New Orleans, LA, USA}%
@@ -479,6 +570,9 @@
            familyi={L\bibinitperiod},
            given={E.},
            giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \strng{namehash}{12d75240b65fd41d813a5ab17340fe3e}
       \strng{fullhash}{12d75240b65fd41d813a5ab17340fe3e}
@@ -533,6 +627,9 @@
            given={Mohamed},
            giveni={M\bibinitperiod}}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \list{location}{1}{%
         {Hammamet}%
       }
@@ -585,6 +682,9 @@
            given={Björn},
            giveni={B\bibinitperiod}}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \list{publisher}{1}{%
         {Courier Corporation}%
       }
@@ -622,6 +722,9 @@
            familyi={K\bibinitperiod},
            given={Allen},
            giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \list{publisher}{1}{%
         {M.I.T. Instrumentation Laboratory}%
@@ -704,6 +807,9 @@
            familyi={S\bibinitperiod},
            given={Tariq},
            giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \list{location}{1}{%
         {London}%
@@ -824,6 +930,9 @@
            given={K.S.},
            giveni={K\bibinitperiod}}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \strng{namehash}{cd2f6d220319d50640b1402500e581b7}
       \strng{fullhash}{cd2f6d220319d50640b1402500e581b7}
       \strng{fullhashraw}{cd2f6d220319d50640b1402500e581b7}
@@ -870,6 +979,9 @@
            familyi={D\bibinitperiod},
            given={Manuel\bibnamedelima A.},
            giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \list{location}{1}{%
         {Atlanta, GA, USA}%
@@ -920,6 +1032,9 @@
            familyi={W\bibinitperiod},
            given={Kevin\bibnamedelima A.},
            giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \list{location}{1}{%
         {London}%
@@ -1003,7 +1118,7 @@
       \verb Tao et al. - 2013 - Adaptive Control of Systems with Actuator Failures.pdf:/Users/dalimwahby/Zotero/storage/KJKUVLHW/Tao et al. - 2013 - Adaptive Control of Systems with Actuator Failures.pdf:application/pdf
       \endverb
     \endentry
-    \entry{khalil_nonlinear_2002}{book}{}{}
+    \entry{khalilNonlinearSystems1996}{book}{}{}
       \name{author}{1}{}{%
         {{hash=c687708249e29c8fa3d8d0c0ff1612f9}{%
            family={Khalil},
@@ -1011,8 +1126,8 @@
            given={Hassan\bibnamedelima K.},
            giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Upper Saddle River, N.J}%
+      \list{language}{1}{%
+        {en}%
       }
       \list{publisher}{1}{%
         {Prentice Hall}%
@@ -1029,63 +1144,15 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{3rd ed}
-      \field{isbn}{978-0-13-067389-3}
-      \field{title}{Nonlinear systems}
-      \field{year}{2002}
+      \field{abstract}{This book is written is such a way that the level of mathematical sophistication builds up from chapter to chapter. It has been reorganized into four parts: basic analysis, analysis of feedback systems, advanced analysis, and nonlinear feedback control. Updated content includes subjects which have proven useful in nonlinear control design in recent years new in the 3rd edition are: expanded treatment of passivity and passivity-based control; integral control, high-gain feedback, recursive methods, optimal stabilizing control, control Lyapunov functions, and observers. For use as a self-study or reference guide by engineers and applied mathematicians.}
+      \field{isbn}{978-0-13-228024-2}
+      \field{note}{Google-Books-ID: qiBuQgAACAAJ}
+      \field{title}{Nonlinear {Systems}}
+      \field{year}{1996}
       \verb{file}
-      \verb PDF:C\:\\Users\\wahby\\Zotero\\storage\\6HTPQRRD\\Khalil - 2002 - Nonlinear systems.pdf:application/pdf
+      \verb 1996_Khalil_NonlinearSystems.pdf:/Users/dalimwahby/Zotero/storage/RF5XVKA4/1996_Khalil_NonlinearSystems.pdf:application/pdf
       \endverb
-      \keyw{Nonlinear theories}
-    \endentry
-    \entry{thanhNonlinearPIDControl2006}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=6389e966c97103ce13aec48a8c478646}{%
-           family={Thanh},
-           familyi={T\bibinitperiod},
-           given={TU\bibnamedelima Diep\bibnamedelima Cong},
-           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=65b5361dc62952569219428179267ce0}{%
-           family={Ahn},
-           familyi={A\bibinitperiod},
-           given={Kyoung\bibnamedelima Kwan},
-           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \strng{namehash}{3d3ce054dae86b6878bd9bf312d62cc4}
-      \strng{fullhash}{3d3ce054dae86b6878bd9bf312d62cc4}
-      \strng{fullhashraw}{3d3ce054dae86b6878bd9bf312d62cc4}
-      \strng{bibnamehash}{3d3ce054dae86b6878bd9bf312d62cc4}
-      \strng{authorbibnamehash}{3d3ce054dae86b6878bd9bf312d62cc4}
-      \strng{authornamehash}{3d3ce054dae86b6878bd9bf312d62cc4}
-      \strng{authorfullhash}{3d3ce054dae86b6878bd9bf312d62cc4}
-      \strng{authorfullhashraw}{3d3ce054dae86b6878bd9bf312d62cc4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The application of a robot to rehabilitation has become a matter of great concern because of the requirement of functional recovery therapy of arm or limb. A novel pneumatic artificial muscle (PAM) actuator which has achieved increased popularity to provide the inherent safety and mobility assistance to humans performing tasks and another advantages such as high strength and power/weight ratio, low cost, compactness, ease of maintenance, cleanliness, readily available and cheap power source and so on. However, the complex nonlinear dynamics of the PAM manipulator makes it a challenging and appealing system for modeling and control design. The problems with the time variance, compliance, high hysteresis and nonlinearity of pneumatic systems have made it difficult to realize precise position control. In order to realize satisfactory control performance, the effect of nonlinear factors contained in the PAM manipulator must be considered. The purpose of this study is to improve the control performance of 2 axes PAM manipulator using a nonlinear PID controller. Superb mixture of conventional PID controller and the neural network, which has powerful capability of learning, adaptation and tackling nonlinearity, brings us a novel nonlinear PID controller using neural network. This proposed controller is appropriate for a kind of plants with nonlinearity uncertainties and disturbances. The experiments were carried out in practical 2 axes PAM manipulator and the effectiveness of the proposed control algorithm was demonstrated through the experiments, which suggests its superior performance and disturbance rejection.}
-      \field{issn}{0957-4158}
-      \field{journaltitle}{Mechatronics}
-      \field{month}{11}
-      \field{number}{9}
-      \field{title}{Nonlinear {PID} control to improve the control performance of 2 axes pneumatic artificial muscle manipulator using neural network}
-      \field{volume}{16}
-      \field{year}{2006}
-      \field{pages}{577\bibrangedash 587}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1016/j.mechatronics.2006.03.011
-      \endverb
-      \verb{file}
-      \verb ScienceDirect Snapshot:/Users/dalimwahby/Zotero/storage/5NKLSV9E/S0957415806000523.html:text/html;Thanh and Ahn - 2006 - Nonlinear PID control to improve the control perfo.pdf:/Users/dalimwahby/Zotero/storage/8E6CPE86/Thanh and Ahn - 2006 - Nonlinear PID control to improve the control perfo.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0957415806000523
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0957415806000523
-      \endverb
-      \keyw{Neural network,Manipulator,Nonlinear PID control,Pneumatic artificial muscle}
+      \keyw{Technology \& Engineering / Electrical,Mathematics / Mathematical Analysis,Science / Chaotic Behavior in Systems,Technology / Engineering / Electrical}
     \endentry
   \enddatalist
 \endrefsection

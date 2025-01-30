@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  30 JAN 2025 20:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  28 JAN 2025 11:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/conference_071817.tex
-(c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/conference_071817.tex
+**c:/Users/wahby/Documents/GitHub/NMRAC/02_MIMO_NMRAC_TeX/conference_071817.tex
+(c:/Users/wahby/Documents/GitHub/NMRAC/02_MIMO_NMRAC_TeX/conference_071817.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
 (IEEEtran.cls
@@ -618,134 +618,7 @@ Package biblatex Info: ... file 'conference_071817.bbl' found.
  (conference_071817.bbl)
 Package biblatex Info: Reference section=0 on input line 34.
 Package biblatex Info: Reference segment=0 on input line 34.
- (sections/00_abstract.tex) (sections/01_introduction.tex
-
-) (sections/02_related_work.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
- (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
- (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-[1{C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
-
-]) (sections/03_methodology.tex
-
-<images/MRAC_Blockdiagram.png, id=9, 414.786pt x 149.796pt>
-File: images/MRAC_Blockdiagram.png Graphic file (type png)
-<use images/MRAC_Blockdiagram.png>
-Package pdftex.def Info: images/MRAC_Blockdiagram.png  used on input line 75.
-(pdftex.def)             Requested size: 201.60077pt x 72.8064pt.
-
-
-[2 <./images/MRAC_Blockdiagram.png>]
-
-) (sections/04_results.tex
-
-[3]
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png, id=30, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png  used on input line 33.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png, id=31, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png  used on input line 40.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png, id=32, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png  used on input line 53.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-
-Underfull \hbox (badness 1571) in paragraph at lines 54--54
-[]\OT1/ptm/m/n/9 (a) |Lya-punov func-tion and its
- []
-
-<images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png, id=33, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png  used on input line 60.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-
-
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png, id=34, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png  used on input line 80.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png, id=35, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png  used on input line 87.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png, id=36, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png  used on input line 100.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-
-Underfull \hbox (badness 1571) in paragraph at lines 101--101
-[]\OT1/ptm/m/n/9 (a) |Lya-punov func-tion and its
- []
-
-<images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png, id=37, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png  used on input line 107.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-
-Underfull \vbox (badness 1097) has occurred while \output is active []
-
-
-
-[4 <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Alpha.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png (PNG copy)>]
-<images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png, id=41, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png  used on input line 127.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png, id=42, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png  used on input line 134.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-<images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png, id=43, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png  used on input line 147.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-
-Underfull \hbox (badness 1571) in paragraph at lines 148--148
-[]\OT1/ptm/m/n/9 (a) |Lya-punov func-tion and its
- []
-
-<images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png, id=44, 421.575pt x 316.0608pt>
-File: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png Graphic file (type png)
-<use images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png>
-Package pdftex.def Info: images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png  used on input line 154.
-(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
-) (sections/05_discussion.tex
-
-)
-
-[5 <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Response.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Parameters.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Lyapunov.png (PNG copy)> <./images/NL-MRAC-SIM/Smooth-Pulse/v2/NMRAC_First-Order_Alpha.png (PNG copy)>]
-Underfull \hbox (badness 1354) in paragraph at lines 74--74
-\OT1/ptm/m/n/10 2829, \OT1/ptm/m/sc/10 isbn\OT1/ptm/m/n/10 : 978-1-6654-4197-1. \OT1/ptm/m/sc/10 doi\OT1/ptm/m/n/10 : $10 . 23919 /
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 74--74
-[]\OT1/ptm/m/n/10 K. J. []Astr[]om and B. Wit-ten-mark, \OT1/ptm/m/it/10 Adap-tive Con-
- []
-
-
-
+ (sections/00_abstract.tex) (sections/01_introduction.tex) (sections/02_related_work.tex) (sections/03_methodology.tex) (sections/04_results.tex) (sections/05_discussion.tex)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -759,7 +632,13 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[6] (conference_071817.aux)
+
+
+[1{C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+
+
+] (conference_071817.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -769,17 +648,17 @@ Package logreq Info: Writing requests to 'conference_071817.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14388 strings out of 473897
- 276498 string characters out of 5726461
- 1097901 words of memory out of 5000000
- 37094 multiletter control sequences out of 15000+600000
- 594733 words of font info for 107 fonts, out of 8000000 for 9000
+ 14037 strings out of 473897
+ 262276 string characters out of 5726461
+ 1075076 words of memory out of 5000000
+ 36764 multiletter control sequences out of 15000+600000
+ 588856 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,14n,81p,2200b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_071817.pdf (6 pages, 618704 bytes).
+ 66i,8n,81p,1142b,1092s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on conference_071817.pdf (1 page, 57326 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 27 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
