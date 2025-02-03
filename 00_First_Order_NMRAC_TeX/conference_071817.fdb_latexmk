@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber conference_071817"] 1738264458.29545 "conference_071817.bcf" "conference_071817.bbl" "conference_071817" 1738264594.02016 0
-  "conference_071817.bcf" 1738264593 110227 d61a1ca4817d7e1f6b72f8764c4b93be "pdflatex"
+["biber conference_071817"] 1738331373.08722 "conference_071817.bcf" "conference_071817.bbl" "conference_071817" 1738340955.16971 0
+  "conference_071817.bcf" 1738340954 110315 c29246417f0995dd18c8bddfd99d6b2e "pdflatex"
   "references.bib" 1738248394 143387 796a733b369d05b2f10b084d7cd49199 ""
   (generated)
   "conference_071817.bbl"
   "conference_071817.blg"
   (rewritten before read)
-["pdflatex"] 1738264590.91583 "c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/conference_071817.tex" "conference_071817.pdf" "conference_071817" 1738264594.02153 0
+["pdflatex"] 1738340953.49851 "c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/conference_071817.tex" "conference_071817.pdf" "conference_071817" 1738340955.17054 0
   "C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1737986424 123019 4e6d54fe28a67ad1b512b0cc9d03c2e8 ""
   "C:/Users/wahby/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730144020 11948316 131a577be9c0b4b38db227b09c0fceab ""
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -114,11 +114,11 @@
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "IEEEtran.cls" 1503660870 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/conference_071817.tex" 1737986547 1702 218c6c940c560f7db618e67f55b67ffe ""
-  "conference_071817.aux" 1738264593 10066 74c80fc763dbf5d1f15d8c4ef73a62df "pdflatex"
-  "conference_071817.bbl" 1738264462 61854 662b8e55af3e70b1361a86c40d07ecc0 "biber conference_071817"
-  "conference_071817.run.xml" 1738264593 2493 bbd7691c6d637ac586b509c9f0e41ae1 "pdflatex"
-  "conference_071817.tex" 1737986547 1702 218c6c940c560f7db618e67f55b67ffe ""
+  "c:/Users/wahby/Documents/GitHub/NMRAC/00_First_Order_NMRAC_TeX/conference_071817.tex" 1738340952 1731 03f2246b6130f8567596f7f21f14125a ""
+  "conference_071817.aux" 1738340954 10294 5fcc6e31fd873600d115244ee23565e0 "pdflatex"
+  "conference_071817.bbl" 1738331375 61854 662b8e55af3e70b1361a86c40d07ecc0 "biber conference_071817"
+  "conference_071817.run.xml" 1738340954 2493 bbd7691c6d637ac586b509c9f0e41ae1 "pdflatex"
+  "conference_071817.tex" 1738340952 1731 03f2246b6130f8567596f7f21f14125a ""
   "images/MRAC_Blockdiagram.png" 1736503889 83453 b6c9d28ed4af3ff2145c4c950acf453a ""
   "images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Alpha.png" 1734450905 27334 cd8db1bce263d55b21437ace581fe14e ""
   "images/NL-MRAC-SIM/Sine/v2/NMRAC_First-Order_Lyapunov.png" 1734450901 32519 c6b226e8f2a8b6d27d3eece09c2cad4a ""
@@ -133,11 +133,11 @@
   "images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Parameters.png" 1734451019 21390 a06fb8f576862b55cbfc9f34d9647aec ""
   "images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png" 1734451013 26165 b186afc785f87f0cd1dea8cfd7bd1bbd ""
   "sections/00_abstract.tex" 1738263303 1131 0aeec810467446cfe6852049a10e97ec ""
-  "sections/01_introduction.tex" 1738264454 2766 630da6e562974b35643e8760c62364b9 ""
-  "sections/02_related_work.tex" 1738264589 5947 7e25d31aa2ee7fc654c9f3040c0359fb ""
-  "sections/03_methodology.tex" 1738264530 10318 9c5349ac2ba25397bc73b88b4aab99e9 ""
-  "sections/04_results.tex" 1738263837 10135 19a87112358d96a3b66336733c4a842a ""
-  "sections/05_discussion.tex" 1738264344 4499 afe917647cae3caaa8e8c3da092dfe23 ""
+  "sections/01_introduction.tex" 1738338757 2832 8ed353038ae7f95e5b05881be77292a2 ""
+  "sections/02_related_work.tex" 1738338962 5947 fbf71e4a8082bd4f50bed20ea771d07b ""
+  "sections/03_methodology.tex" 1738339109 9915 87cb6f358922aeb722cabaf53a2513c4 ""
+  "sections/04_results.tex" 1738339151 10069 c11a35634ace99208931f0320c6840b0 ""
+  "sections/05_discussion.tex" 1738339335 1794 bc75cdbfcaf4a17524c416f2a2e92e2e ""
   (generated)
   "conference_071817.aux"
   "conference_071817.bcf"

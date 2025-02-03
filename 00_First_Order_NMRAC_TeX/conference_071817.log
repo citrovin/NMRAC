@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  30 JAN 2025 20:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  31 JAN 2025 17:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -561,39 +561,40 @@ Package: amsthm 2020/05/29 v2.20.6
 \dth@everypar=\toks35
 )
 \c@definition=\count431
-\@quotelevel=\count432
-\@quotereset=\count433
+\c@theorem=\count432
+\@quotelevel=\count433
+\@quotereset=\count434
  (conference_071817.aux)
 \openout1 = `conference_071817.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 -- Lines per column: 56 (exact).
 (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count434
+\scratchcounter=\count435
 \scratchdimen=\dimen193
 \scratchbox=\box57
-\nofMPsegments=\count435
-\nofMParguments=\count436
+\nofMPsegments=\count436
+\nofMParguments=\count437
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count437
+\MPscratchCnt=\count438
 \MPscratchDim=\dimen194
-\MPnumerator=\count438
-\makeMPintoPDFobject=\count439
+\MPnumerator=\count439
+\makeMPintoPDFobject=\count440
 \everyMPtoPDFconversion=\toks37
 ) (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -616,37 +617,37 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'conference_071817.bbl' found.
  (conference_071817.bbl)
-Package biblatex Info: Reference section=0 on input line 34.
-Package biblatex Info: Reference segment=0 on input line 34.
+Package biblatex Info: Reference section=0 on input line 36.
+Package biblatex Info: Reference segment=0 on input line 36.
  (sections/00_abstract.tex) (sections/01_introduction.tex
 
 ) (sections/02_related_work.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
- (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
- (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
 [1{C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-]) (sections/03_methodology.tex
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+ (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+ (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)) (sections/03_methodology.tex
 
 <images/MRAC_Blockdiagram.png, id=9, 414.786pt x 149.796pt>
 File: images/MRAC_Blockdiagram.png Graphic file (type png)
 <use images/MRAC_Blockdiagram.png>
-Package pdftex.def Info: images/MRAC_Blockdiagram.png  used on input line 75.
+Package pdftex.def Info: images/MRAC_Blockdiagram.png  used on input line 70.
 (pdftex.def)             Requested size: 201.60077pt x 72.8064pt.
 
 
-[2 <./images/MRAC_Blockdiagram.png>]
+[2]
 
 ) (sections/04_results.tex
 
-[3]
+[3 <./images/MRAC_Blockdiagram.png>]
 <images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png, id=30, 421.575pt x 316.0608pt>
 File: images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png Graphic file (type png)
 <use images/NL-MRAC-SIM/Step/v2/NMRAC_First-Order_Response.png>
@@ -769,15 +770,15 @@ Package logreq Info: Writing requests to 'conference_071817.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14388 strings out of 473897
- 276498 string characters out of 5726461
- 1097901 words of memory out of 5000000
- 37094 multiletter control sequences out of 15000+600000
+ 14397 strings out of 473897
+ 276605 string characters out of 5726461
+ 1097984 words of memory out of 5000000
+ 37103 multiletter control sequences out of 15000+600000
  594733 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,14n,81p,2200b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_071817.pdf (6 pages, 618704 bytes).
+Output written on conference_071817.pdf (6 pages, 619957 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
