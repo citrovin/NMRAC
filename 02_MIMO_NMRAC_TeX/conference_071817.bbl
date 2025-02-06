@@ -19,34 +19,144 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{wahby}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=332b9a5f70413daa8f124226857951fd}{%
-           family={Wahby},
-           familyi={W\bibinitperiod},
-           given={Dalim},
-           giveni={D\bibinitperiod}}}%
-        {{hash=f1d58398e8cf786f99be90f7d75df7bf}{%
-           family={Ducard},
-           familyi={D\bibinitperiod},
-           given={Guillaume},
-           giveni={G\bibinitperiod}}}%
+    \entry{khalil_nonlinear_2002}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=c687708249e29c8fa3d8d0c0ff1612f9}{%
+           family={Khalil},
+           familyi={K\bibinitperiod},
+           given={Hassan\bibnamedelima K.},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
-      \strng{namehash}{904a57bc0955cfe3d2703d25b9ed98f7}
-      \strng{fullhash}{904a57bc0955cfe3d2703d25b9ed98f7}
-      \strng{fullhashraw}{904a57bc0955cfe3d2703d25b9ed98f7}
-      \strng{bibnamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
-      \strng{authorbibnamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
-      \strng{authornamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
-      \strng{authorfullhash}{904a57bc0955cfe3d2703d25b9ed98f7}
-      \strng{authorfullhashraw}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \list{location}{1}{%
+        {Upper Saddle River, N.J}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{fullhash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{fullhashraw}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{bibnamehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{authorbibnamehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{authornamehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{authorfullhash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{authorfullhashraw}{c687708249e29c8fa3d8d0c0ff1612f9}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{PID controllers are among the most popular control strategies used in industry. However, one of their main limitations is often the diﬀiculty to tune them properly to achieve the best possible performance. Therefore, adaptive PID methods have been developed, such as PID neural networks (PIDNN). The gains are often tuned by minimizing the error between the desired output and the system’s output, using a gradient descent-based algorithm. We propose an enhanced PIDNN controller (EPIDNNC) that introduces a reference model, to teach the controller a desired response. This work is successfully applied to a nonlinear system, an inverted pendulum, whose dynamics and parameters are unknown to the controller. Our EPIDNNC method is superior to the standard PIDNNC, due to 1) better performance, with respect to overshoot, steady-state error, settling time, and oscillatory behavior, and 2) a new versatile update law, allowing changes in the reference model dynamics.}
-      \field{journaltitle}{2024 9th International Conference on Robotics and Automation Engineering}
-      \field{title}{Enhanced {PID} {Neural} {Network} {Control} ({EPIDNNC}) - {A} {Model} {Reference} {Approach}}
+      \field{edition}{3rd ed}
+      \field{isbn}{978-0-13-067389-3}
+      \field{title}{Nonlinear systems}
+      \field{year}{2002}
+      \verb{file}
+      \verb PDF:C\:\\Users\\wahby\\Zotero\\storage\\6HTPQRRD\\Khalil - 2002 - Nonlinear systems.pdf:application/pdf
+      \endverb
+      \keyw{Nonlinear theories}
+    \endentry
+    \entry{yoshida2017spectralnormregularizationimproving}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=533a96e0549ba0ebe33580995731a148}{%
+           family={Yoshida},
+           familyi={Y\bibinitperiod},
+           given={Yuichi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8457e939735fb91de3d84cc0637781d3}{%
+           family={Miyato},
+           familyi={M\bibinitperiod},
+           given={Takeru},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{6fcc637b904aaeedd06a77b688d10532}
+      \strng{fullhash}{6fcc637b904aaeedd06a77b688d10532}
+      \strng{fullhashraw}{6fcc637b904aaeedd06a77b688d10532}
+      \strng{bibnamehash}{6fcc637b904aaeedd06a77b688d10532}
+      \strng{authorbibnamehash}{6fcc637b904aaeedd06a77b688d10532}
+      \strng{authornamehash}{6fcc637b904aaeedd06a77b688d10532}
+      \strng{authorfullhash}{6fcc637b904aaeedd06a77b688d10532}
+      \strng{authorfullhashraw}{6fcc637b904aaeedd06a77b688d10532}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{stat.ML}
+      \field{eprinttype}{arXiv}
+      \field{title}{Spectral Norm Regularization for Improving the Generalizability of Deep Learning}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1705.10941
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1705.10941
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1705.10941
+      \endverb
+    \endentry
+    \entry{johansson_improved_2023}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=95dc909c5326bb99b610165c29c5373a}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5c927797032d251527a2a07390768d5a}{%
+           family={Engsner},
+           familyi={E\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=afbc2cdecc145a0362e79251889da594}{%
+           family={Strannegård},
+           familyi={S\bibinitperiod},
+           given={Claes},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d373e3505b34f1486e80fea856e8b497}{%
+           family={Mostad},
+           familyi={M\bibinitperiod},
+           given={Petter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=1424c394afd87338c9f54b7d74f9c373}{%
+           family={Torra},
+           familyi={T\bibinitperiod},
+           given={Vicenç},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a2cd9d5cca3b198398bdbd131c6f3d53}{%
+           family={Narukawa},
+           familyi={N\bibinitperiod},
+           given={Yasuo},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Switzerland}%
+      }
+      \strng{namehash}{1b99378b190a3225e0624684fa8ef28d}
+      \strng{fullhash}{f4cd6d1d684a3c316232ce84f3490406}
+      \strng{fullhashraw}{f4cd6d1d684a3c316232ce84f3490406}
+      \strng{bibnamehash}{f4cd6d1d684a3c316232ce84f3490406}
+      \strng{authorbibnamehash}{f4cd6d1d684a3c316232ce84f3490406}
+      \strng{authornamehash}{1b99378b190a3225e0624684fa8ef28d}
+      \strng{authorfullhash}{f4cd6d1d684a3c316232ce84f3490406}
+      \strng{authorfullhashraw}{f4cd6d1d684a3c316232ce84f3490406}
+      \strng{editorbibnamehash}{f02516e021728645f768657774bc6584}
+      \strng{editornamehash}{f02516e021728645f768657774bc6584}
+      \strng{editorfullhash}{f02516e021728645f768657774bc6584}
+      \strng{editorfullhashraw}{f02516e021728645f768657774bc6584}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We improve on a line of research that seeks to regularize the spectral norm of the Jacobian of the input-output mapping for deep neural networks. While previous work rely on upper bounding techniques, we propose a scheme that targets the exact spectral norm. We evaluate this regularization method empirically with respect to its generalization performance and robustness.}
+      \field{booktitle}{Modeling {Decisions} for {Artificial} {Intelligence}}
+      \field{isbn}{978-3-031-33498-6}
+      \field{title}{Improved {Spectral} {Norm} {Regularization} for {Neural} {Networks}}
+      \field{year}{2023}
+      \field{pages}{181\bibrangedash 201}
+      \range{pages}{21}
     \endentry
   \enddatalist
 \endrefsection

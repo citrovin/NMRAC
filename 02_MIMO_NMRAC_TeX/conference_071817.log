@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  28 JAN 2025 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  4 FEB 2025 10:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -282,6 +282,8 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count297
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count298
+) (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 ) (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
  (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
@@ -566,20 +568,20 @@ Package: amsthm 2020/05/29 v2.20.6
  (conference_071817.aux)
 \openout1 = `conference_071817.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 -- Lines per column: 56 (exact).
 (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -616,9 +618,71 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'conference_071817.bbl' found.
  (conference_071817.bbl)
-Package biblatex Info: Reference section=0 on input line 34.
-Package biblatex Info: Reference segment=0 on input line 34.
- (sections/00_abstract.tex) (sections/01_introduction.tex) (sections/02_related_work.tex) (sections/03_methodology.tex) (sections/04_results.tex) (sections/05_discussion.tex)
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
+ (sections/00_abstract.tex) (sections/01_introduction.tex) (sections/02_related_work.tex) (sections/03_methodology.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+ (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+ (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+
+
+[1{C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+
+]
+
+LaTeX Warning: Reference `sec:NRMAC-MIMO-SIM' on page 1 undefined on input line 107.
+
+
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+
+
+<images/DoubleFlyingArm.pdf, id=16, 318.19984pt x 195.05296pt>
+File: images/DoubleFlyingArm.pdf Graphic file (type pdf)
+<use images/DoubleFlyingArm.pdf>
+Package pdftex.def Info: images/DoubleFlyingArm.pdf  used on input line 135.
+(pdftex.def)             Requested size: 252.0pt x 154.47707pt.
+
+
+[2 <./images/DoubleFlyingArm.pdf>]) (sections/04_results.tex
+<images/sine/NMRAC_MIMO_Response.png, id=33, 421.575pt x 316.0608pt>
+File: images/sine/NMRAC_MIMO_Response.png Graphic file (type png)
+<use images/sine/NMRAC_MIMO_Response.png>
+Package pdftex.def Info: images/sine/NMRAC_MIMO_Response.png  used on input line 10.
+(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
+<images/sine/NMRAC_MIMO_Error.png, id=34, 421.575pt x 316.0608pt>
+File: images/sine/NMRAC_MIMO_Error.png Graphic file (type png)
+<use images/sine/NMRAC_MIMO_Error.png>
+Package pdftex.def Info: images/sine/NMRAC_MIMO_Error.png  used on input line 17.
+(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
+<images/sine/NMRAC_MIMO_Parameters.png, id=35, 421.575pt x 316.0608pt>
+File: images/sine/NMRAC_MIMO_Parameters.png Graphic file (type png)
+<use images/sine/NMRAC_MIMO_Parameters.png>
+Package pdftex.def Info: images/sine/NMRAC_MIMO_Parameters.png  used on input line 27.
+(pdftex.def)             Requested size: 252.0pt x 188.929pt.
+<images/sine/NMRAC_MIMO_Lyapunov.png, id=36, 421.575pt x 316.0608pt>
+File: images/sine/NMRAC_MIMO_Lyapunov.png Graphic file (type png)
+<use images/sine/NMRAC_MIMO_Lyapunov.png>
+Package pdftex.def Info: images/sine/NMRAC_MIMO_Lyapunov.png  used on input line 37.
+(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
+<images/sine/NMRAC_MIMO_Alpha.png, id=37, 421.575pt x 316.0608pt>
+File: images/sine/NMRAC_MIMO_Alpha.png Graphic file (type png)
+<use images/sine/NMRAC_MIMO_Alpha.png>
+Package pdftex.def Info: images/sine/NMRAC_MIMO_Alpha.png  used on input line 44.
+(pdftex.def)             Requested size: 123.48138pt x 92.57642pt.
+) (sections/05_discussion.tex)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 72.
+ (C:\Users\wahby\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -632,33 +696,31 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[1{C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
-
-
-] (conference_071817.aux)
+[3 <./images/sine/NMRAC_MIMO_Response.png (PNG copy)> <./images/sine/NMRAC_MIMO_Error.png (PNG copy)> <./images/sine/NMRAC_MIMO_Parameters.png (PNG copy)> <./images/sine/NMRAC_MIMO_Lyapunov.png (PNG copy)> <./images/sine/NMRAC_MIMO_Alpha.png (PNG copy)>] (conference_071817.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'conference_071817.run.xml'.
 \openout1 = `conference_071817.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14037 strings out of 473897
- 262276 string characters out of 5726461
- 1075076 words of memory out of 5000000
- 36764 multiletter control sequences out of 15000+600000
- 588856 words of font info for 86 fonts, out of 8000000 for 9000
+ 15888 strings out of 473897
+ 305205 string characters out of 5726461
+ 1126519 words of memory out of 5000000
+ 38591 multiletter control sequences out of 15000+600000
+ 593226 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,81p,1142b,1092s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_071817.pdf (1 page, 57326 bytes).
+ 66i,15n,81p,1209b,1220s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on conference_071817.pdf (3 pages, 419088 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
