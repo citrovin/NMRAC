@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber conference_071817"] 0 "conference_071817.bcf" "conference_071817.bbl" "conference_071817" 1738660971.8328 -1
-  "conference_071817.bcf" 1738660971 108194 520681f5881641899cbd3f795f01ae21 "pdflatex"
+["biber conference_071817"] 1738931381.05335 "conference_071817.bcf" "conference_071817.bbl" "conference_071817" 1739182766.31708 0
+  "conference_071817.bcf" 1739182766 108285 e88877a7f68ad537e3c4f4cf8423dd26 "pdflatex"
   "references.bib" 1738575230 144613 87ceaaa8c98898cdca6a8fe3dcbb887d ""
   (generated)
   "conference_071817.bbl"
   "conference_071817.blg"
   (rewritten before read)
-["pdflatex"] 1738660969.09238 "c:/Users/wahby/Documents/GitHub/NMRAC/02_MIMO_NMRAC_TeX/conference_071817.tex" "conference_071817.pdf" "conference_071817" 1738660971.83413 0
+["pdflatex"] 1739182764.77453 "c:/Users/wahby/Documents/GitHub/NMRAC/02_MIMO_NMRAC_TeX/conference_071817.tex" "conference_071817.pdf" "conference_071817" 1739182766.31789 0
   "C:/Users/wahby/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1738588054 123019 4e6d54fe28a67ad1b512b0cc9d03c2e8 ""
   "C:/Users/wahby/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730144020 11948316 131a577be9c0b4b38db227b09c0fceab ""
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -112,12 +112,12 @@
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/wahby/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "IEEEtran.cls" 1503660870 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/wahby/Documents/GitHub/NMRAC/02_MIMO_NMRAC_TeX/conference_071817.tex" 1738588081 1742 e8895e02cbe24028381d994b4daaaec0 ""
-  "conference_071817.aux" 1738660971 5418 cb3f1ff1405b93bbb13bc3628b488c1c "pdflatex"
-  "conference_071817.bbl" 1738575233 6678 d61c87a9186a73ade9d17b1d4fd52b66 "biber conference_071817"
-  "conference_071817.run.xml" 1738660971 2493 bbd7691c6d637ac586b509c9f0e41ae1 "pdflatex"
-  "conference_071817.tex" 1738588081 1742 e8895e02cbe24028381d994b4daaaec0 ""
-  "images/DoubleFlyingArm.pdf" 1738587761 15479 29450cbdb1d21d3df2c022385620943e ""
+  "c:/Users/wahby/Documents/GitHub/NMRAC/02_MIMO_NMRAC_TeX/conference_071817.tex" 1739182764 1891 0bc8cf658930ab905649c900c399a25e ""
+  "conference_071817.aux" 1739182766 5746 0e158585e9492a29cbcc1b8932d86210 "pdflatex"
+  "conference_071817.bbl" 1738931399 8706 9c249c229632f865c4a6a4aeb99ba39b "biber conference_071817"
+  "conference_071817.run.xml" 1739182766 2493 bbd7691c6d637ac586b509c9f0e41ae1 "pdflatex"
+  "conference_071817.tex" 1739182764 1891 0bc8cf658930ab905649c900c399a25e ""
+  "images/DoubleFlyingArm.pdf" 1738929123 13405 5c643581c9a100e226830042fcb6a5e8 ""
   "images/sine/NMRAC_MIMO_Alpha.png" 1732695932 30564 f0ef901908a346d7ef5687b3d03b6c9f ""
   "images/sine/NMRAC_MIMO_Error.png" 1732695929 44976 adab3de1db3103dc09e3406c394ef9ec ""
   "images/sine/NMRAC_MIMO_Lyapunov.png" 1732695927 37288 be34b97d00bbea73eeaad322e20b6bb6 ""
@@ -126,7 +126,7 @@
   "sections/00_abstract.tex" 1738660968 192 d0ed03449bbb63b71eec0f14c187396f ""
   "sections/01_introduction.tex" 1738571013 24 0724ce7a131568ad239c1aac91dfb03b ""
   "sections/02_related_work.tex" 1738572375 77 40fdbcf3d3cc1acaba519fa5187a3d64 ""
-  "sections/03_methodology.tex" 1738595969 10420 548c1c24c349c4f650fb7d3b657ccc47 ""
+  "sections/03_methodology.tex" 1738931737 11044 1c37daf6f2d3a948c4b732c471a94e68 ""
   "sections/04_results.tex" 1738572347 1700 80aa907f69fbc40adf8ce3651e597284 ""
   "sections/05_discussion.tex" 1736247642 22 5263826852d7c88eadf74b948137ff83 ""
   (generated)

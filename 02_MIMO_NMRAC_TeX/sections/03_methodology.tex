@@ -129,21 +129,34 @@ Recall, $\dot\theta\in\mathbb{R}^{m\times n}$, $e_x \in\mathbb{R}^{n}$, $\Sigma^
 This system of equations always has an infinite number of solutions, except if  $e_x=0$, and simultaneously $\Sigma^{\dagger}\xi\neq 0$. Whenever, this case occurs, we propose to not update the weights of the neural network. However, when there is an infinite number of solutions, we can choose values for $\dot\theta$, that satisfy this equation. For example, we could choose the solution that minimizes the spectral norm of $\dot\theta$. The idea is based on \cite{yoshida2017spectralnormregularizationimproving, johansson_improved_2023}, where it was proposed to minimize the spectral norm of the Jacobian of the NN, to improve its robustness properties. In our case, this would correspond to taking the solution, where $\dot\theta$ has the smallest maximum singular value. By minimizing the norm, we ensure that no direction in the weight space undergoes excessively large changes during training. This can help in preventing sudden changes of $\theta$, and aid towards a more smooth learning process.
 
 \subsection{System Model}
-The proposed method is simulated and implemented on a sea-saw-like system, as shown in \cref{fig:flying-arm}.
+The proposed method is simulated and implemented on a sea-saw-like system, as shown in \cref{fig:flying-arm}. 
+% The resulting blockdiagram is shown in \cref{fig:blockdiagram-double-flying-arm}.
 
 \begin{figure}
     \includegraphics[width=\linewidth]{images/DoubleFlyingArm.pdf}
-    \caption{Double Flying Arm}
+    \caption{\hl{Double flying arm}}
     \label{fig:flying-arm}
 \end{figure}
 
+% \begin{figure}[h]
+%     \includegraphics[width=0.8\textwidth]{images/DoubleFlyingArm_Blockdiagram.pdf}
+%     \caption{\hl{Blockdiagram of the double flying arm}}
+%     \label{fig:blockdiagram-double-flying-arm}
+% \end{figure}
+
 The dynamics of the system are given by the following:
 \begin{equation}
-    \ddot\theta = \frac{1}{J}(L_1F_1-L_2F_2-f_r\dot\theta-d_1\cos(\theta)F_{G1}+d_2\cos(\theta)F_{G2})
+    \ddot\theta = \frac{1}{J}(L_1F_1-L_2F_2-f_r\dot\theta-d\cos(\theta)F_{G})
     \label{eq:dyn-double-flying-arm}
 \end{equation}
-with forces $F_1$, $F_2$ produced by the propellors, inertia $J$, friction $f_r$, and gravity terms $F_{G1}, F_{G2}$. 
+with forces $F_1$, $F_2$ produced by the propellors, inertia $J$, friction $f_r$, and gravity term $F_{G1}$. 
 
+The forces $F_1$ and $F_2$ are thrust forces produced by propellers, which can be characterized by \cite{ducardFaulttolerantFlightControl2009}:
+\begin{equation}
+    F_T = \rho D^4 C_{FT}n^2
+    \label{eq:thrust}
+\end{equation}
+with air density $\rho$, propeller diameter $D$, thrust coefficient $C_{FT}$, and motor speed $n$.
 
 \hl{We need a model that maps the pwm signal to the force!!!}
 The resulting linearized system is given by:

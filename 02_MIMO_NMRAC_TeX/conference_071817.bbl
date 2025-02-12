@@ -158,6 +158,38 @@
       \field{pages}{181\bibrangedash 201}
       \range{pages}{21}
     \endentry
+    \entry{ducardFaulttolerantFlightControl2009}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=46053a7e28bc4c15c39eafecd7802676}{%
+           family={Ducard},
+           familyi={D\bibinitperiod},
+           given={Guillaume\bibnamedelimb J.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{46053a7e28bc4c15c39eafecd7802676}
+      \strng{fullhash}{46053a7e28bc4c15c39eafecd7802676}
+      \strng{fullhashraw}{46053a7e28bc4c15c39eafecd7802676}
+      \strng{bibnamehash}{46053a7e28bc4c15c39eafecd7802676}
+      \strng{authorbibnamehash}{46053a7e28bc4c15c39eafecd7802676}
+      \strng{authornamehash}{46053a7e28bc4c15c39eafecd7802676}
+      \strng{authorfullhash}{46053a7e28bc4c15c39eafecd7802676}
+      \strng{authorfullhashraw}{46053a7e28bc4c15c39eafecd7802676}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This book offers a complete overview of fault-tolerant flight control techniques. Discussion covers the necessary equations for the modeling of small UAVs, a complete system based on extended Kalman filters, and a nonlinear flight control and guidance system.}
+      \field{isbn}{978-1-84882-561-1}
+      \field{month}{5}
+      \field{note}{Google-Books-ID: UkVIaMsQQZQC}
+      \field{shorttitle}{Fault-tolerant {Flight} {Control} and {Guidance} {Systems}}
+      \field{title}{Fault-tolerant {Flight} {Control} and {Guidance} {Systems}: {Practical} {Methods} for {Small} {Unmanned} {Aerial} {Vehicles}}
+      \field{year}{2009}
+      \keyw{Technology \& Engineering / Automation,Technology \& Engineering / Electrical,Science / Mechanics / Dynamics,Technology \& Engineering / Aeronautics \& Astronautics,Technology \& Engineering / Mechanical}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
