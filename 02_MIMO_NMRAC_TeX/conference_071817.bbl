@@ -19,6 +19,529 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{whitakerDesignModelReference1958}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=379512d2f440bfa45f90d1f8a86537ad}{%
+           family={Whitaker},
+           familyi={W\bibinitperiod},
+           given={H.\bibnamedelimi Philip},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=2cdd9fd650f39208be50dfc279e3ec2c}{%
+           family={Kezer},
+           familyi={K\bibinitperiod},
+           given={Allen},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {M.I.T. Instrumentation Laboratory}%
+      }
+      \strng{namehash}{c447ebd5abe3e9bbd45c62f45b65cc50}
+      \strng{fullhash}{c447ebd5abe3e9bbd45c62f45b65cc50}
+      \strng{fullhashraw}{c447ebd5abe3e9bbd45c62f45b65cc50}
+      \strng{bibnamehash}{c447ebd5abe3e9bbd45c62f45b65cc50}
+      \strng{authorbibnamehash}{c447ebd5abe3e9bbd45c62f45b65cc50}
+      \strng{authornamehash}{c447ebd5abe3e9bbd45c62f45b65cc50}
+      \strng{authorfullhash}{c447ebd5abe3e9bbd45c62f45b65cc50}
+      \strng{authorfullhashraw}{c447ebd5abe3e9bbd45c62f45b65cc50}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Design of {Model} {Reference} {Adaptive} {Control} {Systems} for {Aircraft}}
+      \field{year}{1958}
+    \endentry
+    \entry{astromTheoryApplicationsAdaptive1983}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4d842a025a559e5c2edf98f59c10d29d}{%
+           family={Åström},
+           familyi={Å\bibinitperiod},
+           given={K.\bibnamedelimi J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d842a025a559e5c2edf98f59c10d29d}
+      \strng{fullhash}{4d842a025a559e5c2edf98f59c10d29d}
+      \strng{fullhashraw}{4d842a025a559e5c2edf98f59c10d29d}
+      \strng{bibnamehash}{4d842a025a559e5c2edf98f59c10d29d}
+      \strng{authorbibnamehash}{4d842a025a559e5c2edf98f59c10d29d}
+      \strng{authornamehash}{4d842a025a559e5c2edf98f59c10d29d}
+      \strng{authorfullhash}{4d842a025a559e5c2edf98f59c10d29d}
+      \strng{authorfullhashraw}{4d842a025a559e5c2edf98f59c10d29d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Progress in theory and applications of adaptive control is reviewed. Different approaches are discussed with particular emphasis on model reference adaptive systems and self-tuning regulators. Techniques for analysing adaptive systems are discussed. This includes stability and convergence analysis. It is shown that adaptive control laws can also be obtained from stochastic control theory. Issues of importance for applications are covered. This includes parameterization, tuning, and tracking, as well as different ways of using adaptive control. An overview of applications is given. This includes feasibility studies as well as products based on adaptive techniques.}
+      \field{issn}{0005-1098}
+      \field{journaltitle}{Automatica}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{Theory and applications of adaptive control—{A} survey}
+      \field{volume}{19}
+      \field{year}{1983}
+      \field{pages}{471\bibrangedash 486}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/0005-1098(83)90002-X
+      \endverb
+      \verb{file}
+      \verb Åström - 1983 - Theory and applications of adaptive control—A surv.pdf:/Users/dalimwahby/Zotero/storage/QEWRRYQZ/Åström - 1983 - Theory and applications of adaptive control—A surv.pdf:application/pdf;ScienceDirect Snapshot:/Users/dalimwahby/Zotero/storage/UQ5HE73E/000510988390002X.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/000510988390002X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/000510988390002X
+      \endverb
+      \keyw{dual control,Adaptive control,auto-tuning,gain scheduling,model reference,self-tuning regulators,stability analysis,stochastic control theory}
+    \endentry
+    \entry{astromHistoryAdaptiveControl2014}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=6d1da863932c361d441f863a151a3724}{%
+           family={Aström},
+           familyi={A\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=9fb601f1368740bc3c2b6bb6d955ce9d}{%
+           family={Baillieul},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3d0bbcc63ff7af526a31b12b054f9de9}{%
+           family={Samad},
+           familyi={S\bibinitperiod},
+           given={Tariq},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6d1da863932c361d441f863a151a3724}
+      \strng{fullhash}{6d1da863932c361d441f863a151a3724}
+      \strng{fullhashraw}{6d1da863932c361d441f863a151a3724}
+      \strng{bibnamehash}{6d1da863932c361d441f863a151a3724}
+      \strng{authorbibnamehash}{6d1da863932c361d441f863a151a3724}
+      \strng{authornamehash}{6d1da863932c361d441f863a151a3724}
+      \strng{authorfullhash}{6d1da863932c361d441f863a151a3724}
+      \strng{authorfullhashraw}{6d1da863932c361d441f863a151a3724}
+      \strng{editorbibnamehash}{28502d3def62f749c257f81b091e30c9}
+      \strng{editornamehash}{28502d3def62f749c257f81b091e30c9}
+      \strng{editorfullhash}{28502d3def62f749c257f81b091e30c9}
+      \strng{editorfullhashraw}{28502d3def62f749c257f81b091e30c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This entry gives an overview of the development of adaptive control, starting with the early efforts in flight and process control. Two popular schemes, the model reference adaptive controller and the self-tuning regulator, are described with a thumbnail overview of theory and applications. There is currently a resurgence in adaptive flight control as well as in other applications. Some reflections on future development are also given.}
+      \field{booktitle}{Encyclopedia of {Systems} and {Control}}
+      \field{isbn}{978-1-4471-5102-9}
+      \field{title}{History of {Adaptive} {Control}}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/978-1-4471-5102-9_120-1
+      \endverb
+      \verb{file}
+      \verb Aström - 2014 - History of Adaptive Control.pdf:/Users/dalimwahby/Zotero/storage/3YB7M7GX/Aström - 2014 - History of Adaptive Control.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-1-4471-5102-9_120-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-1-4471-5102-9_120-1
+      \endverb
+    \endentry
+    \entry{astromAdaptiveControl2008}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=f0f3bc9540d4770c9cd66454728924ca}{%
+           family={Åström},
+           familyi={Å\bibinitperiod},
+           given={Karl\bibnamedelima Johan},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=bc45bb86744c9b235a38f89146025596}{%
+           family={Wittenmark},
+           familyi={W\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{abf2377451330282a710c6817ba16bb1}
+      \strng{fullhash}{abf2377451330282a710c6817ba16bb1}
+      \strng{fullhashraw}{abf2377451330282a710c6817ba16bb1}
+      \strng{bibnamehash}{abf2377451330282a710c6817ba16bb1}
+      \strng{authorbibnamehash}{abf2377451330282a710c6817ba16bb1}
+      \strng{authornamehash}{abf2377451330282a710c6817ba16bb1}
+      \strng{authorfullhash}{abf2377451330282a710c6817ba16bb1}
+      \strng{authorfullhashraw}{abf2377451330282a710c6817ba16bb1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Suitable for advanced undergraduates and graduate students, this text introduces theoretical and practical aspects of adaptive control. It offers an excellent perspective on techniques as well as an active knowledge of key approaches. Readers will acquire a well-developed sense of when to use adaptive techniques and when other methods are more appropriate. Starting with a broad overview, the text explores real-time estimation, self-tuning regulators and model-reference adaptive systems, stochastic adaptive control, and automatic tuning of regulators. Additional topics include gain scheduling, robust high-gain control and self-oscillating controllers, and suggestions for implementing adaptive controllers. Concluding chapters feature a summary of applications and a brief review of additional areas closely related to adaptive control. Both authors are Professors at the Lund Institute of Technology in Sweden, and this text has evolved from their many years of research and teaching. Their insights into properties, design procedures, and implementation of adaptive controllers are complemented by the numerous examples, simulations, and problems that appear throughout the book.}
+      \field{isbn}{978-0-486-46278-3}
+      \field{month}{1}
+      \field{title}{Adaptive {Control}}
+      \field{year}{2008}
+      \verb{file}
+      \verb Adaptive-Control-Astrom-2nd-edition.pdf:/Users/dalimwahby/Zotero/storage/BBTLVPXK/Adaptive-Control-Astrom-2nd-edition.pdf:application/pdf
+      \endverb
+      \keyw{Technology \& Engineering / Automation,Technology \& Engineering / Electrical}
+    \endentry
+    \entry{mareelsRevisitingMitRule1987}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=c614fc54da2684b26524ac6632b282a2}{%
+           family={Mareels},
+           familyi={M\bibinitperiod},
+           given={Iven\bibnamedelimb M.\bibnamedelimi Y.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=e8a4070f47356ebf747da5eda23eeddd}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelimb D.\bibnamedelimi O.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=7643abaf47727b0e1606d17ea4fe5ec4}{%
+           family={Bitmead},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=21423117f8b75529e2a5be53694a4a8d}{%
+           family={Bodson},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9a50076652bdd70ab6988e547d37ec4f}{%
+           family={Sastry},
+           familyi={S\bibinitperiod},
+           given={Shankar\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{eaea7a85e2ecd8a936acb4b207dcff1d}
+      \strng{fullhash}{56b3c9ff9103424d2f26391708ccaa0c}
+      \strng{fullhashraw}{56b3c9ff9103424d2f26391708ccaa0c}
+      \strng{bibnamehash}{56b3c9ff9103424d2f26391708ccaa0c}
+      \strng{authorbibnamehash}{56b3c9ff9103424d2f26391708ccaa0c}
+      \strng{authornamehash}{eaea7a85e2ecd8a936acb4b207dcff1d}
+      \strng{authorfullhash}{56b3c9ff9103424d2f26391708ccaa0c}
+      \strng{authorfullhashraw}{56b3c9ff9103424d2f26391708ccaa0c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The MIT rule is a scalar parameter adjustment law which was proposed in 1961 for the model reference adaptive control of linear systems modeled as the cascade of a known stable plant and a single unknown gain. This adjustment law was derived by approximating a gradient descent procedure for an integral error squared performance criterion. For the early part of the 1960s this rule was the basis of many adaptive control schemes and a considerable wealth of practical experience and engineering folklore was amassed. The MIT rule is in general not globally convergent nor stable but has a performance determined by several factors such as algorithm gain, reference input magnitude and frequency, and the particular transfer function appearing in the cascade. These restrictions on the MIT rule slowly came to be discerned through experimentation and simulation but effectively were without theoretical support until some novel algorithm modifications and stability analysis, so-called Lyapunov redesign, due to Parks. Our aim in this paper is to pursue a theoretical analysis of the original MIT rule to support the existing simulation evidence and to indicate mechanisms for treating questions of robustness of MIT-rule-based adaptive controllers with undermodelling effects. The techniques that we apply to this problem centre on root locus methods, Nyquist methods and the application of the theory of averaging. Stability and instability results are presented and, using pertinent theories for different regimes of the gain-frequency plane, we approximate the experimentally derived stability margins, but for a broader signal class than simply periodic inputs. The mechanisms of instability and stability for these adaptive systems are highlighted and allow us to enunciate guidelines for the MIT rule to work. It is a pleasing by-product of this theoretical analysis that these guidelines coincide to a large degree with those advanced in earlier times on experimental and heuristic grounds.}
+      \field{issn}{1474-6670}
+      \field{journaltitle}{IFAC Proceedings Volumes}
+      \field{month}{7}
+      \field{number}{2}
+      \field{series}{2nd {IFAC} {Workshop} on {Adaptive} {Systems} in {Control} and {Signal} {Processing} 1986, {Lund}, {Sweden}, 30 {June}-2 {July} 1986}
+      \field{title}{Revisiting the {Mit} {Rule} for {Adaptive} {Control}}
+      \field{volume}{20}
+      \field{year}{1987}
+      \field{pages}{161\bibrangedash 166}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/S1474-6670(17)55954-6
+      \endverb
+      \verb{file}
+      \verb Mareels et al. - 1987 - Revisiting the Mit Rule for Adaptive Control.pdf:/Users/dalimwahby/Zotero/storage/CKVMARFZ/Mareels et al. - 1987 - Revisiting the Mit Rule for Adaptive Control.pdf:application/pdf;ScienceDirect Snapshot:/Users/dalimwahby/Zotero/storage/ZQ5G25VZ/S1474667017559546.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1474667017559546
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1474667017559546
+      \endverb
+    \endentry
+    \entry{shackclothSynthesisModelReference1965}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=592f6c308c41d8fcab37c99a4151fffe}{%
+           family={Shackcloth},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9b027b3c9b8ad1badae83e61176ae985}{%
+           family={But\bibnamedelima Chart},
+           familyi={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{fullhash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{fullhashraw}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{bibnamehash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{authorbibnamehash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{authornamehash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{authorfullhash}{08c7c666bafb3e1870cd776a82eab0a7}
+      \strng{authorfullhashraw}{08c7c666bafb3e1870cd776a82eab0a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, model reference adaptive systems having linear processes and models of the same form and order are considered. The The model parameters have fixed values which represent an ideal or desired form of the process. Liapunov’s second method is applied to synthesize the adaptive loop guaranteeing the stability under certain conditions. The results are verified experimentally using an analogue computer. A further investigation of the stability problem uses two theorems due to Kats and Krasovskii.}
+      \field{issn}{1474-6670}
+      \field{journaltitle}{IFAC Proceedings Volumes}
+      \field{month}{9}
+      \field{number}{2}
+      \field{series}{2nd {IFAC} {Symposium} on the {Theory} of {Self}-{Adaptive} {Control} {Systems}, {Teddington}, {UK}, {September} 14-17, 1965}
+      \field{title}{Synthesis of {Model} {Reference} {Adaptive} {Systems} by {Liapunov}'s {Second} {Method}}
+      \field{volume}{2}
+      \field{year}{1965}
+      \field{pages}{145\bibrangedash 152}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/S1474-6670(17)69028-1
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/dalimwahby/Zotero/storage/3WKHCRI7/S1474667017690281.html:text/html;Shackcloth and But Chart - 1965 - Synthesis of Model Reference Adaptive Systems by L.pdf:/Users/dalimwahby/Zotero/storage/Q363VGEK/Shackcloth and But Chart - 1965 - Synthesis of Model Reference Adaptive Systems by L.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1474667017690281
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1474667017690281
+      \endverb
+    \endentry
+    \entry{duarteCombinedDirectIndirect1989}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=298338cd96636c99f4b45752cc1d77f5}{%
+           family={Duarte},
+           familyi={D\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e2741c56b6fb5a21dfddb42764ea5d5a}{%
+           family={Narendra},
+           familyi={N\bibinitperiod},
+           given={K.S.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd2f6d220319d50640b1402500e581b7}
+      \strng{fullhash}{cd2f6d220319d50640b1402500e581b7}
+      \strng{fullhashraw}{cd2f6d220319d50640b1402500e581b7}
+      \strng{bibnamehash}{cd2f6d220319d50640b1402500e581b7}
+      \strng{authorbibnamehash}{cd2f6d220319d50640b1402500e581b7}
+      \strng{authornamehash}{cd2f6d220319d50640b1402500e581b7}
+      \strng{authorfullhash}{cd2f6d220319d50640b1402500e581b7}
+      \strng{authorfullhashraw}{cd2f6d220319d50640b1402500e581b7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00189286}
+      \field{journaltitle}{IEEE Transactions on Automatic Control}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Combined direct and indirect approach to adaptive control}
+      \field{volume}{34}
+      \field{year}{1989}
+      \field{pages}{1071\bibrangedash 1075}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/9.35278
+      \endverb
+      \verb{file}
+      \verb Duarte and Narendra - 1989 - Combined direct and indirect approach to adaptive .pdf:/Users/dalimwahby/Zotero/storage/JNST2PMV/Duarte and Narendra - 1989 - Combined direct and indirect approach to adaptive .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/35278/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/35278/
+      \endverb
+    \endentry
+    \entry{narendraRobustAdaptiveControl1988}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=9237540770546568ba73c24376b26fc1}{%
+           family={Narendra},
+           familyi={N\bibinitperiod},
+           given={Kumpati\bibnamedelima S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=838c1ed7fa1c1846923205b0c845a3f1}{%
+           family={Duarte},
+           familyi={D\bibinitperiod},
+           given={Manuel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Atlanta, GA, USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2e9618d0900f833c793c52809de3bc03}
+      \strng{fullhash}{2e9618d0900f833c793c52809de3bc03}
+      \strng{fullhashraw}{2e9618d0900f833c793c52809de3bc03}
+      \strng{bibnamehash}{2e9618d0900f833c793c52809de3bc03}
+      \strng{authorbibnamehash}{2e9618d0900f833c793c52809de3bc03}
+      \strng{authornamehash}{2e9618d0900f833c793c52809de3bc03}
+      \strng{authorfullhash}{2e9618d0900f833c793c52809de3bc03}
+      \strng{authorfullhashraw}{2e9618d0900f833c793c52809de3bc03}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{1988 {American} {Control} {Conference}}
+      \field{month}{6}
+      \field{title}{Robust {Adaptive} {Control} {Using} {Combined} {Direct} and {Indirect} {Methods}}
+      \field{year}{1988}
+      \field{pages}{2429\bibrangedash 2434}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.23919/ACC.1988.4790133
+      \endverb
+      \verb{file}
+      \verb Narendra and Duarte - 1988 - Robust Adaptive Control Using Combined Direct and .pdf:/Users/dalimwahby/Zotero/storage/JJ45QC2K/Narendra and Duarte - 1988 - Robust Adaptive Control Using Combined Direct and .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/4790133/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/4790133/
+      \endverb
+    \endentry
+    \entry{lavretskyRobustAdaptiveControl2013}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=75ea032f5d3bce2ed7fc8ece84d35825}{%
+           family={Lavretsky},
+           familyi={L\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a10a2f3721fc690d9711afb8bf2e72b4}{%
+           family={Wise},
+           familyi={W\bibinitperiod},
+           given={Kevin\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Springer London}%
+      }
+      \strng{namehash}{62810691f101030d9ea6c4a5931469b1}
+      \strng{fullhash}{62810691f101030d9ea6c4a5931469b1}
+      \strng{fullhashraw}{62810691f101030d9ea6c4a5931469b1}
+      \strng{bibnamehash}{62810691f101030d9ea6c4a5931469b1}
+      \strng{authorbibnamehash}{62810691f101030d9ea6c4a5931469b1}
+      \strng{authornamehash}{62810691f101030d9ea6c4a5931469b1}
+      \strng{authorfullhash}{62810691f101030d9ea6c4a5931469b1}
+      \strng{authorfullhashraw}{62810691f101030d9ea6c4a5931469b1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-4471-4395-6 978-1-4471-4396-3}
+      \field{series}{Advanced {Textbooks} in {Control} and {Signal} {Processing}}
+      \field{shorttitle}{Robust and {Adaptive} {Control}}
+      \field{title}{Robust and {Adaptive} {Control}: {With} {Aerospace} {Applications}}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1007/978-1-4471-4396-3
+      \endverb
+      \verb{file}
+      \verb Lavretsky and Wise - 2013 - Robust and Adaptive Control With Aerospace Applic.pdf:/Users/dalimwahby/Zotero/storage/VLEMFU2S/Lavretsky and Wise - 2013 - Robust and Adaptive Control With Aerospace Applic.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-1-4471-4396-3
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-1-4471-4396-3
+      \endverb
+    \endentry
+    \entry{taoAdaptiveControlSystems2013}{book}{}{}
+      \name{author}{4}{}{%
+        {{hash=e70cebf7fdc1801ce49740a9da863a2a}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=78210a197a347c169dc371ae945618ce}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shuhao},
+           giveni={S\bibinitperiod}}}%
+        {{hash=29ed5f18586455fc0708e9939cf67eb6}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Xidong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c2af938b551b7e9e7caf331704414607}{%
+           family={Suresh},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi Joshi},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer London}%
+      }
+      \strng{namehash}{a434c7c25f23669334507417e138a880}
+      \strng{fullhash}{182412f062cf8e02a46f8f729a88802b}
+      \strng{fullhashraw}{182412f062cf8e02a46f8f729a88802b}
+      \strng{bibnamehash}{182412f062cf8e02a46f8f729a88802b}
+      \strng{authorbibnamehash}{182412f062cf8e02a46f8f729a88802b}
+      \strng{authornamehash}{a434c7c25f23669334507417e138a880}
+      \strng{authorfullhash}{182412f062cf8e02a46f8f729a88802b}
+      \strng{authorfullhashraw}{182412f062cf8e02a46f8f729a88802b}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4471-3758-0}
+      \field{month}{6}
+      \field{title}{Adaptive {Control} of {Systems} with {Actuator} {Failures}}
+      \field{year}{2013}
+      \verb{file}
+      \verb Tao et al. - 2013 - Adaptive Control of Systems with Actuator Failures.pdf:/Users/dalimwahby/Zotero/storage/KJKUVLHW/Tao et al. - 2013 - Adaptive Control of Systems with Actuator Failures.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{lavretskyCombinedCompositeModel2009}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=12d75240b65fd41d813a5ab17340fe3e}{%
+           family={Lavretsky},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{12d75240b65fd41d813a5ab17340fe3e}
+      \strng{fullhash}{12d75240b65fd41d813a5ab17340fe3e}
+      \strng{fullhashraw}{12d75240b65fd41d813a5ab17340fe3e}
+      \strng{bibnamehash}{12d75240b65fd41d813a5ab17340fe3e}
+      \strng{authorbibnamehash}{12d75240b65fd41d813a5ab17340fe3e}
+      \strng{authornamehash}{12d75240b65fd41d813a5ab17340fe3e}
+      \strng{authorfullhash}{12d75240b65fd41d813a5ab17340fe3e}
+      \strng{authorfullhashraw}{12d75240b65fd41d813a5ab17340fe3e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This technical note introduces a provably stable state-feedback design modiﬁcation for combined/composite adaptive control of multi-input multi-output dynamical systems with matched uncertainties. The proposed design methodology is applied to control longitudinal dynamics of an aerial vehicle.}
+      \field{issn}{0018-9286, 1558-2523}
+      \field{journaltitle}{IEEE Transactions on Automatic Control}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Combined/{Composite} {Model} {Reference} {Adaptive} {Control}}
+      \field{volume}{54}
+      \field{year}{2009}
+      \field{pages}{2692\bibrangedash 2697}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/TAC.2009.2031580
+      \endverb
+      \verb{file}
+      \verb Lavretsky - 2009 - CombinedComposite Model Reference Adaptive Contro.pdf:/Users/dalimwahby/Zotero/storage/7U4DX2MV/Lavretsky - 2009 - CombinedComposite Model Reference Adaptive Contro.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/5289973/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/5289973/
+      \endverb
+    \endentry
     \entry{khalil_nonlinear_2002}{book}{}{}
       \name{author}{1}{}{%
         {{hash=c687708249e29c8fa3d8d0c0ff1612f9}{%
@@ -54,6 +577,52 @@
       \endverb
       \keyw{Nonlinear theories}
     \endentry
+    \entry{wahby_enhanced_2024}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=332b9a5f70413daa8f124226857951fd}{%
+           family={Wahby},
+           familyi={W\bibinitperiod},
+           given={Dalim},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f1d58398e8cf786f99be90f7d75df7bf}{%
+           family={Ducard},
+           familyi={D\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{fullhash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{fullhashraw}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{bibnamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authorbibnamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authornamehash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authorfullhash}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \strng{authorfullhashraw}{904a57bc0955cfe3d2703d25b9ed98f7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{PID controllers are among the most popular control strategies used in industry. However, one of their main limitations is often the difficulty to tune them properly to achieve the best possible performance. Therefore, adaptive PID methods have been developed, such as PID neural networks (PIDNN). The gains are often tuned by minimizing the error between the desired output and the system’s output, using a gradient descent-based algorithm. We propose an enhanced PIDNN controller (EPIDNNC) that introduces a reference model, to teach the controller a desired response. This work is successfully applied to a nonlinear system, an inverted pendulum, whose dynamics and parameters are unknown to the controller. Our EPIDNNC method is superior to the standard PIDNNC, due to 1) better performance, with respect to overshoot, steady-state error, settling time, and oscillatory behavior, and 2) a new versatile update law, allowing changes in the reference model dynamics.}
+      \field{booktitle}{2024 9th {International} {Conference} on {Robotics} and {Automation} {Engineering} ({ICRAE})}
+      \field{month}{11}
+      \field{title}{Enhanced {PID} {Neural} {Network} {Control} ({EPIDNNC}) - {A} {Model} {Reference} {Approach}}
+      \field{year}{2024}
+      \field{pages}{205\bibrangedash 210}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICRAE64368.2024.10851525
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\wahby\\Zotero\\storage\\Y4YJU3TD\\Wahby and Ducard - 2024 - Enhanced PID Neural Network Control (EPIDNNC) - A Model Reference Approach.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10851525
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10851525
+      \endverb
+      \keyw{Adaptation models,Adaptive systems,Control,Cost function,Gradient Descent,Heuristic algorithms,Industries,Inverted Pendulum,Neural networks,Neural Networks,Nonlinear dynamical systems,PID,Robotics and automation,Standards,Steady-state}
+    \endentry
     \entry{yoshida2017spectralnormregularizationimproving}{misc}{}{}
       \name{author}{2}{}{%
         {{hash=533a96e0549ba0ebe33580995731a148}{%
@@ -75,8 +644,8 @@
       \strng{authornamehash}{6fcc637b904aaeedd06a77b688d10532}
       \strng{authorfullhash}{6fcc637b904aaeedd06a77b688d10532}
       \strng{authorfullhashraw}{6fcc637b904aaeedd06a77b688d10532}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{stat.ML}
@@ -146,8 +715,8 @@
       \strng{editornamehash}{f02516e021728645f768657774bc6584}
       \strng{editorfullhash}{f02516e021728645f768657774bc6584}
       \strng{editorfullhashraw}{f02516e021728645f768657774bc6584}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We improve on a line of research that seeks to regularize the spectral norm of the Jacobian of the input-output mapping for deep neural networks. While previous work rely on upper bounding techniques, we propose a scheme that targets the exact spectral norm. We evaluate this regularization method empirically with respect to its generalization performance and robustness.}
@@ -157,38 +726,6 @@
       \field{year}{2023}
       \field{pages}{181\bibrangedash 201}
       \range{pages}{21}
-    \endentry
-    \entry{ducardFaulttolerantFlightControl2009}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=46053a7e28bc4c15c39eafecd7802676}{%
-           family={Ducard},
-           familyi={D\bibinitperiod},
-           given={Guillaume\bibnamedelimb J.\bibnamedelimi J.},
-           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer Science \& Business Media}%
-      }
-      \strng{namehash}{46053a7e28bc4c15c39eafecd7802676}
-      \strng{fullhash}{46053a7e28bc4c15c39eafecd7802676}
-      \strng{fullhashraw}{46053a7e28bc4c15c39eafecd7802676}
-      \strng{bibnamehash}{46053a7e28bc4c15c39eafecd7802676}
-      \strng{authorbibnamehash}{46053a7e28bc4c15c39eafecd7802676}
-      \strng{authornamehash}{46053a7e28bc4c15c39eafecd7802676}
-      \strng{authorfullhash}{46053a7e28bc4c15c39eafecd7802676}
-      \strng{authorfullhashraw}{46053a7e28bc4c15c39eafecd7802676}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This book offers a complete overview of fault-tolerant flight control techniques. Discussion covers the necessary equations for the modeling of small UAVs, a complete system based on extended Kalman filters, and a nonlinear flight control and guidance system.}
-      \field{isbn}{978-1-84882-561-1}
-      \field{month}{5}
-      \field{note}{Google-Books-ID: UkVIaMsQQZQC}
-      \field{shorttitle}{Fault-tolerant {Flight} {Control} and {Guidance} {Systems}}
-      \field{title}{Fault-tolerant {Flight} {Control} and {Guidance} {Systems}: {Practical} {Methods} for {Small} {Unmanned} {Aerial} {Vehicles}}
-      \field{year}{2009}
-      \keyw{Technology \& Engineering / Automation,Technology \& Engineering / Electrical,Science / Mechanics / Dynamics,Technology \& Engineering / Aeronautics \& Astronautics,Technology \& Engineering / Mechanical}
     \endentry
   \enddatalist
 \endrefsection

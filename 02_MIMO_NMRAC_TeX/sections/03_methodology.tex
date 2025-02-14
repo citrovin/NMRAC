@@ -1,4 +1,5 @@
 \section{Definitions and Nomenclauture}
+\label{sec:definitions}
 
 In order to define stable learning algorithms, it is imperative to first recall the definition of first-order systems and stability, which is taken from \cite{khalil_nonlinear_2002}.
 
@@ -51,11 +52,29 @@ In order to define stable learning algorithms, it is imperative to first recall 
    \end{aligned}
    \end{equation}
     where the activation functions are called $\varphi_i(\cdot)$, $\theta_i$ and $b_i$ are the weight matrix and bias of layer $i$, respectively. Whenever a bias is not mentioned it is assumed to be zero.
-   \end{definition}
+\end{definition}
+
+NNs usually make use of nonlinear activation functions, which enable them to approximate nonlinear functions. Throughout this work, an activation function that is designed to model a smooth saturation function is used, as done in \cite{wahby_enhanced_2024} and defined as follows:
+\begin{equation}
+ \sigma (x;a_{sat}) = \frac{2(1-e^{-a_{sat}x})}{a_{sat}(1+e^{-a_{sat}x})}
+ \label{eq:sigmoid}
+\end{equation}
+Note that the activation function saturates at $\pm \frac{2}{a_{sat}}$. Henceforth, the saturation function is denoted as $\sigma(x)$ and is applied elementwise.
+
+\hl{Define LQR??}
+
+
 \section{Methodology}
-
-
 \subsection{Nonlinear Model Reference Adaptive Control}
+\begin{theorem}
+    The function constitutes a Lyapunov function:
+    \begin{equation}
+    V(e,\theta) = ||e||_P^2 + ||\alpha(e_x,\theta)||_{\Gamma^{-1}}^2
+    \end{equation}
+
+\end{theorem}
+
+
 The system is defined as in equation \eqref{eq:mimo-system}. Furthermore, we define a reference model that imposes a desired behavior on the system, as defined in equation \eqref{eq:mimo-ref}. Note, that we assume $A,A_m\in\mathbb{R}^{n \times n}$, $B,B_m\in\mathbb{R}^{n\times m}$, $\theta,\theta_m\in\mathbb{R}^{m\times n}$, and $\phi, \phi_m$ are applied element-wise.
 
 \begin{equation}
@@ -104,7 +123,7 @@ Its time derivative is given by \eqref{eq:lyapunov-candidate-mimo-dot}.
     \label{eq:lyapunov-candidate-mimo-dot}
 \end{equation}
 
-Following the logic of linear MRAC, term $\textrm{(III)}$ is used to define the update law through nullification. Hence, it remains to show that the sum of terms $\textrm{(I)}$ and $\textrm{(II)}$ are negative. The negative definiteness of these two terms are system dependent. In \cref{sec:NRMAC-MIMO-SIM}, we will show that there exists at least one system, where the sum of terms remains negative. To continue with the derivation of the update law, we will for now assume that the sum of these two terms remain negative.
+Following the logic of linear MRAC, term $\textrm{(III)}$ is used to define the update law through nullification. Hence, it remains to show that the sum of terms $\textrm{(I)}$ and $\textrm{(II)}$ are negative. The negative definiteness of these two terms are system dependent. \hl{In} \cref{sec:results}, we will show that there exists at least one system, where the sum of terms remains negative. To continue with the derivation of the update law, we will for now assume that the sum of these two terms remain negative.
 
 To derive the MIMO update law, we require term $\textrm{(III)}$ in \cref{eq:lyapunov-candidate-mimo-dot} to be equal to zero. Since, $\Sigma=B \frac{\partial \phi(\tilde x)}{\partial \tilde x}\vert_{\tilde x=\theta e_x}\in\mathbb{R}^{n\times m}$, the matrix is not invertible. Therefore, its Moore-Penrose inverse is defined as $\Sigma^{\dagger}$.
 
@@ -129,12 +148,13 @@ Recall, $\dot\theta\in\mathbb{R}^{m\times n}$, $e_x \in\mathbb{R}^{n}$, $\Sigma^
 This system of equations always has an infinite number of solutions, except if  $e_x=0$, and simultaneously $\Sigma^{\dagger}\xi\neq 0$. Whenever, this case occurs, we propose to not update the weights of the neural network. However, when there is an infinite number of solutions, we can choose values for $\dot\theta$, that satisfy this equation. For example, we could choose the solution that minimizes the spectral norm of $\dot\theta$. The idea is based on \cite{yoshida2017spectralnormregularizationimproving, johansson_improved_2023}, where it was proposed to minimize the spectral norm of the Jacobian of the NN, to improve its robustness properties. In our case, this would correspond to taking the solution, where $\dot\theta$ has the smallest maximum singular value. By minimizing the norm, we ensure that no direction in the weight space undergoes excessively large changes during training. This can help in preventing sudden changes of $\theta$, and aid towards a more smooth learning process.
 
 \subsection{System Model}
+\label{sec:system}
 The proposed method is simulated and implemented on a sea-saw-like system, as shown in \cref{fig:flying-arm}. 
 % The resulting blockdiagram is shown in \cref{fig:blockdiagram-double-flying-arm}.
 
 \begin{figure}
     \includegraphics[width=\linewidth]{images/DoubleFlyingArm.pdf}
-    \caption{\hl{Double flying arm}}
+    \caption{Double flying arm}
     \label{fig:flying-arm}
 \end{figure}
 
@@ -149,40 +169,20 @@ The dynamics of the system are given by the following:
     \ddot\theta = \frac{1}{J}(L_1F_1-L_2F_2-f_r\dot\theta-d\cos(\theta)F_{G})
     \label{eq:dyn-double-flying-arm}
 \end{equation}
-with forces $F_1$, $F_2$ produced by the propellors, inertia $J$, friction $f_r$, and gravity term $F_{G1}$. 
-
-The forces $F_1$ and $F_2$ are thrust forces produced by propellers, which can be characterized by \cite{ducardFaulttolerantFlightControl2009}:
+with forces $F_1$, $F_2$ produced by the propellors, inertia $J$, friction $f_r$, and gravity term $F_{G}$. The input to the system are the thrust forces $F_1$ and $F_2$, which will henceforth be called $u_1$ and $u_2$, respectively. Hence, the linearized dynamics around the origin are given by:
 \begin{equation}
-    F_T = \rho D^4 C_{FT}n^2
-    \label{eq:thrust}
-\end{equation}
-with air density $\rho$, propeller diameter $D$, thrust coefficient $C_{FT}$, and motor speed $n$.
-
-\hl{We need a model that maps the pwm signal to the force!!!}
-The resulting linearized system is given by:
-\begin{equation}
-    f(x,u) = 
-    \begin{bmatrix}
-        \dot\theta \\
-        \ddot \theta
-    \end{bmatrix} 
-    = 
+    f(x,u) =
     \begin{bmatrix}
         0 & 1 \\
-        0 & -\frac{f_r}{J}
+        -\frac{dmg}{J} & -\frac{f_r}{J}
     \end{bmatrix}
-    \begin{bmatrix}
-        \theta \\
-        \dot\theta
-    \end{bmatrix}
+    x
     +
     \begin{bmatrix}
         0 & 0 \\
         \frac{L_1}{J} & -\frac{L_2}{J}
     \end{bmatrix}
-    \begin{bmatrix}
-        u_1 \\ 
-        u_2
-    \end{bmatrix}
+    u
     \label{eq:sys-linearized}
 \end{equation}
+with states $x=[\theta, \dot\theta]^T$ and control input $u=[u_1, u_2]^T$.

@@ -2376,10 +2376,22 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">khalil_nonlinear_2002</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">yoshida2017spectralnormregularizationimproving</bcf:citekey>
-    <bcf:citekey order="2" intorder="2">johansson_improved_2023</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">ducardFaulttolerantFlightControl2009</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">whitakerDesignModelReference1958</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">astromTheoryApplicationsAdaptive1983</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">astromHistoryAdaptiveControl2014</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">astromAdaptiveControl2008</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">mareelsRevisitingMitRule1987</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">shackclothSynthesisModelReference1965</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">astromHistoryAdaptiveControl2014</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">duarteCombinedDirectIndirect1989</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">narendraRobustAdaptiveControl1988</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">lavretskyRobustAdaptiveControl2013</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">taoAdaptiveControlSystems2013</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">lavretskyCombinedCompositeModel2009</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">khalil_nonlinear_2002</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">wahby_enhanced_2024</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">yoshida2017spectralnormregularizationimproving</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">johansson_improved_2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

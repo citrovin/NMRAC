@@ -1,5 +1,13 @@
 \section{Numerical Results}
-In this section the simulation results are presented. The simulated system is a pure double integrator with two states and two inputs. The model reference is chosen to be 
+\label{sec:results}
+In this section the simulation results are presented. The simulated system corresponds to the system described in \cref{sec:system}, where the center of gravity is chosen to be at the origin, meaning $d=0$. The chosen model reference is a saturated LQR controller, using a smooth saturtation funciton as in \cref{eq:sigmoid}. A phase plot is provided in \cref{fig:model-ref-phase-plot} to get an idea of the behavior of the model reference, however, its stability is assumed and will not be formally shown in this work.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/phase-diagram-model-ref.png}
+    \caption{Phase plot of the model reference}
+    \label{fig:model-ref-phase-plot}
+\end{figure}
 
 
 

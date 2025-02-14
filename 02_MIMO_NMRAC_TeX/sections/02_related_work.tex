@@ -1,4 +1,20 @@
-\section{Literature Review and Contributions}
+\subsection{Literature Review}
+\label{sec:related-work}
+Model reference adaptive control (MRAC) was first introduced in the early 1970s by Whitaker et al. \cite{whitakerDesignModelReference1958}. Originally, it was thought to deal with process uncertainties and disturbance dynamics, however, the proposed techniques were also used in different contexts, including but not limited to auto-tuning, automatic construction of gain schedules, and adaptive filtering \cite{astromTheoryApplicationsAdaptive1983, astromHistoryAdaptiveControl2014}.
 
+The adaptation mechanism of parameters follows two main approaches, namely 1) the MIT method or gradient descent-based method, and 2) the Lyapunov-based method \cite{astromAdaptiveControl2008}. The MIT method does not come with stability guarantees \cite{mareelsRevisitingMitRule1987}, whereas the Lyapunov method is based on an adaptation rule derived from Lyapunov's second method \cite{shackclothSynthesisModelReference1965}. It imposes stability since the adaptation rule is chosen in a way such that the decrease condition on the Lyapunov function is always satisfied, thus, implying system convergence.
+
+Generally, MRACs can be categorized into the following three categories \cite{astromHistoryAdaptiveControl2014}:
+\begin{enumerate}
+    \item \textit{direct MRAC} updates the controller parameters directly, ensuring the closed-loop system behaves like the reference model,
+    \item \textit{indirect MRAC} updates an estimated model of the plant, which is then used to compute the controller parameters. Unlike direct MRAC, where the controller is updated directly, indirect MRAC continuously refines the plant model and adapts the control law accordingly, and
+    \item \textit{Combined MRAC} (CMRAC), introduced by Duarte et al. \cite{duarteCombinedDirectIndirect1989}, integrates both methods using two adaptation rules: (1) estimating unmatched model uncertainties and (2) identifying system parameters. Simulations suggest that CMRAC is more robust than either direct or indirect MRAC alone \cite{narendraRobustAdaptiveControl1988}, though formal guarantees are still an open question.
+\end{enumerate}
+
+CMRACs have been extended to $n$-th order linear systems \cite{lavretskyRobustAdaptiveControl2013, taoAdaptiveControlSystems2013}. Additionally, Lavretsky \cite{lavretskyCombinedCompositeModel2009} incorporated Radial Basis Function (RBF) NNs for system identification, enabling unmatched uncertainty estimation with stability guarantees, broadening its applicability to a larger class of nonlinear systems.
+
+The proposed algorithm in this paper is a direct MRAC method, utilizing a Lyapunov-based learning mechanism, that includes nonlinearities in the form of a simple feedforward NN, with a nonlinear activation function.
 
 \subsection{Contributions}
+\label{sec:contributions}
+This method is a continuation of the work presented in \textit{wahby-NMRAC-FOS}. The proposed method is based on the logic of linear MRAC, as presented in previous works. The novelty of the presented approach lies in the ability of learning a stabilizing controller, in spite of a nonlinear NN being present in the closed-loop system. Furthermore, the method is validated in simulation for a multiple-input multiple-output (MIMO) system and finally applied to a real world system.
