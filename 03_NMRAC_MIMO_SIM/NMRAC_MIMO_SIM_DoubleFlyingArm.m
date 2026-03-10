@@ -1,17 +1,25 @@
 %% Tabula Rasa
-clear all; clc;
+clear all; clc; close all;
+
+%% Include toolboxes for plotting in TIKZ
+addpath('C:\Users\wahby\Documents\MATLAB\Tools\matlab2tikz\src');
 
 %% Set default for plots
 set(groot, 'defaultLineLineWidth', 1.5);
 set(groot, 'defaultAxesXGrid', 'on', 'defaultAxesYGrid', 'on');
+% Use LaTeX for all text in this figure by default
+set(groot, 'defaultTextInterpreter', 'latex');
+set(groot, 'defaultLegendInterpreter', 'latex');
+set(groot, 'defaultAxesTickLabelInterpreter', 'latex');
 
+%% Simulation parameters
 ct = clock;
 
-SAVE_PLOTS = 0;
+SAVE_PLOTS = 1;
 SHOW_FIG = 'On';
 
 BASE_DIR = './results/';
-SAVE_DIR = strjoin([BASE_DIR, strjoin(string(ct(1:5)),'-')],'');
+SAVE_DIR = strjoin([BASE_DIR, strjoin(string(ct(1:5)),'-')],'Flying_Arm_');
 
 if SAVE_PLOTS==1
     if ~exist(SAVE_DIR, 'dir')
@@ -106,7 +114,7 @@ theta(:,:,1) = theta_init;
 
 % Learning Rate
 % Lambda = 25.*[1 0; 0 1]; % constant reference Signal
-Lambda = 50.*[1 0; 0 1];   % sinusodial reference signal
+Lambda = 20*[1 0; 0 1];   % sinusodial reference signal
 % Lambda = [1 0; 0 1];
 
 % Initial conditions System
@@ -143,14 +151,14 @@ else
 end
 
 if PLOT_ACTIVCATION==1
-    figure(1);
+    figure();
     vector = linspace(-100, 100, 201);
     plot(vector, sigmoid(vector, am))
     xlabel("$\tilde x$", Interpreter="latex")
     ylabel("$\sigma(\tilde{x})$", Interpreter="latex")
     title("Activation Function Model Reference")
 
-    figure(2);
+    figure();
     vector = linspace(-100, 100, 201);
     plot(vector, sigmoid(vector, a))
     xlabel("$\tilde x$", Interpreter="latex")
@@ -253,167 +261,209 @@ disp(theta(:,:,end));
 
 %% Plot response
 % x_1 component
-fig = figure(2);
+fig = figure();
 set(fig, 'Visible', SHOW_FIG);
 subplot(2,1,1);
 plot(t_vec, r(1,:), ...
      t_vec, x(1,:), ...
      t_vec, xm(1,:));
-legend("r", "x", "x_m");
-xlabel("Time [s]");
-ylabel("x_1");
-title("Respnose x_1 Component");
+legend({'$r$', '$x$', '$x_m$'}, 'Interpreter', 'latex');
+ylabel('$x_1$', 'Interpreter', 'latex');
+xlabel('Time [s]', 'Interpreter', 'latex');
+title('Response $x_1$ Component', 'Interpreter', 'latex');
 
 % x_2 component
 subplot(2,1,2);
 plot(t_vec, r(2,:),...
      t_vec, x(2,:),...
      t_vec, xm(2,:));
-legend("r", "x", "x_m");
-ylabel("x_2");
-xlabel("Time [s]");
-title("Respnose x_2 Component");
-sgtitle("Response");
+legend({'$r$', '$x$', '$x_m$'}, 'Interpreter', 'latex');
+ylabel('$x_2$', 'Interpreter', 'latex');
+xlabel('Time [s]', 'Interpreter', 'latex');
+title('Response $x_2$ Component', 'Interpreter', 'latex');
+sgtitle('Response', 'Interpreter', 'latex');
+
+
 
 if SAVE_PLOTS == 1
-    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_MIMO_Response.png'));
-    saveas(gcf, full_path);
+    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_MIMO_Response'));
+    saveas(gcf, [full_path '.png']);
+    cleanfigure;
+
+    set(gcf, 'Color', 'w');
+    set(gca, 'Color', 'w');
+    matlab2tikz([full_path '.tex'], ...
+    'showInfo', false);
+
 end
 
 %% Plot theta
-fig = figure(3);
+fig = figure();
 set(fig, 'Visible', SHOW_FIG);
+
 subplot(2,2,1);
 plot(t_vec, squeeze(theta(1,1,:)), ...
-    t_vec, theta_m(1,1)*ones(1, num_steps));
-xlabel("Time [s]");
-ylabel("Magnitude");
-legend("\theta_{1,1}", "\theta_{m; 1,1}");
-title("\theta_{1,1}")
+     t_vec, theta_m(1,1)*ones(1, num_steps));
+xlabel('Time [s]', 'Interpreter', 'latex');
+ylabel('Magnitude', 'Interpreter', 'latex');
+legend({'$\theta_{1,1}$', '$\theta_{m;1,1}$'}, 'Interpreter', 'latex');
+title('$\theta_{1,1}$', 'Interpreter', 'latex');
 
 subplot(2,2,2);
 plot(t_vec, squeeze(theta(1,2,:)), ...
-    t_vec, theta_m(1,2)*ones(1, num_steps));
-xlabel("Time [s]");
-ylabel("Magnitude");
-legend("\theta_{1,2}", "\theta_{m; 1,2}");
-title("\theta_{1,2}")
+     t_vec, theta_m(1,2)*ones(1, num_steps));
+xlabel('Time [s]', 'Interpreter', 'latex');
+ylabel('Magnitude', 'Interpreter', 'latex');
+legend({'$\theta_{1,2}$', '$\theta_{m;1,2}$'}, 'Interpreter', 'latex');
+title('$\theta_{1,2}$', 'Interpreter', 'latex');
 
 subplot(2,2,3);
 plot(t_vec, squeeze(theta(2,1,:)), ...
-    t_vec, theta_m(2,1)*ones(1, num_steps) ...
-    );
-xlabel("Time [s]");
-ylabel("Magnitude");
-legend("\theta_{2,1}", "\theta_{m; 2,1}");
-title("\theta_{2,1}")
+     t_vec, theta_m(2,1)*ones(1, num_steps));
+xlabel('Time [s]', 'Interpreter', 'latex');
+ylabel('Magnitude', 'Interpreter', 'latex');
+legend({'$\theta_{2,1}$', '$\theta_{m;2,1}$'}, 'Interpreter', 'latex');
+title('$\theta_{2,1}$', 'Interpreter', 'latex');
 
 subplot(2,2,4);
 plot(t_vec, squeeze(theta(2,2,:)), ...
-    t_vec, theta_m(2,2)*ones(1, num_steps) ...
-    );
-xlabel("Time [s]");
-ylabel("Magnitude");
-legend("\theta_{2,2}", "\theta_{m; 2,2}");
-title("\theta_{2,2}")
+     t_vec, theta_m(2,2)*ones(1, num_steps));
+xlabel('Time [s]', 'Interpreter', 'latex');
+ylabel('Magnitude', 'Interpreter', 'latex');
+legend({'$\theta_{2,2}$', '$\theta_{m;2,2}$'}, 'Interpreter', 'latex');
+title('$\theta_{2,2}$', 'Interpreter', 'latex');
 
-sgtitle("Parameters over time");
+sgtitle('Parameters over time', 'Interpreter', 'latex');
+
 
 if SAVE_PLOTS == 1
-    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_MIMO_Parameters.png'));
-    saveas(gcf, full_path);
+    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_MIMO_Parameters'));
+    saveas(gcf, [full_path '.png']);
+    cleanfigure;
+
+    set(gcf, 'Color', 'w');
+    set(gca, 'Color', 'w');
+    matlab2tikz([full_path '.tex'], ...
+    'showInfo', false);
 end
 
 
 %% Plot Lyapunov Function
-fig = figure(4);
+fig = figure();
 set(fig, 'Visible', SHOW_FIG);
+% --- Subplot 1: Lyapunov Function ---
 subplot(2,1,1);
 plot(t_vec, V, ...
-    t_vec, V_term1, ...
-    t_vec, V_term2);
-legend("V", "V_e", "V_{\alpha}");
-xlabel("Time [s]");
-ylabel("V(e,\alpha)");
-title("Lyapunov Function");
+     t_vec, V_term1, ...
+     t_vec, V_term2);
+legend({'$V$', '$V_e$', '$V_{\alpha}$'}, 'Interpreter', 'latex');
+xlabel('Time [s]', 'Interpreter', 'latex');
+ylabel('$V(e, \alpha)$', 'Interpreter', 'latex');
+title('Lyapunov Function', 'Interpreter', 'latex');
 
+% --- Subplot 2: Lyapunov Function Derivative ---
 subplot(2,1,2);
 plot(t_vec(:,2:num_steps), dV,  ...
-    t_vec(:,2:num_steps), dV_term1, ...
-    t_vec(:,2:num_steps), dV_term2, ...
-    t_vec(:,2:num_steps), dV_term3);
+     t_vec(:,2:num_steps), dV_term1, ...
+     t_vec(:,2:num_steps), dV_term2, ...
+     t_vec(:,2:num_steps), dV_term3);
+legend({'$\dot{V}$', '$\dot{V}_Q$', '$\dot{V}_{\gamma}$', '$\dot{V}_{\alpha}$'}, ...
+       'Interpreter', 'latex');
+xlabel('Time [s]', 'Interpreter', 'latex');
+ylabel('Magnitude', 'Interpreter', 'latex');
+title('Lyapunov Function Time Derivative', 'Interpreter', 'latex');
 
-legend("dV", "dV_{Q}", "dV_{\gamma}",  "dV_{\alpha}");
-xlabel("Time [s]");
-ylabel("Magnitude");
-title("Lyapunov Function Time Derivative");
-
-sgtitle("Lyapunov Function");
+% --- Shared title ---
+sgtitle('Lyapunov Function', 'Interpreter', 'latex');
 
 if SAVE_PLOTS == 1
-    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_MIMO_Lyapunov.png'));
-    saveas(gcf, full_path);
+    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_MIMO_Lyapunov'));
+    saveas(gcf, [full_path '.png']);
+    cleanfigure;
+
+    set(gcf, 'Color', 'w');
+    set(gca, 'Color', 'w');
+    matlab2tikz([full_path '.tex'], ...
+    'showInfo', false);
 end
 
 
 %% Plot errors
-fig = figure(5);
+fig = figure();
 set(fig, 'Visible', SHOW_FIG);
+% --- Subplot 1: Error x1 ---
 subplot(2,1,1);
 plot(t_vec, e(1,:), ...
-    t_vec, ex(1,:), ...
-    t_vec, em(1,:));
-xlabel("Time [s]");
-ylabel("Magnitude");
-legend("e", "e_x", "e_m");
-title("Errors x_1 component");
+     t_vec, ex(1,:), ...
+     t_vec, em(1,:));
+xlabel('Time [s]', 'Interpreter', 'latex');
+ylabel('Magnitude', 'Interpreter', 'latex');
+legend({'$e$', '$e_x$', '$e_m$'}, 'Interpreter', 'latex');
+title('Errors $x_1$ component', 'Interpreter', 'latex');
 
+% --- Subplot 2: Error x2 ---
 subplot(2,1,2);
 plot(t_vec, e(2,:), ...
-    t_vec, ex(2,:), ...
-    t_vec, em(2,:));
-legend("e", "e_x", "e_m");
-xlabel("Time [s]");
-ylabel("Magnitude");
-title("Errors x_2 component");
+     t_vec, ex(2,:), ...
+     t_vec, em(2,:));
+xlabel('Time [s]', 'Interpreter', 'latex');
+ylabel('Magnitude', 'Interpreter', 'latex');
+legend({'$e$', '$e_x$', '$e_m$'}, 'Interpreter', 'latex');
+title('Errors $x_2$ component', 'Interpreter', 'latex');
 
-sgtitle("Errors in internal states");
+% --- Shared title ---
+sgtitle('Errors in internal states', 'Interpreter', 'latex');
 
 if SAVE_PLOTS == 1
-    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_MIMO_Error.png'));
-    saveas(gcf, full_path);
+    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_MIMO_Error'));
+    saveas(gcf, [full_path '.png']);
+    cleanfigure;
+
+    set(gcf, 'Color', 'w');
+    set(gca, 'Color', 'w');
+    matlab2tikz([full_path '.tex'], ...
+    'showInfo', false);
 end
 
 
 %% Plot the difference in dynamics
-fig = figure(6);
+fig = figure();
 set(fig, 'Visible', SHOW_FIG);
+% --- Subplot 1: Alpha values ---
 subplot(2,1,1);
 plot(t_vec, alpha(1,:), ...
-    t_vec, alpha(2,:));
-xlabel("Time [s]");
-ylabel("Magnitude");
-legend("\alpha_1", "\alpha_2");
-title("\alpha");
+     t_vec, alpha(2,:));
+xlabel('Time [s]', 'Interpreter', 'latex');
+ylabel('Magnitude', 'Interpreter', 'latex');
+legend({'$\alpha_1$', '$\alpha_2$'}, 'Interpreter', 'latex');
+title('$\alpha$', 'Interpreter', 'latex');
 
+% --- Subplot 2: Alpha derivatives ---
 subplot(2,1,2);
 plot(t_vec(:,2:num_steps), alpha_dot(1,:), ...
-    t_vec(:,2:num_steps), alpha_dot(2,:));
-legend("d\alpha_1", "d\alpha_2");
-xlabel("Time [s]");
-ylabel("Magnitude");
-title("d\alpha");
+     t_vec(:,2:num_steps), alpha_dot(2,:));
+xlabel('Time [s]', 'Interpreter', 'latex');
+ylabel('Magnitude', 'Interpreter', 'latex');
+legend({'$\dot{\alpha}_1$', '$\dot{\alpha}_2$'}, 'Interpreter', 'latex');
+title('$\dot{\alpha}$', 'Interpreter', 'latex');
 
-sgtitle("Error in dynamics over time (\alpha)");
+% --- Shared title ---
+sgtitle('Error in dynamics over time ($\alpha$)', 'Interpreter', 'latex');
 
 if SAVE_PLOTS == 1
-    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_MIMO_Alpha.png'));
-    saveas(gcf, full_path);
+    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_MIMO_Alpha'));
+    saveas(gcf, [full_path '.png']);
+    cleanfigure;
+
+    set(gcf, 'Color', 'w');
+    set(gca, 'Color', 'w');
+    matlab2tikz([full_path '.tex'], ...
+    'showInfo', false);
 end
 
 
 
-%% Helper functions
+%% Functions
 
 function theta_dot = compute_parameter_update( ...
     B, theta, ex, a, ...

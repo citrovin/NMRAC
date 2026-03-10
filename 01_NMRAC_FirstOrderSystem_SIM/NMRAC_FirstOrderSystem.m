@@ -9,8 +9,8 @@ set(groot, 'defaultAxesXGrid', 'on', 'defaultAxesYGrid', 'on');
 
 ct = clock;
 
-SAVE_PLOTS = 0;
-SHOW_FIG = 'On';
+SAVE_PLOTS = 1;
+SHOW_FIG = 'Off';
 
 BASE_DIR = './results/';
 SAVE_DIR = strjoin([BASE_DIR, strjoin(string(ct(1:5)),'-')],'');
@@ -224,7 +224,7 @@ xlabel("Time [s]");
 ylabel("Response");
 title("System Response");
 if SAVE_PLOTS == 1
-    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_First-Order_Response.png'));
+    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_First-Order_Response.pdf'));
     saveas(gcf, full_path);
 end
 
@@ -239,7 +239,7 @@ ylabel("Error");
 title("Error over time");
 
 if SAVE_PLOTS == 1
-    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_First-Order_Error.png'));
+    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_First-Order_Error.pdf'));
     saveas(gcf, full_path);
 end
 
@@ -275,7 +275,7 @@ legend("dV", "dV_{Q}", "dV_{\gamma}",  "dV_{\alpha}");
 sgtitle("Lyapunov Function");
 
 if SAVE_PLOTS == 1
-    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_First-Order_Lyapunov.png'));
+    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_First-Order_Lyapunov.pdf'));
     saveas(gcf, full_path);
 end
 
@@ -290,7 +290,7 @@ ylabel("\theta");
 title("Gains over time");
 
 if SAVE_PLOTS == 1
-    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_First-Order_Parameters.png'));
+    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_First-Order_Parameters.pdf'));
     saveas(gcf, full_path);
 end
 
@@ -305,7 +305,7 @@ legend("\alpha", "e");
 sgtitle("Error in states and dynamics over time");
 
 if SAVE_PLOTS == 1
-    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_First-Order_Alpha.png'));
+    full_path = char(strcat(SAVE_DIR, '/', 'NMRAC_First-Order_Alpha.pdf'));
     saveas(gcf, full_path);
 end
 
